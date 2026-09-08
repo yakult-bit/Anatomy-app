@@ -1,0 +1,3268 @@
+{
+  "female_abdominal_ostium_of_uterine_tube": {
+    "id": "female_abdominal_ostium_of_uterine_tube",
+    "meshName": "female_abdominal_ostium_of_uterine_tube",
+    "displayName": "Tubal opening patches (NIH source annotation under review)",
+    "latinName": "Ostium abdominale tubae uterinae",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "",
+    "function": "",
+    "clinicalNotes": "",
+    "clinical_notes": "",
+    "landmarks": "",
+    "relatedIds": [
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_uterus"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Abdominal ostium of uterine tube",
+      "VH_F_abdominal_ostium_of_uterine_tube"
+    ],
+    "sourceMeshNames": [
+      "VH_F_abdominal_ostium_of_uterine_tube"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterus",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020996",
+    "sourceModelId": "3DPX-020996",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Uterus v1.1. https://doi.org/10.48539/HBM228.JBNJ.299. Accessed on May 6, 2022.",
+    "textSource": "",
+    "textLicense": "",
+    "lessonSources": [],
+    "contentStatus": "missing_fields",
+    "annotationIssue": "Source labels these abdominal ostia, but the supplied coordinates are at the uterine horns. Excluded from quizzes pending anatomical review.",
+    "quizExcluded": true,
+    "sourceTriangles": 546,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.31145043963193897,
+        -0.19533238947391507,
+        0.489939825296402
+      ],
+      "max": [
+        0.21342566876113414,
+        -0.15880170851945874,
+        0.5122309938669205
+      ]
+    },
+    "position": [
+      -0.049012385435402414,
+      -0.1770670489966869,
+      0.5010854095816613
+    ],
+    "size": 0.5266178082908824,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 0.5587748344370861,
+      "coverage": 0.05988715277777778,
+      "clusters": 2
+    }
+  },
+  "female_body_of_uterus": {
+    "id": "female_body_of_uterus",
+    "meshName": "female_body_of_uterus",
+    "displayName": "Body of uterus",
+    "latinName": "Corpus uteri",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The central uterine portion between the fundus above and the narrowed cervix below. The bladder lies anterior to it.",
+    "function": "Encloses most of the uterine cavity and expands during pregnancy.",
+    "clinicalNotes": "Relate uterine enlargement to pressure on the nearby bladder when asking about urinary frequency.",
+    "clinical_notes": "Relate uterine enlargement to pressure on the nearby bladder when asking about urinary frequency.",
+    "landmarks": "The central uterine portion between the fundus above and the narrowed cervix below. The bladder lies anterior to it.",
+    "relatedIds": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Body of uterus",
+      "VH_F_body_of_uterus"
+    ],
+    "sourceMeshNames": [
+      "VH_F_body_of_uterus"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "parentId": "female_uterus",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020996",
+    "sourceModelId": "3DPX-020996",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Uterus v1.1. https://doi.org/10.48539/HBM228.JBNJ.299. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 5344,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.255830812394619,
+        -0.37537932038307187,
+        0.25403134679794315
+      ],
+      "max": [
+        0.17535680612921714,
+        -0.07472481220960614,
+        0.5305356547832489
+      ]
+    },
+    "position": [
+      -0.04023700313270094,
+      -0.225052066296339,
+      0.39228350079059604
+    ],
+    "size": 0.593944886321718,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.5365581597222222,
+      "clusters": 1
+    }
+  },
+  "female_fundus_of_uterus": {
+    "id": "female_fundus_of_uterus",
+    "meshName": "female_fundus_of_uterus",
+    "displayName": "Fundus of uterus",
+    "latinName": "Fundus uteri",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The rounded upper dome above the points where the uterine tubes enter. It is continuous with the uterine body below.",
+    "function": "Forms the upper part of the muscular uterine wall, which expands and contracts with the rest of the uterus.",
+    "clinicalNotes": "This is the uterine landmark named in a fundal assessment. Distinguish it from the bladder dome, which is anterior and lower in the nonpregnant pelvis.",
+    "clinical_notes": "This is the uterine landmark named in a fundal assessment. Distinguish it from the bladder dome, which is anterior and lower in the nonpregnant pelvis.",
+    "landmarks": "The rounded upper dome above the points where the uterine tubes enter. It is continuous with the uterine body below.",
+    "relatedIds": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Fundus of uterus",
+      "VH_F_fundus_of_uterus"
+    ],
+    "sourceMeshNames": [
+      "VH_F_fundus_of_uterus"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "parentId": "female_uterus",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020996",
+    "sourceModelId": "3DPX-020996",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Uterus v1.1. https://doi.org/10.48539/HBM228.JBNJ.299. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 3062,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.24770226621627808,
+        -0.26901326715946194,
+        0.41544795191288
+      ],
+      "max": [
+        0.16637347346544265,
+        -0.05788027882575986,
+        0.6360337712466717
+      ]
+    },
+    "position": [
+      -0.040664396375417716,
+      -0.1634467729926109,
+      0.5257408615797758
+    ],
+    "size": 0.5144841694812811,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 0.9999589794076627,
+      "coverage": 0.5871495225694444,
+      "clusters": 2
+    }
+  },
+  "female_cornua": {
+    "id": "female_cornua",
+    "meshName": "female_cornua",
+    "displayName": "Uterine horns",
+    "latinName": "Cornua uteri",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The paired upper lateral corners of the uterus where the uterine tubes approach the uterine cavity.",
+    "function": "Form the junction regions between the uterine body and the paired uterine tubes.",
+    "clinicalNotes": "Trace the route from each uterine tube to the uterine cavity when studying fertilisation and implantation.",
+    "clinical_notes": "Trace the route from each uterine tube to the uterine cavity when studying fertilisation and implantation.",
+    "landmarks": "The paired upper lateral corners of the uterus where the uterine tubes approach the uterine cavity.",
+    "relatedIds": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "cornua",
+      "VH_F_cornua"
+    ],
+    "sourceMeshNames": [
+      "VH_F_cornua"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterus",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020996",
+    "sourceModelId": "3DPX-020996",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Uterus v1.1. https://doi.org/10.48539/HBM228.JBNJ.299. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 660,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.3114319249391556,
+        -0.21949965149164197,
+        0.45180507159233096
+      ],
+      "max": [
+        0.21325362554192542,
+        -0.1263449305295944,
+        0.5483726055026055
+      ]
+    },
+    "position": [
+      -0.049089149698615095,
+      -0.17292229101061818,
+      0.5000888385474682
+    ],
+    "size": 0.5415699562629596,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 0.5020416935310552,
+      "coverage": 0.121220703125,
+      "clusters": 2
+    }
+  },
+  "female_isthmus_of_uterus": {
+    "id": "female_isthmus_of_uterus",
+    "meshName": "female_isthmus_of_uterus",
+    "displayName": "Lower uterine segment",
+    "latinName": "Isthmus uteri",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The narrowed transition between the main uterine body and cervix, below the broader uterine cavity.",
+    "function": "Connects the body of the uterus with its cervical portion.",
+    "clinicalNotes": "Use the body–cervix transition to orient reproductive assessment terminology; the cervical canal continues inferiorly from it.",
+    "clinical_notes": "Use the body–cervix transition to orient reproductive assessment terminology; the cervical canal continues inferiorly from it.",
+    "landmarks": "The narrowed transition between the main uterine body and cervix, below the broader uterine cavity.",
+    "relatedIds": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Isthmus of uterus",
+      "VH_F_lower_uterine_segment"
+    ],
+    "sourceMeshNames": [
+      "VH_F_lower_uterine_segment"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterus",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020996",
+    "sourceModelId": "3DPX-020996",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Uterus v1.1. https://doi.org/10.48539/HBM228.JBNJ.299. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 1408,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.12289349281787873,
+        -0.4131508210301399,
+        0.19666284477710727
+      ],
+      "max": [
+        0.05742176609486341,
+        -0.20966097354888913,
+        0.3423919171690941
+      ]
+    },
+    "position": [
+      -0.03273586336150766,
+      -0.3114058972895145,
+      0.2695273809731007
+    ],
+    "size": 0.308477994620266,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 0.799853035730688,
+      "coverage": 0.2709874131944444,
+      "clusters": 2
+    }
+  },
+  "female_posterior_surface_of_uterus": {
+    "id": "female_posterior_surface_of_uterus",
+    "meshName": "female_posterior_surface_of_uterus",
+    "displayName": "Posterior uterine wall",
+    "latinName": "Paries posterior uteri",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The backward-facing wall of the uterus, toward the rectum and opposite the bladder-facing anterior wall.",
+    "function": "Contains muscle that contributes to uterine expansion and contraction.",
+    "clinicalNotes": "Use the rectum behind the uterus and bladder in front to distinguish posterior from anterior pelvic findings.",
+    "clinical_notes": "Use the rectum behind the uterus and bladder in front to distinguish posterior from anterior pelvic findings.",
+    "landmarks": "The backward-facing wall of the uterus, toward the rectum and opposite the bladder-facing anterior wall.",
+    "relatedIds": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Posterior surface of uterus",
+      "VH_F_posterior_wall_of_uterus"
+    ],
+    "sourceMeshNames": [
+      "VH_F_posterior_wall_of_uterus"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterus",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020996",
+    "sourceModelId": "3DPX-020996",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Uterus v1.1. https://doi.org/10.48539/HBM228.JBNJ.299. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 12022,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.25415350043773655,
+        -0.3760178910195827,
+        0.2973334879279137
+      ],
+      "max": [
+        0.17444166062772273,
+        -0.1167337933182716,
+        0.6341475822627545
+      ]
+    },
+    "position": [
+      -0.039855919905006906,
+      -0.24637584216892716,
+      0.4657405350953341
+    ],
+    "size": 0.6036271941787489,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.47888671875,
+      "clusters": 1
+    }
+  },
+  "female_anterior_surface_of_uterus": {
+    "id": "female_anterior_surface_of_uterus",
+    "meshName": "female_anterior_surface_of_uterus",
+    "displayName": "Anterior uterine wall",
+    "latinName": "Paries anterior uteri",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The forward-facing uterine wall adjacent to the bladder, opposite the posterior wall facing the rectum.",
+    "function": "Contains muscle that contributes to uterine expansion and contraction.",
+    "clinicalNotes": "Its proximity to the bladder helps explain why uterine enlargement can increase urinary frequency.",
+    "clinical_notes": "Its proximity to the bladder helps explain why uterine enlargement can increase urinary frequency.",
+    "landmarks": "The forward-facing uterine wall adjacent to the bladder, opposite the posterior wall facing the rectum.",
+    "relatedIds": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Anterior surface of uterus",
+      "VH_F_anterior_wall_of_uterus"
+    ],
+    "sourceMeshNames": [
+      "VH_F_anterior_wall_of_uterus"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterus",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020996",
+    "sourceModelId": "3DPX-020996",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Uterus v1.1. https://doi.org/10.48539/HBM228.JBNJ.299. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 10148,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.25415350043773655,
+        -0.3058573195338249,
+        0.25398746287822727
+      ],
+      "max": [
+        0.17444166062772273,
+        -0.060330066978931396,
+        0.6137326561510563
+      ]
+    },
+    "position": [
+      -0.039855919905006906,
+      -0.18309369325637814,
+      0.4338600595146418
+    ],
+    "size": 0.6110597744237355,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.5054166666666666,
+      "clusters": 1
+    }
+  },
+  "female_cervix_of_uterus": {
+    "id": "female_cervix_of_uterus",
+    "meshName": "female_cervix_of_uterus",
+    "displayName": "Cervix",
+    "latinName": "Cervix uteri",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The narrow lower end of the uterus, below its body, projecting into the upper vagina. The cervical canal joins the uterine cavity to the vagina.",
+    "function": "Produces cervical mucus and provides a passage between uterus and vagina. It dilates during childbirth.",
+    "clinicalNotes": "Distinguish the cervix from the vaginal wall during reproductive-system study. Cervical mucus changes with ovarian hormones; the cervix is also a key landmark in labour assessment.",
+    "clinical_notes": "Distinguish the cervix from the vaginal wall during reproductive-system study. Cervical mucus changes with ovarian hormones; the cervix is also a key landmark in labour assessment.",
+    "landmarks": "The narrow lower end of the uterus, below its body, projecting into the upper vagina. The cervical canal joins the uterine cavity to the vagina.",
+    "relatedIds": [
+      "female_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "related_ids": [
+      "female_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Cervix of uterus",
+      "VH_F_cervix"
+    ],
+    "sourceMeshNames": [
+      "VH_F_cervix"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "parentId": "female_uterus",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020996",
+    "sourceModelId": "3DPX-020996",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Uterus v1.1. https://doi.org/10.48539/HBM228.JBNJ.299. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 3508,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.1600305206477642,
+        -0.5278115450963378,
+        0.0490783170461655
+      ],
+      "max": [
+        0.11292623063921928,
+        -0.23846972376108166,
+        0.29190708106756214
+      ]
+    },
+    "position": [
+      -0.023552145004272468,
+      -0.3831406344287097,
+      0.17049269905686382
+    ],
+    "size": 0.4660363572543526,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.5259244791666666,
+      "clusters": 1
+    }
+  },
+  "female_internal_os_of_uterus": {
+    "id": "female_internal_os_of_uterus",
+    "meshName": "female_internal_os_of_uterus",
+    "displayName": "Internal cervical opening",
+    "latinName": "Ostium internum uteri",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The upper opening of the cervical canal, at the transition from cervix to uterine cavity.",
+    "function": "Connects the cervical canal with the cavity of the uterus.",
+    "clinicalNotes": "When learning cervical assessment terminology, distinguish this uterine end from the external opening into the vagina.",
+    "clinical_notes": "When learning cervical assessment terminology, distinguish this uterine end from the external opening into the vagina.",
+    "landmarks": "The upper opening of the cervical canal, at the transition from cervix to uterine cavity.",
+    "relatedIds": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Internal os of uterus",
+      "VH_F_internal_cervical_os"
+    ],
+    "sourceMeshNames": [
+      "VH_F_internal_cervical_os"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterus",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020996",
+    "sourceModelId": "3DPX-020996",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Uterus v1.1. https://doi.org/10.48539/HBM228.JBNJ.299. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 216,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.03925038793683053,
+        -0.35847354322671887,
+        0.21482117629051212
+      ],
+      "max": [
+        -0.004725738555192954,
+        -0.32068581894040105,
+        0.25727875685691837
+      ]
+    },
+    "position": [
+      -0.02198806324601174,
+      -0.33957968108355996,
+      0.23604996657371524
+    ],
+    "size": 0.06650195237146544,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.45740234375,
+      "clusters": 1
+    }
+  },
+  "female_external_os_of_uterus": {
+    "id": "female_external_os_of_uterus",
+    "meshName": "female_external_os_of_uterus",
+    "displayName": "External cervical opening",
+    "latinName": "Ostium externum uteri",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The lower opening of the cervical canal on the surface of the cervix that projects into the vagina.",
+    "function": "Provides the cervical canal opening into the vagina, allowing menstrual fluid to pass outward.",
+    "clinicalNotes": "This opening faces the vaginal canal. Distinguish it from the internal opening higher within the uterus.",
+    "clinical_notes": "This opening faces the vaginal canal. Distinguish it from the internal opening higher within the uterus.",
+    "landmarks": "The lower opening of the cervical canal on the surface of the cervix that projects into the vagina.",
+    "relatedIds": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "External os of uterus",
+      "VH_F_external_cervical_os"
+    ],
+    "sourceMeshNames": [
+      "VH_F_external_cervical_os"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterus",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020996",
+    "sourceModelId": "3DPX-020996",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Uterus v1.1. https://doi.org/10.48539/HBM228.JBNJ.299. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 270,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.05622287572920323,
+        -0.45950932070612904,
+        0.06965711867809299
+      ],
+      "max": [
+        0.017429326534271233,
+        -0.38892626404762265,
+        0.1277114466428757
+      ]
+    },
+    "position": [
+      -0.019396774597466,
+      -0.42421779237687585,
+      0.09868428266048435
+    ],
+    "size": 0.11737512419997786,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.4382237413194444,
+      "clusters": 1
+    }
+  },
+  "female_ovary_l": {
+    "id": "female_ovary_l",
+    "meshName": "female_ovary_l",
+    "displayName": "Ovary (left)",
+    "latinName": "Ovarium sinistrum",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "An oval organ on the left side of the uterus, near the fimbrial end of the uterine tube. The ovarian ligament connects it to the uterus.",
+    "function": "Produces oocytes and secretes ovarian hormones, including estrogens and progesterone during the reproductive years.",
+    "clinicalNotes": "Relate ovarian hormone changes to menstrual history and menopausal symptoms. Ovaries are internal pelvic organs, distinct from the more superficial abdominal wall.",
+    "clinical_notes": "Relate ovarian hormone changes to menstrual history and menopausal symptoms. Ovaries are internal pelvic organs, distinct from the more superficial abdominal wall.",
+    "landmarks": "An oval organ on the left side of the uterus, near the fimbrial end of the uterine tube. The ovarian ligament connects it to the uterus.",
+    "relatedIds": [
+      "female_uterine_tube_left",
+      "female_uterus",
+      "female_ovary_r"
+    ],
+    "related_ids": [
+      "female_uterine_tube_left",
+      "female_uterus",
+      "female_ovary_r"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Ovary (left)",
+      "VH_F_left_ovary"
+    ],
+    "sourceMeshNames": [
+      "VH_F_left_ovary"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020979",
+    "sourceModelId": "3DPX-020979",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Ovary, Female, Left v1.1. https://doi.org/10.48539/HBM499.JLMB.357. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 424,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        0.4681630403399467,
+        -0.10023217290639874,
+        0.403630772292614
+      ],
+      "max": [
+        0.5909369856715202,
+        0.1392377203702927,
+        0.5089724824428559
+      ]
+    },
+    "position": [
+      0.5295500130057335,
+      0.019502773731946976,
+      0.45630162736773494
+    ],
+    "size": 0.28899160426491244,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.5086176215277778,
+      "clusters": 1
+    }
+  },
+  "female_ovary_r": {
+    "id": "female_ovary_r",
+    "meshName": "female_ovary_r",
+    "displayName": "Ovary (right)",
+    "latinName": "Ovarium dextrum",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "An oval organ on the right side of the uterus, near the fimbrial end of the uterine tube. The ovarian ligament connects it to the uterus.",
+    "function": "Produces oocytes and secretes ovarian hormones, including estrogens and progesterone during the reproductive years.",
+    "clinicalNotes": "Relate ovarian hormone changes to menstrual history and menopausal symptoms. Ovaries are internal pelvic organs, distinct from the more superficial abdominal wall.",
+    "clinical_notes": "Relate ovarian hormone changes to menstrual history and menopausal symptoms. Ovaries are internal pelvic organs, distinct from the more superficial abdominal wall.",
+    "landmarks": "An oval organ on the right side of the uterus, near the fimbrial end of the uterine tube. The ovarian ligament connects it to the uterus.",
+    "relatedIds": [
+      "female_uterine_tube_right",
+      "female_uterus",
+      "female_ovary_l"
+    ],
+    "related_ids": [
+      "female_uterine_tube_right",
+      "female_uterus",
+      "female_ovary_l"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Ovary (right)",
+      "VH_F_right_ovary"
+    ],
+    "sourceMeshNames": [
+      "VH_F_right_ovary"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020980",
+    "sourceModelId": "3DPX-020980",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Ovary, Female, Right v1.1. https://doi.org/10.48539/HBM453.QTZX.449. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 410,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.681170712351799,
+        -0.10091080904006955,
+        0.4028342679738999
+      ],
+      "max": [
+        -0.5580738588571549,
+        0.13895810008049014,
+        0.5091094613671303
+      ]
+    },
+    "position": [
+      -0.619622285604477,
+      0.019023645520210297,
+      0.4559718646705151
+    ],
+    "size": 0.28980052731790834,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.5184646267361112,
+      "clusters": 1
+    }
+  },
+  "female_fundus_of_bladder_dome": {
+    "id": "female_fundus_of_bladder_dome",
+    "meshName": "female_fundus_of_bladder_dome",
+    "displayName": "Bladder dome",
+    "latinName": "Apex vesicae",
+    "system": "urinary",
+    "region": "pelvis",
+    "description": "The upper expandable part of the bladder, behind the pubic bones and below the uterus.",
+    "function": "Expands superiorly as the bladder fills.",
+    "clinicalNotes": "A filling bladder rises upward; relate this to suprapubic fullness when studying urinary assessment.",
+    "clinical_notes": "A filling bladder rises upward; relate this to suprapubic fullness when studying urinary assessment.",
+    "landmarks": "The upper expandable part of the bladder, behind the pubic bones and below the uterus.",
+    "relatedIds": [
+      "female_bladder",
+      "female_uterus",
+      "female_trigone_of_bladder"
+    ],
+    "related_ids": [
+      "female_bladder",
+      "female_uterus",
+      "female_trigone_of_bladder"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Fundus of bladder, dome",
+      "VH_F_fundus_of_urinary_bladder_dome"
+    ],
+    "sourceMeshNames": [
+      "VH_F_fundus_of_urinary_bladder_dome"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "parentId": "female_bladder",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020995",
+    "sourceModelId": "3DPX-020995",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Urinary Bladder, Female v1.1. https://doi.org/10.48539/HBM235.KQNP.897. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 11916,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.31940199726819996,
+        -0.5119909077510237,
+        0.32338977015018466
+      ],
+      "max": [
+        0.20036306871473789,
+        -0.32772786557674405,
+        0.9351509126499296
+      ]
+    },
+    "position": [
+      -0.059519464276731035,
+      -0.4198593866638839,
+      0.6292703414000571
+    ],
+    "size": 0.823626303611147,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 0.9999321343739396,
+      "coverage": 0.3635167100694444,
+      "clusters": 2
+    }
+  },
+  "female_neck_of_bladder": {
+    "id": "female_neck_of_bladder",
+    "meshName": "female_neck_of_bladder",
+    "displayName": "Smooth muscle at bladder neck",
+    "latinName": "Musculatura cervicis vesicae",
+    "system": "urinary",
+    "region": "pelvis",
+    "description": "Surrounds the bladder outlet below the trigone, where the urinary passage continues into the urethra.",
+    "function": "Contributes to involuntary control of the bladder outlet during urine storage and voiding.",
+    "clinicalNotes": "Distinguish outlet tissue from the separate voluntary external sphincter lower in the urinary passage.",
+    "clinical_notes": "Distinguish outlet tissue from the separate voluntary external sphincter lower in the urinary passage.",
+    "landmarks": "Surrounds the bladder outlet below the trigone, where the urinary passage continues into the urethra.",
+    "relatedIds": [
+      "female_bladder",
+      "female_uterus",
+      "female_trigone_of_bladder"
+    ],
+    "related_ids": [
+      "female_bladder",
+      "female_uterus",
+      "female_trigone_of_bladder"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Neck of bladder",
+      "VH_F_urinary_bladder_neck_smooth_muscle"
+    ],
+    "sourceMeshNames": [
+      "VH_F_urinary_bladder_neck_smooth_muscle"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_bladder",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020995",
+    "sourceModelId": "3DPX-020995",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Urinary Bladder, Female v1.1. https://doi.org/10.48539/HBM235.KQNP.897. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 1790,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.07476950356364251,
+        -0.7699396425485611,
+        0.36162372833490375
+      ],
+      "max": [
+        -0.005959889978170402,
+        -0.7275622674822807,
+        0.418569894194603
+      ]
+    },
+    "position": [
+      -0.040364696770906455,
+      -0.7487509550154209,
+      0.3900968112647534
+    ],
+    "size": 0.09886086508528319,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.5740473090277778,
+      "clusters": 1
+    }
+  },
+  "female_fundus_of_bladder_base": {
+    "id": "female_fundus_of_bladder_base",
+    "meshName": "female_fundus_of_bladder_base",
+    "displayName": "Bladder base",
+    "latinName": "Fundus vesicae",
+    "system": "urinary",
+    "region": "pelvis",
+    "description": "The lower posterior part of the bladder, below its dome and near the ureteral entries and bladder outlet.",
+    "function": "Forms part of the muscular reservoir that collects urine before voiding.",
+    "clinicalNotes": "Use the base and neck to orient the pathway from ureteral entry to urethral exit; these are different openings.",
+    "clinical_notes": "Use the base and neck to orient the pathway from ureteral entry to urethral exit; these are different openings.",
+    "landmarks": "The lower posterior part of the bladder, below its dome and near the ureteral entries and bladder outlet.",
+    "relatedIds": [
+      "female_bladder",
+      "female_uterus",
+      "female_trigone_of_bladder"
+    ],
+    "related_ids": [
+      "female_bladder",
+      "female_uterus",
+      "female_trigone_of_bladder"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Fundus of bladder, base",
+      "VH_F_fundus_of_urinary_bladder_base"
+    ],
+    "sourceMeshNames": [
+      "VH_F_fundus_of_urinary_bladder_base"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_bladder",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020995",
+    "sourceModelId": "3DPX-020995",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Urinary Bladder, Female v1.1. https://doi.org/10.48539/HBM235.KQNP.897. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 25526,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.31940199726819996,
+        -0.7422230822592973,
+        0.31815968608856204
+      ],
+      "max": [
+        0.20036306871473789,
+        -0.38850145056843755,
+        0.9351509126499296
+      ]
+    },
+    "position": [
+      -0.059519464276731035,
+      -0.5653622664138674,
+      0.6266552993692458
+    ],
+    "size": 0.8808818820908922,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.3662565104166667,
+      "clusters": 1
+    }
+  },
+  "female_trigone_of_bladder": {
+    "id": "female_trigone_of_bladder",
+    "meshName": "female_trigone_of_bladder",
+    "displayName": "Bladder trigone",
+    "latinName": "Trigonum vesicae",
+    "system": "urinary",
+    "region": "pelvis",
+    "description": "A triangular region inside the bladder between the two ureteral openings above and the urethral outlet below.",
+    "function": "Organises the internal junction between urine entering from ureters and leaving through the urethra.",
+    "clinicalNotes": "Identify its three openings when learning urinary anatomy. Ureteral entry and urethral exit must not be confused during catheter-care study.",
+    "clinical_notes": "Identify its three openings when learning urinary anatomy. Ureteral entry and urethral exit must not be confused during catheter-care study.",
+    "landmarks": "A triangular region inside the bladder between the two ureteral openings above and the urethral outlet below.",
+    "relatedIds": [
+      "female_bladder",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_bladder",
+      "female_uterus"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Trigone of bladder",
+      "VH_F_trigone_of_urinary_bladder"
+    ],
+    "sourceMeshNames": [
+      "VH_F_trigone_of_urinary_bladder"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "parentId": "female_bladder",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020995",
+    "sourceModelId": "3DPX-020995",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Urinary Bladder, Female v1.1. https://doi.org/10.48539/HBM235.KQNP.897. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 1684,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.25523037010431293,
+        -0.7332913728058338,
+        0.35450242614746097
+      ],
+      "max": [
+        0.1726294838488102,
+        -0.4697462973743677,
+        0.402347149014473
+      ]
+    },
+    "position": [
+      -0.04130044312775137,
+      -0.6015188350901007,
+      0.378424787580967
+    ],
+    "size": 0.5047862705296037,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.3467252604166667,
+      "clusters": 1
+    }
+  },
+  "female_ureteric_orifice_r": {
+    "id": "female_ureteric_orifice_r",
+    "meshName": "female_ureteric_orifice_r",
+    "displayName": "Ureteral opening (right)",
+    "latinName": "Ostium ureteris",
+    "system": "urinary",
+    "region": "pelvis",
+    "description": "The right ureter enters the bladder at the corresponding upper corner of the trigone, above the urethral outlet.",
+    "function": "Allows urine carried by that ureter to enter the bladder. The oblique course through the wall helps limit backward flow.",
+    "clinicalNotes": "Distinguish an inlet from the urethral outlet. Reflux through an ineffective ureter–bladder junction increases the risk of urinary infection.",
+    "clinical_notes": "Distinguish an inlet from the urethral outlet. Reflux through an ineffective ureter–bladder junction increases the risk of urinary infection.",
+    "landmarks": "The right ureter enters the bladder at the corresponding upper corner of the trigone, above the urethral outlet.",
+    "relatedIds": [
+      "female_bladder",
+      "female_trigone_of_bladder",
+      "female_ureteric_orifice_l"
+    ],
+    "related_ids": [
+      "female_bladder",
+      "female_trigone_of_bladder",
+      "female_ureteric_orifice_l"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Ureteric orifice (right)",
+      "VH_F_ureteral_orifice_R"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ureteral_orifice_R"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_bladder",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020995",
+    "sourceModelId": "3DPX-020995",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Urinary Bladder, Female v1.1. https://doi.org/10.48539/HBM235.KQNP.897. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 180,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.2795919805169106,
+        -0.4938891308009624,
+        0.3509441033601761
+      ],
+      "max": [
+        -0.24523303204774857,
+        -0.45993141472339627,
+        0.3728606567382813
+      ]
+    },
+    "position": [
+      -0.2624125062823296,
+      -0.47691027276217934,
+      0.3619023800492287
+    ],
+    "size": 0.053047140668338176,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.59900390625,
+      "clusters": 1
+    }
+  },
+  "female_ureteric_orifice_l": {
+    "id": "female_ureteric_orifice_l",
+    "meshName": "female_ureteric_orifice_l",
+    "displayName": "Ureteral opening (left)",
+    "latinName": "Ostium ureteris",
+    "system": "urinary",
+    "region": "pelvis",
+    "description": "The left ureter enters the bladder at the corresponding upper corner of the trigone, above the urethral outlet.",
+    "function": "Allows urine carried by that ureter to enter the bladder. The oblique course through the wall helps limit backward flow.",
+    "clinicalNotes": "Distinguish an inlet from the urethral outlet. Reflux through an ineffective ureter–bladder junction increases the risk of urinary infection.",
+    "clinical_notes": "Distinguish an inlet from the urethral outlet. Reflux through an ineffective ureter–bladder junction increases the risk of urinary infection.",
+    "landmarks": "The left ureter enters the bladder at the corresponding upper corner of the trigone, above the urethral outlet.",
+    "relatedIds": [
+      "female_bladder",
+      "female_trigone_of_bladder",
+      "female_ureteric_orifice_r"
+    ],
+    "related_ids": [
+      "female_bladder",
+      "female_trigone_of_bladder",
+      "female_ureteric_orifice_r"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Ureteric orifice (left)",
+      "VH_F_ureteral_orifice_L"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ureteral_orifice_L"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_bladder",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020995",
+    "sourceModelId": "3DPX-020995",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Urinary Bladder, Female v1.1. https://doi.org/10.48539/HBM235.KQNP.897. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 194,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        0.16786644874513149,
+        -0.5053485335409641,
+        0.39085153645277027
+      ],
+      "max": [
+        0.19136002926528453,
+        -0.4715065901726484,
+        0.42053599065542224
+      ]
+    },
+    "position": [
+      0.179613239005208,
+      -0.48842756185680625,
+      0.40569376355409625
+    ],
+    "size": 0.05077787193168442,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.4117209201388889,
+      "clusters": 1
+    }
+  },
+  "female_sacrum": {
+    "id": "female_sacrum",
+    "meshName": "female_sacrum",
+    "displayName": "Sacrum",
+    "latinName": "Os sacrum",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "The triangular fused bone at the back of the pelvis, between the two hip bones and above the coccyx.",
+    "function": "Transfers weight from the spine to the pelvic girdle and forms the posterior pelvic wall.",
+    "clinicalNotes": "Its posterior surface is a bony landmark during positioning and pressure-area assessment.",
+    "clinical_notes": "Its posterior surface is a bony landmark during positioning and pressure-area assessment.",
+    "landmarks": "The triangular fused bone at the back of the pelvis, between the two hip bones and above the coccyx.",
+    "relatedIds": [
+      "female_coccyx",
+      "female_uterus",
+      "female_bladder"
+    ],
+    "related_ids": [
+      "female_coccyx",
+      "female_uterus",
+      "female_bladder"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Sacrum",
+      "VH_F_sacrum"
+    ],
+    "sourceMeshNames": [
+      "VH_F_sacrum"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 19636,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.6322217389345169,
+        -0.15158772110939023,
+        -0.9135455622673034
+      ],
+      "max": [
+        0.6419625849127769,
+        0.8388178086280823,
+        0.1353975400924683
+      ]
+    },
+    "position": [
+      0.0048704229891299855,
+      0.34361504375934604,
+      -0.38907401108741757
+    ],
+    "size": 1.9247676318093287,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.5451844618055556,
+      "clusters": 1
+    }
+  },
+  "female_coccyx": {
+    "id": "female_coccyx",
+    "meshName": "female_coccyx",
+    "displayName": "Coccyx",
+    "latinName": "Os coccygis",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "The small terminal bone below the sacrum at the back of the pelvic outlet.",
+    "function": "Forms the inferior end of the vertebral column and provides pelvic soft-tissue attachments.",
+    "clinicalNotes": "Locate the tailbone relative to the sacrum when asking about pain with sitting or assessing pressure over bony prominences.",
+    "clinical_notes": "Locate the tailbone relative to the sacrum when asking about pain with sitting or assessing pressure over bony prominences.",
+    "landmarks": "The small terminal bone below the sacrum at the back of the pelvic outlet.",
+    "relatedIds": [
+      "female_sacrum",
+      "female_uterus",
+      "female_bladder"
+    ],
+    "related_ids": [
+      "female_sacrum",
+      "female_uterus",
+      "female_bladder"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Coccyx",
+      "VH_F_coccyx"
+    ],
+    "sourceMeshNames": [
+      "VH_F_coccyx"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 1390,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.1502126298248768,
+        -0.407794281989336,
+        -0.8721447720527649
+      ],
+      "max": [
+        0.168860654219985,
+        -0.13830944538116452,
+        -0.4922788574695587
+      ]
+    },
+    "position": [
+      0.009324012197554105,
+      -0.27305186368525025,
+      -0.6822118147611618
+    ],
+    "size": 0.5645599621076947,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.3569791666666667,
+      "clusters": 1
+    }
+  },
+  "female_pubis_spongy_bone_l": {
+    "id": "female_pubis_spongy_bone_l",
+    "meshName": "female_pubis_spongy_bone_l",
+    "displayName": "Pubis, spongy bone (left)",
+    "latinName": "Os pubis",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "On the left, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. This internal trabecular tissue lies inside the compact outer cortex.",
+    "function": "Forms the anterior pelvic arch and helps protect the pelvic organs.",
+    "clinicalNotes": "Use the pubic symphysis to orient the suprapubic region during urinary assessment.",
+    "clinical_notes": "Use the pubic symphysis to orient the suprapubic region during urinary assessment.",
+    "landmarks": "On the left, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. This internal trabecular tissue lies inside the compact outer cortex.",
+    "relatedIds": [
+      "female_pubis_compact_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_pubis_compact_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Pubis, spongy bone (left)",
+      "VH_F_pubis_spongy_bone_L"
+    ],
+    "sourceMeshNames": [
+      "VH_F_pubis_spongy_bone_L"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 2312,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.00393437513709069,
+        -0.9606496208906173,
+        0.14315083777904514
+      ],
+      "max": [
+        0.9158981189727783,
+        -0.06939805686473843,
+        0.8125006050467491
+      ]
+    },
+    "position": [
+      0.4559818719178438,
+      -0.5150238388776779,
+      0.47782572141289714
+    ],
+    "size": 1.4451471477120548,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.24565104166666668,
+      "clusters": 1
+    }
+  },
+  "female_pubis_spongy_bone_r": {
+    "id": "female_pubis_spongy_bone_r",
+    "meshName": "female_pubis_spongy_bone_r",
+    "displayName": "Pubis, spongy bone (right)",
+    "latinName": "Os pubis",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "On the right, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. This internal trabecular tissue lies inside the compact outer cortex.",
+    "function": "Forms the anterior pelvic arch and helps protect the pelvic organs.",
+    "clinicalNotes": "Use the pubic symphysis to orient the suprapubic region during urinary assessment.",
+    "clinical_notes": "Use the pubic symphysis to orient the suprapubic region during urinary assessment.",
+    "landmarks": "On the right, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. This internal trabecular tissue lies inside the compact outer cortex.",
+    "relatedIds": [
+      "female_pubis_compact_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_pubis_compact_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Pubis, spongy bone (right)",
+      "VH_F_pubis_spongy_bone_R"
+    ],
+    "sourceMeshNames": [
+      "VH_F_pubis_spongy_bone_R"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 2172,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.9221145912408829,
+        -0.9783609920740127,
+        0.12407891607284549
+      ],
+      "max": [
+        -0.00707545609772206,
+        -0.06838604450225827,
+        0.8150662776678801
+      ]
+    },
+    "position": [
+      -0.4645950236693025,
+      -0.5233735182881355,
+      0.4695725968703628
+    ],
+    "size": 1.4638355638307974,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.2325759548611111,
+      "clusters": 1
+    }
+  },
+  "female_pubis_compact_bone_r": {
+    "id": "female_pubis_compact_bone_r",
+    "meshName": "female_pubis_compact_bone_r",
+    "displayName": "Pubis, compact bone (right)",
+    "latinName": "Os pubis",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "On the right, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. The compact cortex forms the outer shell.",
+    "function": "Forms the anterior pelvic arch and helps protect the pelvic organs.",
+    "clinicalNotes": "Use the pubic symphysis to orient the suprapubic region during urinary assessment.",
+    "clinical_notes": "Use the pubic symphysis to orient the suprapubic region during urinary assessment.",
+    "landmarks": "On the right, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. The compact cortex forms the outer shell.",
+    "relatedIds": [
+      "female_pubis_spongy_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_pubis_spongy_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Pubis, compact bone (right)",
+      "VH_F_pubis_compact_bone_R"
+    ],
+    "sourceMeshNames": [
+      "VH_F_pubis_compact_bone_R"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 5080,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.9303989663124085,
+        -0.9909485617280006,
+        0.1215606943368912
+      ],
+      "max": [
+        0.005049888849258416,
+        -0.06125602513551709,
+        0.8271975365132094
+      ]
+    },
+    "position": [
+      -0.46267453873157505,
+      -0.5261022934317588,
+      0.4743791154250503
+    ],
+    "size": 1.4957660666881054,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.2538433159722222,
+      "clusters": 1
+    }
+  },
+  "female_pubis_compact_bone_l": {
+    "id": "female_pubis_compact_bone_l",
+    "meshName": "female_pubis_compact_bone_l",
+    "displayName": "Pubis, compact bone (left)",
+    "latinName": "Os pubis",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "On the left, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. The compact cortex forms the outer shell.",
+    "function": "Forms the anterior pelvic arch and helps protect the pelvic organs.",
+    "clinicalNotes": "Use the pubic symphysis to orient the suprapubic region during urinary assessment.",
+    "clinical_notes": "Use the pubic symphysis to orient the suprapubic region during urinary assessment.",
+    "landmarks": "On the left, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. The compact cortex forms the outer shell.",
+    "relatedIds": [
+      "female_pubis_spongy_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_pubis_spongy_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Pubis, compact bone (left)",
+      "VH_F_pubis_compact_bone_L"
+    ],
+    "sourceMeshNames": [
+      "VH_F_pubis_compact_bone_L"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 5376,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.0159351463764906,
+        -0.9730081969499588,
+        0.14078691756725314
+      ],
+      "max": [
+        0.9213851735591888,
+        -0.061632055938243835,
+        0.8246734008789063
+      ]
+    },
+    "position": [
+      0.4527250135913491,
+      -0.5173201264441013,
+      0.4827301592230797
+    ],
+    "size": 1.4754242015861436,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.2681119791666667,
+      "clusters": 1
+    }
+  },
+  "female_ilium_compact_bone_r": {
+    "id": "female_ilium_compact_bone_r",
+    "meshName": "female_ilium_compact_bone_r",
+    "displayName": "Ilium, compact bone (right)",
+    "latinName": "Ilium",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "On the right, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. The compact cortex forms the outer shell.",
+    "function": "Transfers load through the sacroiliac joint and provides broad muscle attachments.",
+    "clinicalNotes": "The iliac crest and anterior superior iliac spine are palpable landmarks used to orient hip assessment.",
+    "clinical_notes": "The iliac crest and anterior superior iliac spine are palpable landmarks used to orient hip assessment.",
+    "landmarks": "On the right, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. The compact cortex forms the outer shell.",
+    "relatedIds": [
+      "female_ilium_spongy_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_ilium_spongy_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Ilium, compact bone (right)",
+      "VH_F_ilium_compact_bone_R"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ilium_compact_bone_R"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 11810,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -1.5839616611003875,
+        -0.3425093518197536,
+        -0.7445026173591613
+      ],
+      "max": [
+        -0.4341111361384392,
+        1.0565844213962556,
+        0.871593986324966
+      ]
+    },
+    "position": [
+      -1.0090363986194133,
+      0.357037534788251,
+      0.06354568448290232
+    ],
+    "size": 2.427218129556231,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.5301019965277778,
+      "clusters": 1
+    }
+  },
+  "female_ilium_compact_bone_l": {
+    "id": "female_ilium_compact_bone_l",
+    "meshName": "female_ilium_compact_bone_l",
+    "displayName": "Ilium, compact bone (left)",
+    "latinName": "Ilium",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "On the left, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. The compact cortex forms the outer shell.",
+    "function": "Transfers load through the sacroiliac joint and provides broad muscle attachments.",
+    "clinicalNotes": "The iliac crest and anterior superior iliac spine are palpable landmarks used to orient hip assessment.",
+    "clinical_notes": "The iliac crest and anterior superior iliac spine are palpable landmarks used to orient hip assessment.",
+    "landmarks": "On the left, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. The compact cortex forms the outer shell.",
+    "relatedIds": [
+      "female_ilium_spongy_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_ilium_spongy_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Ilium, compact bone (left)",
+      "VH_F_ilium_compact_bone_L"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ilium_compact_bone_L"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 12684,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        0.3969909407794475,
+        -0.33357271566987035,
+        -0.7436127200126648
+      ],
+      "max": [
+        1.5844172582626344,
+        1.0500381922721864,
+        0.913899217652157
+      ]
+    },
+    "position": [
+      0.990704099521041,
+      0.35823273830115804,
+      0.08514324881974611
+    ],
+    "size": 2.4640832428165482,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.3943055555555556,
+      "clusters": 1
+    }
+  },
+  "female_ilium_spongy_bone_l": {
+    "id": "female_ilium_spongy_bone_l",
+    "meshName": "female_ilium_spongy_bone_l",
+    "displayName": "Ilium, spongy bone (left)",
+    "latinName": "Ilium",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "On the left, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. This internal trabecular tissue lies inside the compact outer cortex.",
+    "function": "Transfers load through the sacroiliac joint and provides broad muscle attachments.",
+    "clinicalNotes": "The iliac crest and anterior superior iliac spine are palpable landmarks used to orient hip assessment.",
+    "clinical_notes": "The iliac crest and anterior superior iliac spine are palpable landmarks used to orient hip assessment.",
+    "landmarks": "On the left, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. This internal trabecular tissue lies inside the compact outer cortex.",
+    "relatedIds": [
+      "female_ilium_compact_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_ilium_compact_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Ilium, spongy bone (left)",
+      "VH_F_ilium_spongy_bone_L"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ilium_spongy_bone_L"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 6022,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        0.40905400818586346,
+        -0.32047843202948567,
+        -0.7313419117927551
+      ],
+      "max": [
+        1.5722325787544251,
+        1.0366626119613649,
+        0.9016520848162473
+      ]
+    },
+    "position": [
+      0.9906432934701443,
+      0.3580920899659396,
+      0.08515508651174608
+    ],
+    "size": 2.421050514399801,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.388310546875,
+      "clusters": 1
+    }
+  },
+  "female_ilium_spongy_bone_r": {
+    "id": "female_ilium_spongy_bone_r",
+    "meshName": "female_ilium_spongy_bone_r",
+    "displayName": "Ilium, spongy bone (right)",
+    "latinName": "Ilium",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "On the right, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. This internal trabecular tissue lies inside the compact outer cortex.",
+    "function": "Transfers load through the sacroiliac joint and provides broad muscle attachments.",
+    "clinicalNotes": "The iliac crest and anterior superior iliac spine are palpable landmarks used to orient hip assessment.",
+    "clinical_notes": "The iliac crest and anterior superior iliac spine are palpable landmarks used to orient hip assessment.",
+    "landmarks": "On the right, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. This internal trabecular tissue lies inside the compact outer cortex.",
+    "relatedIds": [
+      "female_ilium_compact_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_ilium_compact_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Ilium, spongy bone (right)",
+      "VH_F_ilium_spongy_bone_R"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ilium_spongy_bone_R"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 5597,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -1.572097356557846,
+        -0.3352370263636112,
+        -0.7323562338352203
+      ],
+      "max": [
+        -0.44617418491840366,
+        1.0430569982528688,
+        0.859432925157249
+      ]
+    },
+    "position": [
+      -1.0091357707381248,
+      0.3539099859446288,
+      0.06353834566101435
+    ],
+    "size": 2.3877165102696063,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.5247037760416666,
+      "clusters": 1
+    }
+  },
+  "female_ischium_compact_bone_r": {
+    "id": "female_ischium_compact_bone_r",
+    "meshName": "female_ischium_compact_bone_r",
+    "displayName": "Ischium, compact bone (right)",
+    "latinName": "Ischium",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "On the right, the lower back portion of the hip bone, below the ilium and behind the pubis. The compact cortex forms the outer shell.",
+    "function": "Bears weight through the ischial tuberosity when sitting.",
+    "clinicalNotes": "The ischial tuberosity is a pressure-bearing prominence; relate it to seating and pressure-area assessment.",
+    "clinical_notes": "The ischial tuberosity is a pressure-bearing prominence; relate it to seating and pressure-area assessment.",
+    "landmarks": "On the right, the lower back portion of the hip bone, below the ilium and behind the pubis. The compact cortex forms the outer shell.",
+    "relatedIds": [
+      "female_ischium_spongy_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_ischium_spongy_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Ischium, compact bone (right)",
+      "VH_F_ischium_compact_bone_R"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ischium_compact_bone_R"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 5390,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -1.1839082493782043,
+        -1.0583442786335944,
+        -0.3516242637634277
+      ],
+      "max": [
+        -0.3757208987474442,
+        -0.10836053282022473,
+        0.32561831331253055
+      ]
+    },
+    "position": [
+      -0.7798145740628242,
+      -0.5833524057269095,
+      -0.013002975225448576
+    ],
+    "size": 1.4192580523758367,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.3811219618055556,
+      "clusters": 1
+    }
+  },
+  "female_ischium_compact_bone_l": {
+    "id": "female_ischium_compact_bone_l",
+    "meshName": "female_ischium_compact_bone_l",
+    "displayName": "Ischium, compact bone (left)",
+    "latinName": "Ischium",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "On the left, the lower back portion of the hip bone, below the ilium and behind the pubis. The compact cortex forms the outer shell.",
+    "function": "Bears weight through the ischial tuberosity when sitting.",
+    "clinicalNotes": "The ischial tuberosity is a pressure-bearing prominence; relate it to seating and pressure-area assessment.",
+    "clinical_notes": "The ischial tuberosity is a pressure-bearing prominence; relate it to seating and pressure-area assessment.",
+    "landmarks": "On the left, the lower back portion of the hip bone, below the ilium and behind the pubis. The compact cortex forms the outer shell.",
+    "relatedIds": [
+      "female_ischium_spongy_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_ischium_spongy_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Ischium, compact bone (left)",
+      "VH_F_ischium_compact_bone_L"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ischium_compact_bone_L"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 5392,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        0.3558009461164474,
+        -1.0436851868033408,
+        -0.32858967626094815
+      ],
+      "max": [
+        1.1838954285383225,
+        -0.09621280819177624,
+        0.3188082218766213
+      ]
+    },
+    "position": [
+      0.769848187327385,
+      -0.5699489974975585,
+      -0.004890727192163435
+    ],
+    "size": 1.4151213441123527,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.400029296875,
+      "clusters": 1
+    }
+  },
+  "female_ischium_spongy_bone_r": {
+    "id": "female_ischium_spongy_bone_r",
+    "meshName": "female_ischium_spongy_bone_r",
+    "displayName": "Ischium, spongy bone (right)",
+    "latinName": "Ischium",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "On the right, the lower back portion of the hip bone, below the ilium and behind the pubis. This internal trabecular tissue lies inside the compact outer cortex.",
+    "function": "Bears weight through the ischial tuberosity when sitting.",
+    "clinicalNotes": "The ischial tuberosity is a pressure-bearing prominence; relate it to seating and pressure-area assessment.",
+    "clinical_notes": "The ischial tuberosity is a pressure-bearing prominence; relate it to seating and pressure-area assessment.",
+    "landmarks": "On the right, the lower back portion of the hip bone, below the ilium and behind the pubis. This internal trabecular tissue lies inside the compact outer cortex.",
+    "relatedIds": [
+      "female_ischium_compact_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_ischium_compact_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Ischium, spongy bone (right)",
+      "VH_F_ischium_spongy_bone_R"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ischium_spongy_bone_R"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 2291,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -1.1725468590259551,
+        -1.0449460485577582,
+        -0.3396085634231567
+      ],
+      "max": [
+        -0.38498692506551746,
+        -0.11352523803710934,
+        0.3169662520885468
+      ]
+    },
+    "position": [
+      -0.7787668920457362,
+      -0.5792356432974337,
+      -0.01132115566730496
+    ],
+    "size": 1.3852385585937677,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.3649001736111111,
+      "clusters": 1
+    }
+  },
+  "female_ischium_spongy_bone_l": {
+    "id": "female_ischium_spongy_bone_l",
+    "meshName": "female_ischium_spongy_bone_l",
+    "displayName": "Ischium, spongy bone (left)",
+    "latinName": "Ischium",
+    "system": "skeletal",
+    "region": "pelvis",
+    "description": "On the left, the lower back portion of the hip bone, below the ilium and behind the pubis. This internal trabecular tissue lies inside the compact outer cortex.",
+    "function": "Bears weight through the ischial tuberosity when sitting.",
+    "clinicalNotes": "The ischial tuberosity is a pressure-bearing prominence; relate it to seating and pressure-area assessment.",
+    "clinical_notes": "The ischial tuberosity is a pressure-bearing prominence; relate it to seating and pressure-area assessment.",
+    "landmarks": "On the left, the lower back portion of the hip bone, below the ilium and behind the pubis. This internal trabecular tissue lies inside the compact outer cortex.",
+    "relatedIds": [
+      "female_ischium_compact_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_ischium_compact_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "layer": 5,
+    "sex": "female",
+    "aliases": [
+      "Ischium, spongy bone (left)",
+      "VH_F_ischium_spongy_bone_L"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ischium_spongy_bone_L"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "sourceModelId": "3DPX-020984",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 2296,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        0.3637648903429508,
+        -1.0302396082878111,
+        -0.31632788324356076
+      ],
+      "max": [
+        1.1720014706850053,
+        -0.10017104089260098,
+        0.31012047237157825
+      ]
+    },
+    "position": [
+      0.7678831805139781,
+      -0.565205324590206,
+      -0.0031037054359912553
+    ],
+    "size": 1.3822848664846579,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.3825325520833333,
+      "clusters": 1
+    }
+  },
+  "female_ampulla_of_uterine_tube_l": {
+    "id": "female_ampulla_of_uterine_tube_l",
+    "meshName": "female_ampulla_of_uterine_tube_l",
+    "displayName": "Ampulla of uterine tube (left)",
+    "latinName": "Ampulla tubae uterinae",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The wider middle section of the tube, between the infundibulum near the ovary and the narrow isthmus near the uterus.",
+    "function": "Is the usual site where sperm meet the oocyte for fertilisation.",
+    "clinicalNotes": "Distinguish fertilisation in the tube from implantation in the uterus when teaching the reproductive sequence.",
+    "clinical_notes": "Distinguish fertilisation in the tube from implantation in the uterus when teaching the reproductive sequence.",
+    "landmarks": "The wider middle section of the tube, between the infundibulum near the ovary and the narrow isthmus near the uterus.",
+    "relatedIds": [
+      "female_uterine_tube_left",
+      "female_ovary_l",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_uterine_tube_left",
+      "female_ovary_l",
+      "female_uterus"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Ampulla of uterine tube (left)",
+      "VH_F_ampulla_of_uterine_tube_L"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ampulla_of_uterine_tube_L"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterine_tube_left",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020964",
+    "sourceModelId": "3DPX-020964",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Fallopian Tube, Female, Left v1.1. https://doi.org/10.48539/HBM887.HZKB.637. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 11424,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        0.3036433429121971,
+        -0.161569450199604,
+        0.4247359574437142
+      ],
+      "max": [
+        0.5928828538060188,
+        0.26359036922454837,
+        0.5761580929756165
+      ]
+    },
+    "position": [
+      0.44826309835910794,
+      0.051010459512472184,
+      0.5004470252096653
+    ],
+    "size": 0.5360494658554533,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.09507052951388889,
+      "clusters": 1
+    }
+  },
+  "female_isthmus_of_uterine_tube_l": {
+    "id": "female_isthmus_of_uterine_tube_l",
+    "meshName": "female_isthmus_of_uterine_tube_l",
+    "displayName": "Isthmus of uterine tube (left)",
+    "latinName": "Isthmus tubae uterinae",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The narrow medial tubal segment beside the uterus, between the ampulla and the uterine wall.",
+    "function": "Carries the oocyte or early embryo from the ampulla toward the uterine cavity.",
+    "clinicalNotes": "Tubal scarring after pelvic inflammatory disease can disrupt transport; the narrow isthmus is a useful orientation landmark.",
+    "clinical_notes": "Tubal scarring after pelvic inflammatory disease can disrupt transport; the narrow isthmus is a useful orientation landmark.",
+    "landmarks": "The narrow medial tubal segment beside the uterus, between the ampulla and the uterine wall.",
+    "relatedIds": [
+      "female_uterine_tube_left",
+      "female_ovary_l",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_uterine_tube_left",
+      "female_ovary_l",
+      "female_uterus"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Isthmus of uterine tube (left)",
+      "VH_F_isthmus_of_fallopian_tube_L"
+    ],
+    "sourceMeshNames": [
+      "VH_F_isthmus_of_fallopian_tube_L"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterine_tube_left",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020964",
+    "sourceModelId": "3DPX-020964",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Fallopian Tube, Female, Left v1.1. https://doi.org/10.48539/HBM887.HZKB.637. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 1870,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        0.20665276503562927,
+        -0.18112644195556638,
+        0.493185372710228
+      ],
+      "max": [
+        0.3077910625040531,
+        -0.1383741909265518,
+        0.5324546263217926
+      ]
+    },
+    "position": [
+      0.25722191376984116,
+      -0.15975031644105908,
+      0.5128199995160103
+    ],
+    "size": 0.11661382620456566,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.5588292100694444,
+      "clusters": 1
+    }
+  },
+  "female_fimbriae_of_uterine_tube_l": {
+    "id": "female_fimbriae_of_uterine_tube_l",
+    "meshName": "female_fimbriae_of_uterine_tube_l",
+    "displayName": "Fimbriae of uterine tube (left)",
+    "latinName": "Fimbriae tubae uterinae",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The finger-like fringe of the infundibulum at the ovarian end of the tube. It lies close to the ovary without forming a sealed attachment.",
+    "function": "Helps guide the released oocyte toward the tubal opening with local ciliary movement.",
+    "clinicalNotes": "The open ovarian end helps explain the route by which a reproductive tract infection can reach the pelvic cavity.",
+    "clinical_notes": "The open ovarian end helps explain the route by which a reproductive tract infection can reach the pelvic cavity.",
+    "landmarks": "The finger-like fringe of the infundibulum at the ovarian end of the tube. It lies close to the ovary without forming a sealed attachment.",
+    "relatedIds": [
+      "female_uterine_tube_left",
+      "female_ovary_l",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_uterine_tube_left",
+      "female_ovary_l",
+      "female_uterus"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Fimbriae of uterine tube (left)",
+      "VH_F_fibria_of_uterine_tube_L"
+    ],
+    "sourceMeshNames": [
+      "VH_F_fibria_of_uterine_tube_L"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterine_tube_left",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020964",
+    "sourceModelId": "3DPX-020964",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Fallopian Tube, Female, Left v1.1. https://doi.org/10.48539/HBM887.HZKB.637. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 2871,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        0.44065449094772335,
+        0.12008183062076572,
+        0.390660801589489
+      ],
+      "max": [
+        0.5145121709108352,
+        0.17208606362342838,
+        0.47313112920522693
+      ]
+    },
+    "position": [
+      0.4775833309292793,
+      0.14608394712209705,
+      0.431895965397358
+    ],
+    "size": 0.12231415321529979,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.3285232204861111,
+      "clusters": 1
+    }
+  },
+  "female_infundibulum_of_uterine_tube_l": {
+    "id": "female_infundibulum_of_uterine_tube_l",
+    "meshName": "female_infundibulum_of_uterine_tube_l",
+    "displayName": "Infundibulum of uterine tube (left)",
+    "latinName": "Infundibulum tubae uterinae",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The funnel-shaped end of the uterine tube near the ovary, surrounded by fimbriae and continuous with the ampulla.",
+    "function": "Receives the released oocyte into the uterine tube.",
+    "clinicalNotes": "Recognise the open tubal end when tracing potential ascending infection from the cervix through the uterus and tubes.",
+    "clinical_notes": "Recognise the open tubal end when tracing potential ascending infection from the cervix through the uterus and tubes.",
+    "landmarks": "The funnel-shaped end of the uterine tube near the ovary, surrounded by fimbriae and continuous with the ampulla.",
+    "relatedIds": [
+      "female_uterine_tube_left",
+      "female_ovary_l",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_uterine_tube_left",
+      "female_ovary_l",
+      "female_uterus"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Infundibulum of uterine tube (left)",
+      "VH_F_uterine_tube_infundibulum_L"
+    ],
+    "sourceMeshNames": [
+      "VH_F_uterine_tube_infundibulum_L"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterine_tube_left",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020964",
+    "sourceModelId": "3DPX-020964",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Fallopian Tube, Female, Left v1.1. https://doi.org/10.48539/HBM887.HZKB.637. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 2116,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        0.4507768124938011,
+        0.15142605066299442,
+        0.39426684534549716
+      ],
+      "max": [
+        0.5353968933820724,
+        0.26184819996356967,
+        0.47025829708576206
+      ]
+    },
+    "position": [
+      0.49308685293793675,
+      0.20663712531328204,
+      0.4322625712156296
+    ],
+    "size": 0.15851911519841738,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.4136740451388889,
+      "clusters": 1
+    }
+  },
+  "female_ampulla_of_uterine_tube_r": {
+    "id": "female_ampulla_of_uterine_tube_r",
+    "meshName": "female_ampulla_of_uterine_tube_r",
+    "displayName": "Ampulla of uterine tube (right)",
+    "latinName": "Ampulla tubae uterinae",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The wider middle section of the tube, between the infundibulum near the ovary and the narrow isthmus near the uterus.",
+    "function": "Is the usual site where sperm meet the oocyte for fertilisation.",
+    "clinicalNotes": "Distinguish fertilisation in the tube from implantation in the uterus when teaching the reproductive sequence.",
+    "clinical_notes": "Distinguish fertilisation in the tube from implantation in the uterus when teaching the reproductive sequence.",
+    "landmarks": "The wider middle section of the tube, between the infundibulum near the ovary and the narrow isthmus near the uterus.",
+    "relatedIds": [
+      "female_uterine_tube_right",
+      "female_ovary_r",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_uterine_tube_right",
+      "female_ovary_r",
+      "female_uterus"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Ampulla of uterine tube (right)",
+      "VH_F_ampulla_of_uterine_tube_R"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ampulla_of_uterine_tube_R"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterine_tube_right",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020965",
+    "sourceModelId": "3DPX-020965",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Fallopian Tube, Female, Right v1.1. https://doi.org/10.48539/HBM875.FCDP.878. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 10440,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.6513370975255967,
+        -0.16249432802200314,
+        0.3913036004304886
+      ],
+      "max": [
+        -0.3862654074430466,
+        0.25496267139911655,
+        0.5399213374257088
+      ]
+    },
+    "position": [
+      -0.5188012524843216,
+      0.0462341716885567,
+      0.4656124689280987
+    ],
+    "size": 0.5163531533732361,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.06173177083333333,
+      "clusters": 1
+    }
+  },
+  "female_isthmus_of_uterine_tube_r": {
+    "id": "female_isthmus_of_uterine_tube_r",
+    "meshName": "female_isthmus_of_uterine_tube_r",
+    "displayName": "Isthmus of uterine tube (right)",
+    "latinName": "Isthmus tubae uterinae",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The narrow medial tubal segment beside the uterus, between the ampulla and the uterine wall.",
+    "function": "Carries the oocyte or early embryo from the ampulla toward the uterine cavity.",
+    "clinicalNotes": "Tubal scarring after pelvic inflammatory disease can disrupt transport; the narrow isthmus is a useful orientation landmark.",
+    "clinical_notes": "Tubal scarring after pelvic inflammatory disease can disrupt transport; the narrow isthmus is a useful orientation landmark.",
+    "landmarks": "The narrow medial tubal segment beside the uterus, between the ampulla and the uterine wall.",
+    "relatedIds": [
+      "female_uterine_tube_right",
+      "female_ovary_r",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_uterine_tube_right",
+      "female_ovary_r",
+      "female_uterus"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Isthmus of uterine tube (right)",
+      "VH_F_isthmus_of_fallopian_tube_R"
+    ],
+    "sourceMeshNames": [
+      "VH_F_isthmus_of_fallopian_tube_R"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterine_tube_right",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020965",
+    "sourceModelId": "3DPX-020965",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Fallopian Tube, Female, Right v1.1. https://doi.org/10.48539/HBM875.FCDP.878. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 1600,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.39246812754869465,
+        -0.19107214748859402,
+        0.4878310502171517
+      ],
+      "max": [
+        -0.3072168707251549,
+        -0.14572146922349927,
+        0.5252841503024102
+      ]
+    },
+    "position": [
+      -0.3498424991369248,
+      -0.16839680835604665,
+      0.5065576002597809
+    ],
+    "size": 0.10357217539037045,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.3887717013888889,
+      "clusters": 1
+    }
+  },
+  "female_fimbriae_of_uterine_tube_r": {
+    "id": "female_fimbriae_of_uterine_tube_r",
+    "meshName": "female_fimbriae_of_uterine_tube_r",
+    "displayName": "Fimbriae of uterine tube (right)",
+    "latinName": "Fimbriae tubae uterinae",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The finger-like fringe of the infundibulum at the ovarian end of the tube. It lies close to the ovary without forming a sealed attachment.",
+    "function": "Helps guide the released oocyte toward the tubal opening with local ciliary movement.",
+    "clinicalNotes": "The open ovarian end helps explain the route by which a reproductive tract infection can reach the pelvic cavity.",
+    "clinical_notes": "The open ovarian end helps explain the route by which a reproductive tract infection can reach the pelvic cavity.",
+    "landmarks": "The finger-like fringe of the infundibulum at the ovarian end of the tube. It lies close to the ovary without forming a sealed attachment.",
+    "relatedIds": [
+      "female_uterine_tube_right",
+      "female_ovary_r",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_uterine_tube_right",
+      "female_ovary_r",
+      "female_uterus"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Fimbriae of uterine tube (right)",
+      "VH_F_fibria_of_uterine_tube_R"
+    ],
+    "sourceMeshNames": [
+      "VH_F_fibria_of_uterine_tube_R"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterine_tube_right",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020965",
+    "sourceModelId": "3DPX-020965",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Fallopian Tube, Female, Right v1.1. https://doi.org/10.48539/HBM875.FCDP.878. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 3530,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.6315300270318985,
+        0.11948868989944461,
+        0.3359878078699112
+      ],
+      "max": [
+        -0.5613498791456223,
+        0.1634214109182358,
+        0.3938445464372635
+      ]
+    },
+    "position": [
+      -0.5964399530887604,
+      0.1414550504088402,
+      0.3649161771535874
+    ],
+    "size": 0.101008610183021,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.4165766059027778,
+      "clusters": 1
+    }
+  },
+  "female_infundibulum_of_uterine_tube_r": {
+    "id": "female_infundibulum_of_uterine_tube_r",
+    "meshName": "female_infundibulum_of_uterine_tube_r",
+    "displayName": "Infundibulum of uterine tube (right)",
+    "latinName": "Infundibulum tubae uterinae",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The funnel-shaped end of the uterine tube near the ovary, surrounded by fimbriae and continuous with the ampulla.",
+    "function": "Receives the released oocyte into the uterine tube.",
+    "clinicalNotes": "Recognise the open tubal end when tracing potential ascending infection from the cervix through the uterus and tubes.",
+    "clinical_notes": "Recognise the open tubal end when tracing potential ascending infection from the cervix through the uterus and tubes.",
+    "landmarks": "The funnel-shaped end of the uterine tube near the ovary, surrounded by fimbriae and continuous with the ampulla.",
+    "relatedIds": [
+      "female_uterine_tube_right",
+      "female_ovary_r",
+      "female_uterus"
+    ],
+    "related_ids": [
+      "female_uterine_tube_right",
+      "female_ovary_r",
+      "female_uterus"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Infundibulum of uterine tube (right)",
+      "VH_F_uterine_tube_infundibulum_R"
+    ],
+    "sourceMeshNames": [
+      "VH_F_uterine_tube_infundibulum_R"
+    ],
+    "available": true,
+    "quizEligible": false,
+    "parentId": "female_uterine_tube_right",
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020965",
+    "sourceModelId": "3DPX-020965",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Fallopian Tube, Female, Right v1.1. https://doi.org/10.48539/HBM875.FCDP.878. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "sourceTriangles": 2200,
+    "sourceDegenerateTriangles": 0,
+    "bounds": {
+      "min": [
+        -0.6387859984636307,
+        0.14426552116870883,
+        0.33120379006862644
+      ],
+      "max": [
+        -0.5629913910627365,
+        0.25412686526775363,
+        0.40233682996034625
+      ]
+    },
+    "position": [
+      -0.6008886947631836,
+      0.19919619321823123,
+      0.36677031001448634
+    ],
+    "size": 0.15124234460805416,
+    "clickGeometry": {
+      "meshes": 1,
+      "dominantFraction": 1,
+      "coverage": 0.4925043402777778,
+      "clusters": 1
+    }
+  },
+  "female_uterus": {
+    "id": "female_uterus",
+    "meshName": "female_uterus",
+    "displayName": "Uterus",
+    "latinName": "Uterus",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "The muscular organ between the bladder in front and rectum behind. Its rounded fundus lies above the tubal openings; the cervix narrows below the body.",
+    "function": "Supports implantation and fetal development. Smooth muscle in its wall contracts during menstruation and childbirth.",
+    "clinicalNotes": "Connect menstrual bleeding and cramping to the uterine lining and muscle. In maternity assessment, distinguish the uterine fundus from a distended bladder.",
+    "clinical_notes": "Connect menstrual bleeding and cramping to the uterine lining and muscle. In maternity assessment, distinguish the uterine fundus from a distended bladder.",
+    "landmarks": "The muscular organ between the bladder in front and rectum behind. Its rounded fundus lies above the tubal openings; the cervix narrows below the body.",
+    "relatedIds": [
+      "female_ovary_l",
+      "female_ovary_r",
+      "female_uterine_tube_left",
+      "female_uterine_tube_right",
+      "female_bladder"
+    ],
+    "related_ids": [
+      "female_ovary_l",
+      "female_ovary_r",
+      "female_uterine_tube_left",
+      "female_uterine_tube_right",
+      "female_bladder"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Uterus",
+      "VH_F_abdominal_ostium_of_uterine_tube",
+      "VH_F_body_of_uterus",
+      "VH_F_fundus_of_uterus",
+      "VH_F_cornua",
+      "VH_F_lower_uterine_segment",
+      "VH_F_posterior_wall_of_uterus",
+      "VH_F_anterior_wall_of_uterus",
+      "VH_F_cervix",
+      "VH_F_internal_cervical_os",
+      "VH_F_external_cervical_os"
+    ],
+    "sourceMeshNames": [
+      "VH_F_abdominal_ostium_of_uterine_tube",
+      "VH_F_body_of_uterus",
+      "VH_F_fundus_of_uterus",
+      "VH_F_cornua",
+      "VH_F_lower_uterine_segment",
+      "VH_F_posterior_wall_of_uterus",
+      "VH_F_anterior_wall_of_uterus",
+      "VH_F_cervix",
+      "VH_F_internal_cervical_os",
+      "VH_F_external_cervical_os"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020996",
+    "sourceModelId": "3DPX-020996",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Uterus v1.1. https://doi.org/10.48539/HBM228.JBNJ.299. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "bounds": {
+      "min": [
+        -0.31145043963193897,
+        -0.5278115450963378,
+        0.0490783170461655
+      ],
+      "max": [
+        0.21342566876113414,
+        -0.05788027882575986,
+        0.6360337712466717
+      ]
+    },
+    "position": [
+      -0.049012385435402414,
+      -0.2928459119610488,
+      0.3425560441464186
+    ],
+    "size": 0.916977114979566,
+    "clickGeometry": {
+      "meshes": 10,
+      "dominantFraction": 1,
+      "coverage": 0.4001649305555556,
+      "clusters": 1
+    }
+  },
+  "female_bladder": {
+    "id": "female_bladder",
+    "meshName": "female_bladder",
+    "displayName": "Urinary bladder",
+    "latinName": "Vesica urinaria",
+    "system": "urinary",
+    "region": "pelvis",
+    "description": "Sits behind the pubic bones and in front of the uterus. Its dome expands upward as urine accumulates; the neck leads into the urethra below.",
+    "function": "Stores urine until voiding. Detrusor smooth muscle contracts to empty the bladder through the urethra.",
+    "clinicalNotes": "Connect suprapubic fullness and changes in voiding to bladder filling. The uterus can compress the bladder during pregnancy, increasing urinary frequency.",
+    "clinical_notes": "Connect suprapubic fullness and changes in voiding to bladder filling. The uterus can compress the bladder during pregnancy, increasing urinary frequency.",
+    "landmarks": "Sits behind the pubic bones and in front of the uterus. Its dome expands upward as urine accumulates; the neck leads into the urethra below.",
+    "relatedIds": [
+      "female_uterus",
+      "female_trigone_of_bladder",
+      "female_neck_of_bladder"
+    ],
+    "related_ids": [
+      "female_uterus",
+      "female_trigone_of_bladder",
+      "female_neck_of_bladder"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Urinary bladder",
+      "VH_F_fundus_of_urinary_bladder_dome",
+      "VH_F_urinary_bladder_neck_smooth_muscle",
+      "VH_F_fundus_of_urinary_bladder_base",
+      "VH_F_trigone_of_urinary_bladder",
+      "VH_F_ureteral_orifice_R",
+      "VH_F_ureteral_orifice_L"
+    ],
+    "sourceMeshNames": [
+      "VH_F_fundus_of_urinary_bladder_dome",
+      "VH_F_urinary_bladder_neck_smooth_muscle",
+      "VH_F_fundus_of_urinary_bladder_base",
+      "VH_F_trigone_of_urinary_bladder",
+      "VH_F_ureteral_orifice_R",
+      "VH_F_ureteral_orifice_L"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020995",
+    "sourceModelId": "3DPX-020995",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Urinary Bladder, Female v1.1. https://doi.org/10.48539/HBM235.KQNP.897. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "contentStatus": "complete",
+    "bounds": {
+      "min": [
+        -0.31940199726819996,
+        -0.7699396425485611,
+        0.31815968608856204
+      ],
+      "max": [
+        0.20036306871473789,
+        -0.32772786557674405,
+        0.9351509126499296
+      ]
+    },
+    "position": [
+      -0.059519464276731035,
+      -0.5488337540626526,
+      0.6266552993692458
+    ],
+    "size": 0.9199919310312022,
+    "clickGeometry": {
+      "meshes": 6,
+      "dominantFraction": 1,
+      "coverage": 0.372685546875,
+      "clusters": 1
+    }
+  },
+  "female_uterine_tube_left": {
+    "id": "female_uterine_tube_left",
+    "meshName": "female_uterine_tube_left",
+    "displayName": "Uterine tube (left)",
+    "latinName": "Tuba uterina sinistra",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "Extends from the left upper corner of the uterus toward the ovary. Its flared end lies near the ovary but does not attach directly to it.",
+    "function": "Cilia and muscular contractions transport an oocyte toward the uterus. Fertilisation most often occurs in the ampulla.",
+    "clinicalNotes": "Infection can spread from the uterus along an open tube into the pelvic cavity. Pelvic inflammatory disease can leave scarring that impairs fertility.",
+    "clinical_notes": "Infection can spread from the uterus along an open tube into the pelvic cavity. Pelvic inflammatory disease can leave scarring that impairs fertility.",
+    "landmarks": "Extends from the left upper corner of the uterus toward the ovary. Its flared end lies near the ovary but does not attach directly to it.",
+    "relatedIds": [
+      "female_ovary_l",
+      "female_uterus",
+      "female_uterine_tube_right",
+      "female_cervix_of_uterus"
+    ],
+    "related_ids": [
+      "female_ovary_l",
+      "female_uterus",
+      "female_uterine_tube_right",
+      "female_cervix_of_uterus"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Uterine tube (left)",
+      "VH_F_ampulla_of_uterine_tube_L",
+      "VH_F_isthmus_of_fallopian_tube_L",
+      "VH_F_fibria_of_uterine_tube_L",
+      "VH_F_uterine_tube_infundibulum_L"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ampulla_of_uterine_tube_L",
+      "VH_F_isthmus_of_fallopian_tube_L",
+      "VH_F_fibria_of_uterine_tube_L",
+      "VH_F_uterine_tube_infundibulum_L"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020964",
+    "sourceModelId": "3DPX-020964",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Fallopian Tube, Female, Left v1.1. https://doi.org/10.48539/HBM887.HZKB.637. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "bounds": {
+      "min": [
+        0.20665276503562927,
+        -0.18112644195556638,
+        0.390660801589489
+      ],
+      "max": [
+        0.5928828538060188,
+        0.26359036922454837,
+        0.5761580929756165
+      ]
+    },
+    "position": [
+      0.399767809420824,
+      0.041231963634491,
+      0.48340944728255275
+    ],
+    "size": 0.6175402567682391,
+    "clickGeometry": {
+      "meshes": 4,
+      "dominantFraction": 0.9990838295923041,
+      "coverage": 0.11058702256944444,
+      "clusters": 5
+    }
+  },
+  "female_uterine_tube_right": {
+    "id": "female_uterine_tube_right",
+    "meshName": "female_uterine_tube_right",
+    "displayName": "Uterine tube (right)",
+    "latinName": "Tuba uterina dextra",
+    "system": "reproductive",
+    "region": "pelvis",
+    "description": "Extends from the right upper corner of the uterus toward the ovary. Its flared end lies near the ovary but does not attach directly to it.",
+    "function": "Cilia and muscular contractions transport an oocyte toward the uterus. Fertilisation most often occurs in the ampulla.",
+    "clinicalNotes": "Infection can spread from the uterus along an open tube into the pelvic cavity. Pelvic inflammatory disease can leave scarring that impairs fertility.",
+    "clinical_notes": "Infection can spread from the uterus along an open tube into the pelvic cavity. Pelvic inflammatory disease can leave scarring that impairs fertility.",
+    "landmarks": "Extends from the right upper corner of the uterus toward the ovary. Its flared end lies near the ovary but does not attach directly to it.",
+    "relatedIds": [
+      "female_ovary_r",
+      "female_uterus",
+      "female_uterine_tube_left",
+      "female_cervix_of_uterus"
+    ],
+    "related_ids": [
+      "female_ovary_r",
+      "female_uterus",
+      "female_uterine_tube_left",
+      "female_cervix_of_uterus"
+    ],
+    "layer": 4,
+    "sex": "female",
+    "aliases": [
+      "Uterine tube (right)",
+      "VH_F_ampulla_of_uterine_tube_R",
+      "VH_F_isthmus_of_fallopian_tube_R",
+      "VH_F_fibria_of_uterine_tube_R",
+      "VH_F_uterine_tube_infundibulum_R"
+    ],
+    "sourceMeshNames": [
+      "VH_F_ampulla_of_uterine_tube_R",
+      "VH_F_isthmus_of_fallopian_tube_R",
+      "VH_F_fibria_of_uterine_tube_R",
+      "VH_F_uterine_tube_infundibulum_R"
+    ],
+    "available": true,
+    "quizEligible": true,
+    "source": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020965",
+    "sourceModelId": "3DPX-020965",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Fallopian Tube, Female, Right v1.1. https://doi.org/10.48539/HBM875.FCDP.878. Accessed on May 6, 2022.",
+    "textSource": "OpenStax Anatomy and Physiology 2e",
+    "textLicense": "CC-BY-NC-SA-4.0",
+    "lessonSources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "contentStatus": "complete",
+    "bounds": {
+      "min": [
+        -0.6513370975255967,
+        -0.19107214748859402,
+        0.33120379006862644
+      ],
+      "max": [
+        -0.3072168707251549,
+        0.25496267139911655,
+        0.5399213374257088
+      ]
+    },
+    "position": [
+      -0.4792769841253758,
+      0.03194526195526126,
+      0.4355625637471676
+    ],
+    "size": 0.6007735053480107,
+    "clickGeometry": {
+      "meshes": 4,
+      "dominantFraction": 1,
+      "coverage": 0.08470811631944444,
+      "clusters": 1
+    }
+  }
+}

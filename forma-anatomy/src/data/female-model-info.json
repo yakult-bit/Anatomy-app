@@ -1,0 +1,123 @@
+{
+  "provider": "NIH 3D Human Reference Atlas",
+  "source": {
+    "name": "Visible Human Female",
+    "url": "https://3d.nih.gov/collections/hra"
+  },
+  "sourceFiles": [
+    {
+      "name": "VH_F_Uterus.glb",
+      "sha256": "a484956788ecc2ab05ca7720d9b33d265677e238f144cc28481aad2f7a0c9a95",
+      "bytes": 909772,
+      "sourceModelId": "3DPX-020996"
+    },
+    {
+      "name": "VH_F_Ovary_L.glb",
+      "sha256": "ed91414a667dec5e4e14aeaa2f8641731f06725dbc914bc0da3dd8b5d77f5062",
+      "bytes": 8984,
+      "sourceModelId": "3DPX-020979"
+    },
+    {
+      "name": "VH_F_Ovary_R.glb",
+      "sha256": "99cc2b91602feacaee08ec1771b993fc0f8b0e32a08bdd7fd6b990a6736aa53b",
+      "bytes": 8744,
+      "sourceModelId": "3DPX-020980"
+    },
+    {
+      "name": "VH_F_Urinary_Bladder.glb",
+      "sha256": "9c5732fc9628cd192bb8c8f2b4bbf22b9822a0dff5378a0d366d2f3cb2205b6a",
+      "bytes": 765100,
+      "sourceModelId": "3DPX-020995"
+    },
+    {
+      "name": "VH_F_Pelvis.glb",
+      "sha256": "155603d0c44a8ed1e0ca307f1ec3037941304f29f4187631135a9a150fab048d",
+      "bytes": 1593336,
+      "sourceModelId": "3DPX-020984"
+    },
+    {
+      "name": "VH_F_Fallopian_Tube_L.glb",
+      "sha256": "5025453048a83c26393b866bc69859a255b4c38816f34ed3a196bfe7d4f33dd1",
+      "bytes": 336676,
+      "sourceModelId": "3DPX-020964"
+    },
+    {
+      "name": "VH_F_Fallopian_Tube_R.glb",
+      "sha256": "17aef41a430e068705dc21ac8ccf746a74f14f47ffc1a31908198b0b026849df",
+      "bytes": 327448,
+      "sourceModelId": "3DPX-020965"
+    }
+  ],
+  "models": [
+    "female"
+  ],
+  "structureCount": 44,
+  "sourceMeshCount": 40,
+  "coreStructureCount": 19,
+  "files": [
+    {
+      "system": "reproductive",
+      "path": "/models/hra-female/female-reproductive.glb",
+      "sha256": "1d6fa57de3beae98efce64a992effc1a1372e28f2e708416d91ed717cd40d7c8",
+      "bytes": 266304
+    },
+    {
+      "system": "urinary",
+      "path": "/models/hra-female/female-urinary.glb",
+      "sha256": "fb97dd697f389da6e567ef1771a67efd0f0e3738a2f7c22767097a98a4b848b8",
+      "bytes": 114136
+    },
+    {
+      "system": "skeletal",
+      "path": "/models/hra-female/female-skeletal.glb",
+      "sha256": "cb30e1a42a38dcb126fc3c5b262977e1fa53023032c5da3e9d569d897e7a3373",
+      "bytes": 328292
+    }
+  ],
+  "credits": "/credits/hra-female.html",
+  "license": "Per-model: CC BY 4.0 (all seven verified)",
+  "bounds": {
+    "min": [
+      -1.5839616611003875,
+      -1.0583442786335944,
+      -0.9135455622673034
+    ],
+    "max": [
+      1.5844172582626344,
+      1.0565844213962556,
+      0.9351509126499296
+    ]
+  },
+  "center": [
+    0.00022779858112342843,
+    -0.0008799286186693678,
+    0.01080267519131306
+  ],
+  "radius": 2.1171458995098416,
+  "scale": 10,
+  "translation": [
+    0.086,
+    -0.59,
+    0.911
+  ],
+  "availableStructures": [
+    "Uterus and cervix",
+    "Left and right ovaries",
+    "Left and right uterine tubes",
+    "Urinary bladder",
+    "Sacrum, coccyx and pelvic bones"
+  ],
+  "unavailableStructures": [
+    "Vagina",
+    "Complete urethra",
+    "External genitalia",
+    "Pelvic floor muscles",
+    "Whole-body skin, muscles, head and limbs"
+  ],
+  "coverageNotes": [
+    "Female reproductive reference organs with urinary bladder and pelvic bone context.",
+    "NIH 3D Human Reference Atlas, Visible Human Female: a separate reference set, not the same body as the Z-Anatomy male atlas.",
+    "Absent meshes reflect dataset coverage, not anatomical absence. Bladder-neck tissue is not a complete urethra."
+  ],
+  "modifications": "Original female coordinates retained; one uniform 10× scene-unit conversion and translation shared by all files; transforms baked; display material; Draco compression. No deformation, hole filling or male geometry."
+}

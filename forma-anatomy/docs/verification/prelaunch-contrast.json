@@ -1,0 +1,205 @@
+{
+  "scope": "Declared CSS foreground/background pairs, alpha-composited where specified. Not a browser computed-style or complete WCAG conformance audit.",
+  "bodyFloor": 4.5,
+  "largeTextFloor": 3,
+  "results": [
+    {
+      "label": "Workspace breadcrumb",
+      "selector": ".workspace-breadcrumb",
+      "before": "#8b9187",
+      "background": "#fcfcfa",
+      "beforeRatio": 3.15,
+      "after": "#526248",
+      "afterRatio": 6.39
+    },
+    {
+      "label": "Sidebar muted labels",
+      "selector": ".sidebar-top>span",
+      "before": "#6c7b5f",
+      "background": "#f9faf6",
+      "beforeRatio": 4.32,
+      "after": "#526248",
+      "afterRatio": 6.26
+    },
+    {
+      "label": "Question labels",
+      "selector": ".question-count",
+      "before": "#697c59",
+      "background": "#f7f9f2",
+      "beforeRatio": 4.28,
+      "after": "#526248",
+      "afterRatio": 6.18
+    },
+    {
+      "label": "Quiz supporting text",
+      "selector": ".quiz-intro",
+      "before": "#6b7e59",
+      "background": "#f7f9f2",
+      "beforeRatio": 4.16,
+      "after": "#526248",
+      "afterRatio": 6.18
+    },
+    {
+      "label": "Text links",
+      "selector": ".text-link",
+      "before": "#7a9067",
+      "background": "#f7f9f2",
+      "beforeRatio": 3.29,
+      "after": "#405f36",
+      "afterRatio": 6.8
+    },
+    {
+      "label": "Camera presets",
+      "selector": ".camera-bar>button",
+      "before": "#829586",
+      "background": "#2d3637",
+      "beforeRatio": 3.89,
+      "after": "#b4c3b6",
+      "afterRatio": 6.74
+    },
+    {
+      "label": "Orientation letters",
+      "selector": ".anatomy-side",
+      "before": "#829086",
+      "background": "#2d3637",
+      "beforeRatio": 2.12,
+      "after": "#b4c3b6",
+      "afterRatio": 6.74
+    },
+    {
+      "label": "Incorrect feedback",
+      "selector": ".feedback.incorrect",
+      "before": "#967d52",
+      "background": "#f2ece0",
+      "beforeRatio": 3.34,
+      "after": "#805039",
+      "afterRatio": 5.71
+    },
+    {
+      "label": "Incorrect option",
+      "selector": ".answer-options>button.incorrect",
+      "before": "#ac775a",
+      "background": "#f4e7de",
+      "beforeRatio": 3.13,
+      "after": "#805039",
+      "afterRatio": 5.55
+    },
+    {
+      "label": "Correct feedback",
+      "selector": ".feedback",
+      "before": "#607d4b",
+      "background": "#e8f1de",
+      "beforeRatio": 3.99,
+      "after": "#365a2b",
+      "afterRatio": 6.81
+    },
+    {
+      "label": "Correct option",
+      "selector": ".answer-options>button.correct",
+      "before": "#567c3c",
+      "background": "#e2efda",
+      "beforeRatio": 4.05,
+      "after": "#365a2b",
+      "afterRatio": 6.63
+    },
+    {
+      "label": "Quiz option",
+      "selector": ".answer-options>button",
+      "before": "#70815f",
+      "background": "#ffffff",
+      "beforeRatio": 4.2,
+      "after": "#526248",
+      "afterRatio": 6.56
+    },
+    {
+      "label": "Option number",
+      "selector": ".answer-options kbd",
+      "before": "#99a58c",
+      "background": "#f2f5ec",
+      "beforeRatio": 2.35,
+      "after": "#526248",
+      "afterRatio": 5.95
+    },
+    {
+      "label": "Hint button",
+      "selector": ".skip-question",
+      "before": "#96a487",
+      "background": "#f7f9f2",
+      "beforeRatio": 2.49,
+      "after": "#405f36",
+      "afterRatio": 6.8
+    },
+    {
+      "label": "Timer",
+      "selector": ".timer",
+      "before": "#8ba075",
+      "background": "#e9efdf",
+      "beforeRatio": 2.42,
+      "after": "#405f36",
+      "afterRatio": 6.15
+    },
+    {
+      "label": "Urgent timer",
+      "selector": ".timer.urgent",
+      "before": "#b57558",
+      "background": "#f5e6dd",
+      "beforeRatio": 3.05,
+      "after": "#805039",
+      "afterRatio": 5.52
+    },
+    {
+      "label": "Recall label",
+      "selector": ".recall-form label",
+      "before": "#879775",
+      "background": "#f7f9f2",
+      "beforeRatio": 2.95,
+      "after": "#526248",
+      "afterRatio": 6.18
+    },
+    {
+      "label": "Touch guidance",
+      "selector": ".click-prompt>small",
+      "before": "#a0ad95",
+      "background": "#f7f9f2",
+      "beforeRatio": 2.22,
+      "after": "#526248",
+      "afterRatio": 6.18
+    },
+    {
+      "label": "Clinical supporting note",
+      "selector": ".clinical-card>span",
+      "before": "#697f56",
+      "background": "#eaf0e0",
+      "beforeRatio": 3.78,
+      "after": "#526248",
+      "afterRatio": 5.64
+    },
+    {
+      "label": "Source links",
+      "selector": ".source-links a",
+      "before": "#77925f",
+      "background": "#fafbf7",
+      "beforeRatio": 3.33,
+      "after": "#405f36",
+      "afterRatio": 6.95
+    },
+    {
+      "label": "Keyboard shortcut",
+      "selector": ".shortcut-grid kbd",
+      "before": "#7e9869",
+      "background": "#eef3e7",
+      "beforeRatio": 2.83,
+      "after": "#405f36",
+      "afterRatio": 6.4
+    },
+    {
+      "label": "Account error",
+      "selector": ".account-error",
+      "before": "#f0aaa0",
+      "background": "#fafbf7",
+      "beforeRatio": 1.84,
+      "after": "#923c32",
+      "afterRatio": 6.93
+    }
+  ]
+}

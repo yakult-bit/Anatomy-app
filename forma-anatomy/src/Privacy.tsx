@@ -1,0 +1,2 @@
+import {privacySections} from '../shared/site';
+export default function Privacy(){return <main className="privacy-page"><a className="text-link" href="/">← Return to Forma</a><h1>Privacy policy</h1><p>Forma is an anatomy study app. You can explore and practice without an account.</p>{privacySections.map(s=><section key={s.title}><h2>{s.title}</h2>{s.paragraphs.map(p=><p key={p}>{p}</p>)}</section>)}</main>}

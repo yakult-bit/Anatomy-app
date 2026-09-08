@@ -1,0 +1,171 @@
+{
+  "provider": "Z-Anatomy",
+  "source": "https://github.com/LluisV/Z-Anatomy",
+  "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+  "sourceUrl": "https://github.com/LluisV/Z-Anatomy/tree/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX",
+  "sourceFiles": [
+    {
+      "name": "CardioVascular41.fbx",
+      "gitBlobSha": "aa5bbcb63ae6e9ace8051111b3a85ea87f00c4f3",
+      "bytes": 64889388
+    },
+    {
+      "name": "Joints100.fbx",
+      "gitBlobSha": "9db06d20217f4f42999dcfdf31b1f6af78dc7794",
+      "bytes": 9804796
+    },
+    {
+      "name": "LymphoidOrgans100.fbx",
+      "gitBlobSha": "fa39c3f65ecbf7d97c3f56ba47b4382e957ef85e",
+      "bytes": 2130876
+    },
+    {
+      "name": "MuscularSystem100.fbx",
+      "gitBlobSha": "2477e1b6caf97d7174762b5eec6cf1c80db64eed",
+      "bytes": 37343180
+    },
+    {
+      "name": "NervousSystem100.fbx",
+      "gitBlobSha": "4ec6e3cb2a1ba821aca02c1d523ac614fdf41a02",
+      "bytes": 53887724
+    },
+    {
+      "name": "Regions of human body100.fbx",
+      "gitBlobSha": "99d81944658b3407f62d3428d40a89646d9c6369",
+      "bytes": 4433260
+    },
+    {
+      "name": "SkeletalSystem100.fbx",
+      "gitBlobSha": "7c62e45211bf3992bb7239170343e06e2b073865",
+      "bytes": 41339660
+    },
+    {
+      "name": "VisceralSystem100.fbx",
+      "gitBlobSha": "355770ae46123044c85deca03de3fb880b8f7301",
+      "bytes": 18401708
+    }
+  ],
+  "models": [
+    "male"
+  ],
+  "unavailableCore": [
+    {
+      "id": "fat",
+      "name": "Subcutaneous tissue"
+    },
+    {
+      "id": "uterus",
+      "name": "Uterus"
+    },
+    {
+      "id": "ovaries",
+      "name": "Ovaries"
+    }
+  ],
+  "coreStructureCount": 74,
+  "structureCount": 3189,
+  "sourceMeshCountBySystem": {
+    "skeletal": 678,
+    "muscular": 683,
+    "cardiovascular": 673,
+    "respiratory": 46,
+    "digestive": 45,
+    "nervous": 582,
+    "urinary": 8,
+    "reproductive": 14,
+    "endocrine": 11,
+    "lymphatic": 164,
+    "integumentary": 252
+  },
+  "coverageNotes": [
+    "Male anatomy only; no female model or separate subcutaneous fat layer.",
+    "Atlas names can be practiced in identification and recall quizzes; reviewed nursing and function notes cover core groups.",
+    "Joints, ligaments, fascia, and covering membranes are included; covering membranes can be toggled."
+  ],
+  "included": 3156,
+  "excluded": 2080,
+  "trianglesBefore": 8300188,
+  "trianglesAfter": 7039557,
+  "files": [
+    {
+      "system": "skeletal",
+      "path": "/models/z-anatomy/male-skeletal.glb",
+      "bytes": 4704096,
+      "sha256": "170e5042db316b3ba0f4ec8071bf401572eb066ef1119da42d0f940b61789ba0",
+      "triangles": 905733
+    },
+    {
+      "system": "muscular",
+      "path": "/models/z-anatomy/male-muscular.glb",
+      "bytes": 10206888,
+      "sha256": "2b9c67609d581c4b1de67f062a26b2159a7a62e171a1daf2ac1bba3eea9a7a70",
+      "triangles": 2160252
+    },
+    {
+      "system": "cardiovascular",
+      "path": "/models/z-anatomy/male-cardiovascular.glb",
+      "bytes": 5698416,
+      "sha256": "5f2b5050806f72851b597936aa0c9e6447b859033d71da83cb1797553333784d",
+      "triangles": 1331450
+    },
+    {
+      "system": "respiratory",
+      "path": "/models/z-anatomy/male-respiratory.glb",
+      "bytes": 851648,
+      "sha256": "b385a84efd8d64c89b9525f5f7cd5fa759096260b35e64d8a436d3bb87878713",
+      "triangles": 217113
+    },
+    {
+      "system": "digestive",
+      "path": "/models/z-anatomy/male-digestive.glb",
+      "bytes": 1031756,
+      "sha256": "a3f337bb969e0dcf7dc4fb81f15034970a7a64d9c9ad9b1a98da226db0b883b9",
+      "triangles": 294663
+    },
+    {
+      "system": "nervous",
+      "path": "/models/z-anatomy/male-nervous.glb",
+      "bytes": 7091864,
+      "sha256": "b06297587e41678ecbb501e05267d4b81fa70f9adc9cfc7f36086444ba045107",
+      "triangles": 1828676
+    },
+    {
+      "system": "urinary",
+      "path": "/models/z-anatomy/male-urinary.glb",
+      "bytes": 72832,
+      "sha256": "eac798dfb16bc74d0b55667dc51c3dea5cb9bbd02a99f1c1639fa8f643f9070b",
+      "triangles": 17170
+    },
+    {
+      "system": "reproductive",
+      "path": "/models/z-anatomy/male-reproductive.glb",
+      "bytes": 75072,
+      "sha256": "607ea00db97b6564d1c309b4cc0ad300548fb06ea5b2a94d6c042f0b0a081218",
+      "triangles": 16019
+    },
+    {
+      "system": "endocrine",
+      "path": "/models/z-anatomy/male-endocrine.glb",
+      "bytes": 75132,
+      "sha256": "9d93a4ad67f272057b4cb8e9f64f0f1dfd9227f53992c401fa07d2a55b3efc8f",
+      "triangles": 16326
+    },
+    {
+      "system": "lymphatic",
+      "path": "/models/z-anatomy/male-lymphatic.glb",
+      "bytes": 599788,
+      "sha256": "e3cef8bc24f0545ea033594d82ce073fb4b067e2529be3c699757a4285a44985",
+      "triangles": 124766
+    },
+    {
+      "system": "integumentary",
+      "path": "/models/z-anatomy/male-integumentary.glb",
+      "bytes": 1161292,
+      "sha256": "587401c3ef6a3f12ffcef6c4e258e6a022b58c4a1f649ea1e3625f0609ee108e",
+      "triangles": 127389
+    }
+  ],
+  "license": "CC BY-SA 4.0 with upstream component-specific terms",
+  "credits": "/credits/z-anatomy.html",
+  "modifications": "Converted FBX to GLB, baked original transforms, uniformly normalized scale, assigned clinical display colors, removed non-anatomical atlas annotation geometry, retained connective tissues and covering membranes, reduced redundant triangles within a small error tolerance, and applied Draco compression."
+}

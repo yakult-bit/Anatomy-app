@@ -1,0 +1,235 @@
+{
+  "uterus": {
+    "displayName": "Uterus",
+    "latinName": "Uterus",
+    "description": "In the pelvis, behind the bladder and in front of the rectum. The cervix joins its lower end to the vagina.",
+    "function": "Supports pregnancy; its muscular wall contracts during birth.",
+    "clinicalNotes": "After childbirth, assess fundal firmness, position and bleeding according to your clinical protocol.",
+    "related": [
+      "cervix_of_uterus",
+      "ovary_l",
+      "ovary_r",
+      "bladder",
+      "vagina"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+      "https://www.ncbi.nlm.nih.gov/books/NBK615369/"
+    ]
+  },
+  "cervix_of_uterus": {
+    "displayName": "Cervix of uterus",
+    "latinName": "Cervix uteri",
+    "description": "The lower neck of the uterus projects into the upper vagina.",
+    "function": "Its canal connects the uterine cavity and vagina.",
+    "clinicalNotes": "Relate cervical screening and reported bleeding to this site; explain examinations and obtain consent.",
+    "related": [
+      "uterus",
+      "vagina",
+      "external_os_of_uterus"
+    ],
+    "sources": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK607451/"
+    ]
+  },
+  "vagina": {
+    "displayName": "Vagina",
+    "latinName": "Vagina",
+    "description": "A canal behind the bladder, in front of the rectum, extending down from the cervix.",
+    "function": "Provides a passage for menstrual flow and childbirth.",
+    "clinicalNotes": "Distinguish the vaginal opening from the urethral opening when learning urinary catheter landmarks.",
+    "related": [
+      "cervix_of_uterus",
+      "uterus",
+      "bladder",
+      "rectum"
+    ],
+    "sources": [
+      "https://www.ncbi.nlm.nih.gov/books/NBK607451/",
+      "https://www.ncbi.nlm.nih.gov/books/NBK596722/"
+    ]
+  },
+  "ovary_l": {
+    "displayName": "Left ovary",
+    "latinName": "Ovarium",
+    "description": "Beside the uterus, close to the open end of the uterine tube.",
+    "function": "Releases oocytes and produces ovarian hormones.",
+    "clinicalNotes": "Document pelvic pain and its side; sudden severe pain needs prompt assessment.",
+    "related": [
+      "uterus",
+      "uterine_tube_left",
+      "proper_ovarian_ligament_l"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+      "https://www.acog.org/womens-health/faqs/ovarian-cysts"
+    ]
+  },
+  "uterine_tube_left": {
+    "displayName": "Left uterine tube",
+    "latinName": "Tuba uterina",
+    "description": "Extends from the upper uterus toward the ovary; its fringed end opens nearby.",
+    "function": "Transports the oocyte toward the uterus; fertilization usually occurs in its ampulla.",
+    "clinicalNotes": "Use these landmarks to understand why a pregnancy outside the uterus needs assessment.",
+    "related": [
+      "ovary_l",
+      "uterus",
+      "ampulla_of_uterine_tube_l"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ]
+  },
+  "breast_left": {
+    "displayName": "Left breast",
+    "latinName": "Mamma",
+    "description": "On the front of the chest; glandular tissue drains through ducts toward the nipple.",
+    "function": "Produces and delivers milk.",
+    "clinicalNotes": "When assessing breastfeeding, check comfort, nipple condition and latch.",
+    "related": [
+      "nipple_l",
+      "lactiferous_ducts_l",
+      "lobes_of_mammary_gland_l"
+    ],
+    "sources": [
+      "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+      "https://www.ncbi.nlm.nih.gov/books/NBK615369/"
+    ]
+  },
+  "ovary_r": {
+    "displayName": "Right ovary",
+    "latinName": "Ovarium",
+    "description": "Beside the uterus, close to the open end of the uterine tube.",
+    "function": "Releases oocytes and produces ovarian hormones.",
+    "clinicalNotes": "Document pelvic pain and its side; sudden severe pain needs prompt assessment.",
+    "related": [
+      "uterus",
+      "uterine_tube_right",
+      "proper_ovarian_ligament_r"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system",
+      "https://www.acog.org/womens-health/faqs/ovarian-cysts"
+    ]
+  },
+  "uterine_tube_right": {
+    "displayName": "Right uterine tube",
+    "latinName": "Tuba uterina",
+    "description": "Extends from the upper uterus toward the ovary; its fringed end opens nearby.",
+    "function": "Transports the oocyte toward the uterus; fertilization usually occurs in its ampulla.",
+    "clinicalNotes": "Use these landmarks to understand why a pregnancy outside the uterus needs assessment.",
+    "related": [
+      "ovary_r",
+      "uterus",
+      "ampulla_of_uterine_tube_r"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ]
+  },
+  "breast_right": {
+    "displayName": "Right breast",
+    "latinName": "Mamma",
+    "description": "On the front of the chest; glandular tissue drains through ducts toward the nipple.",
+    "function": "Produces and delivers milk.",
+    "clinicalNotes": "When assessing breastfeeding, check comfort, nipple condition and latch.",
+    "related": [
+      "nipple_r",
+      "lactiferous_ducts_r",
+      "lobes_of_mammary_gland_r"
+    ],
+    "sources": [
+      "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+      "https://www.ncbi.nlm.nih.gov/books/NBK615369/"
+    ]
+  },
+  "kidney_left": {
+    "displayName": "Left kidney",
+    "latinName": "Ren sinister",
+    "copyFrom": "kidney_left",
+    "related": [
+      "ureter_l",
+      "left_renal_artery",
+      "bladder"
+    ]
+  },
+  "kidney_right": {
+    "displayName": "Right kidney",
+    "latinName": "Ren dexter",
+    "copyFrom": "kidney_right",
+    "related": [
+      "ureter_r",
+      "right_renal_artery",
+      "bladder"
+    ]
+  },
+  "bladder": {
+    "displayName": "Urinary bladder",
+    "latinName": "Vesica urinaria",
+    "copyFrom": "bladder",
+    "related": [
+      "uterus",
+      "ureter_l",
+      "ureter_r",
+      "trigone_of_bladder"
+    ]
+  },
+  "liver": {
+    "displayName": "Liver",
+    "latinName": "Hepar",
+    "copyFrom": "liver",
+    "related": [
+      "gallbladder",
+      "pancreas",
+      "hepatic_portal_vein"
+    ]
+  },
+  "pancreas": {
+    "displayName": "Pancreas",
+    "latinName": "Pancreas",
+    "copyFrom": "pancreas",
+    "related": [
+      "pancreatic_duct",
+      "bile_duct",
+      "descending_part_of_duodenum"
+    ]
+  },
+  "spleen": {
+    "displayName": "Spleen",
+    "latinName": "Splen",
+    "copyFrom": "spleen",
+    "related": [
+      "splenic_artery",
+      "splenic_vein",
+      "kidney_left"
+    ]
+  },
+  "ureter_l": {
+    "displayName": "Left ureter",
+    "latinName": "Ureter sinister",
+    "copyFrom": "ureter_left",
+    "related": [
+      "kidney_left",
+      "bladder"
+    ]
+  },
+  "ureter_r": {
+    "displayName": "Right ureter",
+    "latinName": "Ureter dexter",
+    "copyFrom": "ureter_right",
+    "related": [
+      "kidney_right",
+      "bladder"
+    ]
+  },
+  "gallbladder": {
+    "displayName": "Gallbladder",
+    "latinName": "Vesica biliaris",
+    "copyFrom": "gallbladder",
+    "related": [
+      "liver",
+      "cystic_duct",
+      "bile_duct"
+    ]
+  }
+}

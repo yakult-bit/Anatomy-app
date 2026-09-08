@@ -1,0 +1,132 @@
+{
+  "provider": "Human Reference Atlas",
+  "source": {
+    "version": "v1.5",
+    "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/united-female/v1.5/assets/3d-vh-f-united.glb",
+    "metadata": "https://cdn.humanatlas.io/digital-objects/ref-organ/united-female/v1.5/metadata.json",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "upstream": "https://github.com/Nurkan1/Anatria-3D",
+  "commit": "7e2c5cb866196d247c494539f443d759485ba69a",
+  "sourceFiles": [
+    {
+      "name": "cardiovascular_female.glb",
+      "sha256": "271dac2d304aca7ee9dd9a4d115010fb51d5cba2ddae5bf01748288803cec3eb",
+      "bytes": 448900
+    },
+    {
+      "name": "digestive_female.glb",
+      "sha256": "88e0ab9481101fcf492a8573a54599159c5b700565ad5817726219660aad2800",
+      "bytes": 476856
+    },
+    {
+      "name": "integumentary_female.glb",
+      "sha256": "f419dd4df08bb461422040f5e6ae39343108de68b94b32271a05967f0af1bb22",
+      "bytes": 2183908
+    },
+    {
+      "name": "lymphatic_female.glb",
+      "sha256": "fce4af6751324a1985c36970131d10cb78217173e253cd9ffdca4f9c6f389b3f",
+      "bytes": 42572
+    },
+    {
+      "name": "renal_female.glb",
+      "sha256": "8e233626a0316ffa2e4131fe1d997724ca0c95c7856d9cc8686f4c55050afb80",
+      "bytes": 617164
+    },
+    {
+      "name": "reproductive_female.glb",
+      "sha256": "894d3319a995a7238978ec1f4044ec6a6b5b3176d43c2d5ec51a9d5df01f9d37",
+      "bytes": 428960
+    },
+    {
+      "name": "skeletal_female.glb",
+      "sha256": "be7a2d4866a9fe96a6870ed4e70faafaff963c4c2954891ff73002575c1b9747",
+      "bytes": 1356072
+    }
+  ],
+  "manifestSha256": "730244c2352ed6a5f31c5c7923ac451074015420ddb1baf243001b67aa3f73b2",
+  "models": [
+    "female"
+  ],
+  "structureCount": 275,
+  "sourceMeshCount": 264,
+  "coreStructureCount": 18,
+  "files": [
+    {
+      "system": "cardiovascular",
+      "path": "/models/hra-female/female-cardiovascular.glb",
+      "sha256": "de48af3c28c6bd6d8ad763a5a77ab0e5b7c867d6a2d2291549c7e75ac7d50ac1",
+      "bytes": 542736
+    },
+    {
+      "system": "digestive",
+      "path": "/models/hra-female/female-digestive.glb",
+      "sha256": "124e365e6a1f278211f3184fb357763cfcf27cc2a532ce97bcbf5f0b9d612118",
+      "bytes": 560116
+    },
+    {
+      "system": "integumentary",
+      "path": "/models/hra-female/female-integumentary.glb",
+      "sha256": "ba75e708ba74a67c2e5d557439dbd67979aa4115f9c3b067880ede8c0e7e2af3",
+      "bytes": 2355060
+    },
+    {
+      "system": "lymphatic",
+      "path": "/models/hra-female/female-lymphatic.glb",
+      "sha256": "e026d273f50aa08980efd9374b7998a5d507650c5495081826128c0c0334cfb0",
+      "bytes": 49064
+    },
+    {
+      "system": "urinary",
+      "path": "/models/hra-female/female-urinary.glb",
+      "sha256": "e66b4f1b73c077fff78a27f0a2ababb83b29111ae7b1e303e8a629c7c2e5c8e4",
+      "bytes": 709552
+    },
+    {
+      "system": "reproductive",
+      "path": "/models/hra-female/female-reproductive.glb",
+      "sha256": "6d291151a20a9b874174ed0e0946bbde5a0a8a65c72c250bc39a0fb05fa70128",
+      "bytes": 500560
+    },
+    {
+      "system": "skeletal",
+      "path": "/models/hra-female/female-skeletal.glb",
+      "sha256": "f8dfba49e34b97311c785708880e81a7fe12c93a8ffd7300f88f817a4f6ec1ef",
+      "bytes": 1526396
+    }
+  ],
+  "credits": "/credits/hra-female.html",
+  "license": "CC BY 4.0",
+  "bounds": {
+    "min": [
+      -0.5340638757355571,
+      -1.2395269356896756,
+      -0.43479092313120227
+    ],
+    "max": [
+      0.4792148481535906,
+      1.222982755780248,
+      0.4345003408256263
+    ]
+  },
+  "center": [
+    -0.027424513790983263,
+    -0.008272089954713846,
+    -0.00014529115278799631
+  ],
+  "radius": 1.4005673006376185,
+  "scale": 3.198060699092017,
+  "translation": [
+    0,
+    -1.0729493645453718,
+    0.14870982250777878
+  ],
+  "coverageNotes": [
+    "Partial female atlas: spine, pelvic bones, abdominal organs, urinary and reproductive anatomy, vessels and breast structures.",
+    "No full-body skin, head, limbs, skeletal muscles, heart, lungs or nervous system. Breast surface is the only outer covering.",
+    "HRA and the male Z-Anatomy model represent different donors. They are never merged or relabelled."
+  ],
+  "modifications": "Uniform scaling/centring, clinical display materials, stable separate female identifiers and study groups, Draco compression. Original source geometry and relative anatomical positions preserved."
+}

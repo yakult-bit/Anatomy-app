@@ -1,0 +1,1343 @@
+{
+  "checkedAt": "2026-09-07",
+  "method": "Decoded Draco triangles; positional weld tolerance 1e-6 scene units for topology counts only; up to 96 triangles per primitive sampled on each side; real accelerated Three.js raycasting, no proxy geometry. Gate assessed at aspect 1, with per-aspect recognition reports separately shipped.",
+  "limitations": [
+    "Boundary edges can be intentional openings or incomplete research surfaces; no hole filling or anatomical repair was performed.",
+    "Surface sampling proves rays hitting the tested rendered triangles are selectable. Rays through empty holes can still pass through; it does not prove watertightness.",
+    "WebGL outline appearance, orbit screenshots and real-device touch remain unverified because the supervised preview daemon is unavailable."
+  ],
+  "summary": {
+    "models": 7,
+    "meshes": 40,
+    "triangles": 202807,
+    "withBoundaryEdges": 28,
+    "withNonManifoldEdges": 0,
+    "raySamples": 8180,
+    "rayHits": 8180,
+    "clickBeginnerPass": 19,
+    "clickAdvancedPass": 42,
+    "identifyPass": 20,
+    "missingContent": 1
+  },
+  "meshes": [
+    {
+      "meshName": "VH_F_abdominal_ostium_of_uterine_tube",
+      "id": "female_abdominal_ostium_of_uterine_tube",
+      "modelId": "3DPX-020996",
+      "triangles": 546,
+      "vertices": 313,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 80,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 220,
+        "hits": 220,
+        "hitRate": 1
+      },
+      "clickBeginner": "annotation_under_review",
+      "clickAdvanced": "annotation_under_review",
+      "recognition": "annotation_under_review"
+    },
+    {
+      "meshName": "VH_F_body_of_uterus",
+      "id": "female_body_of_uterus",
+      "modelId": "3DPX-020996",
+      "triangles": 5344,
+      "vertices": 2823,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 302,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 196,
+        "hits": 196,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_fundus_of_uterus",
+      "id": "female_fundus_of_uterus",
+      "modelId": "3DPX-020996",
+      "triangles": 3062,
+      "vertices": 1640,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 214,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 198,
+        "hits": 198,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_cornua",
+      "id": "female_cornua",
+      "modelId": "3DPX-020996",
+      "triangles": 660,
+      "vertices": 369,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 78,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 220,
+        "hits": 220,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "below_click_size_floor",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_lower_uterine_segment",
+      "id": "female_isthmus_of_uterus",
+      "modelId": "3DPX-020996",
+      "triangles": 1408,
+      "vertices": 792,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 176,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 202,
+        "hits": 202,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_posterior_wall_of_uterus",
+      "id": "female_posterior_surface_of_uterus",
+      "modelId": "3DPX-020996",
+      "triangles": 12022,
+      "vertices": 6508,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_anterior_wall_of_uterus",
+      "id": "female_anterior_surface_of_uterus",
+      "modelId": "3DPX-020996",
+      "triangles": 10148,
+      "vertices": 5587,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_cervix",
+      "id": "female_cervix_of_uterus",
+      "modelId": "3DPX-020996",
+      "triangles": 3508,
+      "vertices": 1825,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 142,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 196,
+        "hits": 196,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_internal_cervical_os",
+      "id": "female_internal_os_of_uterus",
+      "modelId": "3DPX-020996",
+      "triangles": 216,
+      "vertices": 135,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 54,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 216,
+        "hits": 216,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_external_cervical_os",
+      "id": "female_external_os_of_uterus",
+      "modelId": "3DPX-020996",
+      "triangles": 270,
+      "vertices": 162,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 54,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 270,
+        "hits": 270,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_left_ovary",
+      "id": "female_ovary_l",
+      "modelId": "3DPX-020979",
+      "triangles": 424,
+      "vertices": 214,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 212,
+        "hits": 212,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_right_ovary",
+      "id": "female_ovary_r",
+      "modelId": "3DPX-020980",
+      "triangles": 410,
+      "vertices": 207,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 206,
+        "hits": 206,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_ampulla_of_uterine_tube_L",
+      "id": "female_ampulla_of_uterine_tube_l",
+      "modelId": "3DPX-020964",
+      "triangles": 11424,
+      "vertices": 5752,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 80,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 192,
+        "hits": 192,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_isthmus_of_fallopian_tube_L",
+      "id": "female_isthmus_of_uterine_tube_l",
+      "modelId": "3DPX-020964",
+      "triangles": 1870,
+      "vertices": 976,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 82,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 198,
+        "hits": 198,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_fibria_of_uterine_tube_L",
+      "id": "female_fimbriae_of_uterine_tube_l",
+      "modelId": "3DPX-020964",
+      "triangles": 2871,
+      "vertices": 1456,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 41,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 198,
+        "hits": 198,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_uterine_tube_infundibulum_L",
+      "id": "female_infundibulum_of_uterine_tube_l",
+      "modelId": "3DPX-020964",
+      "triangles": 2116,
+      "vertices": 1098,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 80,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_ampulla_of_uterine_tube_R",
+      "id": "female_ampulla_of_uterine_tube_r",
+      "modelId": "3DPX-020965",
+      "triangles": 10440,
+      "vertices": 5260,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 80,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_isthmus_of_fallopian_tube_R",
+      "id": "female_isthmus_of_uterine_tube_r",
+      "modelId": "3DPX-020965",
+      "triangles": 1600,
+      "vertices": 840,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 80,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 200,
+        "hits": 200,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_fibria_of_uterine_tube_R",
+      "id": "female_fimbriae_of_uterine_tube_r",
+      "modelId": "3DPX-020965",
+      "triangles": 3530,
+      "vertices": 1785,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 40,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 198,
+        "hits": 198,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_uterine_tube_infundibulum_R",
+      "id": "female_infundibulum_of_uterine_tube_r",
+      "modelId": "3DPX-020965",
+      "triangles": 2200,
+      "vertices": 1140,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 80,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 200,
+        "hits": 200,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_fundus_of_urinary_bladder_dome",
+      "id": "female_fundus_of_bladder_dome",
+      "modelId": "3DPX-020995",
+      "triangles": 11916,
+      "vertices": 6138,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 356,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_urinary_bladder_neck_smooth_muscle",
+      "id": "female_neck_of_bladder",
+      "modelId": "3DPX-020995",
+      "triangles": 1790,
+      "vertices": 935,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 80,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 200,
+        "hits": 200,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_fundus_of_urinary_bladder_base",
+      "id": "female_fundus_of_bladder_base",
+      "modelId": "3DPX-020995",
+      "triangles": 25526,
+      "vertices": 13071,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 614,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_trigone_of_urinary_bladder",
+      "id": "female_trigone_of_bladder",
+      "modelId": "3DPX-020995",
+      "triangles": 1684,
+      "vertices": 934,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 182,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 200,
+        "hits": 200,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_ureteral_orifice_R",
+      "id": "female_ureteric_orifice_r",
+      "modelId": "3DPX-020995",
+      "triangles": 180,
+      "vertices": 106,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 30,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 360,
+        "hits": 360,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_ureteral_orifice_L",
+      "id": "female_ureteric_orifice_l",
+      "modelId": "3DPX-020995",
+      "triangles": 194,
+      "vertices": 118,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 42,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_sacrum",
+      "id": "female_sacrum",
+      "modelId": "3DPX-020984",
+      "triangles": 19636,
+      "vertices": 9786,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_coccyx",
+      "id": "female_coccyx",
+      "modelId": "3DPX-020984",
+      "triangles": 1390,
+      "vertices": 697,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 200,
+        "hits": 200,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_pubis_spongy_bone_L",
+      "id": "female_pubis_spongy_bone_l",
+      "modelId": "3DPX-020984",
+      "triangles": 2312,
+      "vertices": 1203,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 94,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_pubis_spongy_bone_R",
+      "id": "female_pubis_spongy_bone_r",
+      "modelId": "3DPX-020984",
+      "triangles": 2172,
+      "vertices": 1132,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 92,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 198,
+        "hits": 198,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_pubis_compact_bone_R",
+      "id": "female_pubis_compact_bone_r",
+      "modelId": "3DPX-020984",
+      "triangles": 5080,
+      "vertices": 2540,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 196,
+        "hits": 196,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_pubis_compact_bone_L",
+      "id": "female_pubis_compact_bone_l",
+      "modelId": "3DPX-020984",
+      "triangles": 5376,
+      "vertices": 2688,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 192,
+        "hits": 192,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_ilium_compact_bone_R",
+      "id": "female_ilium_compact_bone_r",
+      "modelId": "3DPX-020984",
+      "triangles": 11810,
+      "vertices": 5907,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_ilium_compact_bone_L",
+      "id": "female_ilium_compact_bone_l",
+      "modelId": "3DPX-020984",
+      "triangles": 12684,
+      "vertices": 6344,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_ilium_spongy_bone_L",
+      "id": "female_ilium_spongy_bone_l",
+      "modelId": "3DPX-020984",
+      "triangles": 6022,
+      "vertices": 3052,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 80,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 196,
+        "hits": 196,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_ilium_spongy_bone_R",
+      "id": "female_ilium_spongy_bone_r",
+      "modelId": "3DPX-020984",
+      "triangles": 5597,
+      "vertices": 2838,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 77,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_ischium_compact_bone_R",
+      "id": "female_ischium_compact_bone_r",
+      "modelId": "3DPX-020984",
+      "triangles": 5390,
+      "vertices": 2695,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_ischium_compact_bone_L",
+      "id": "female_ischium_compact_bone_l",
+      "modelId": "3DPX-020984",
+      "triangles": 5392,
+      "vertices": 2696,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 194,
+        "hits": 194,
+        "hitRate": 1
+      },
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    },
+    {
+      "meshName": "VH_F_ischium_spongy_bone_R",
+      "id": "female_ischium_spongy_bone_r",
+      "modelId": "3DPX-020984",
+      "triangles": 2291,
+      "vertices": 1196,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 101,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 200,
+        "hits": 200,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "no_supported_viewport"
+    },
+    {
+      "meshName": "VH_F_ischium_spongy_bone_L",
+      "id": "female_ischium_spongy_bone_l",
+      "modelId": "3DPX-020984",
+      "triangles": 2296,
+      "vertices": 1198,
+      "degenerateTriangles": 0,
+      "boundaryEdges": 100,
+      "nonManifoldEdges": 0,
+      "raycast": {
+        "samples": 200,
+        "hits": 200,
+        "hitRate": 1
+      },
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "recognition": "pass"
+    }
+  ],
+  "structures": [
+    {
+      "id": "female_abdominal_ostium_of_uterine_tube",
+      "displayName": "Tubal opening patches (NIH source annotation under review)",
+      "meshNames": [
+        "VH_F_abdominal_ostium_of_uterine_tube"
+      ],
+      "clickBeginner": "annotation_under_review",
+      "clickAdvanced": "annotation_under_review",
+      "identify": "annotation_under_review",
+      "recall": "annotation_under_review",
+      "function": "not_a_major_structure",
+      "missing": [
+        "location",
+        "function",
+        "clinical"
+      ],
+      "annotationIssue": "Source labels these abdominal ostia, but the supplied coordinates are at the uterine horns. Excluded from quizzes pending anatomical review."
+    },
+    {
+      "id": "female_body_of_uterus",
+      "displayName": "Body of uterus",
+      "meshNames": [
+        "VH_F_body_of_uterus"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_fundus_of_uterus",
+      "displayName": "Fundus of uterus",
+      "meshNames": [
+        "VH_F_fundus_of_uterus"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_cornua",
+      "displayName": "Uterine horns",
+      "meshNames": [
+        "VH_F_cornua"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "below_click_size_floor",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_isthmus_of_uterus",
+      "displayName": "Lower uterine segment",
+      "meshNames": [
+        "VH_F_lower_uterine_segment"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_posterior_surface_of_uterus",
+      "displayName": "Posterior uterine wall",
+      "meshNames": [
+        "VH_F_posterior_wall_of_uterus"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_anterior_surface_of_uterus",
+      "displayName": "Anterior uterine wall",
+      "meshNames": [
+        "VH_F_anterior_wall_of_uterus"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_cervix_of_uterus",
+      "displayName": "Cervix",
+      "meshNames": [
+        "VH_F_cervix"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_internal_os_of_uterus",
+      "displayName": "Internal cervical opening",
+      "meshNames": [
+        "VH_F_internal_cervical_os"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_external_os_of_uterus",
+      "displayName": "External cervical opening",
+      "meshNames": [
+        "VH_F_external_cervical_os"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_ovary_l",
+      "displayName": "Ovary (left)",
+      "meshNames": [
+        "VH_F_left_ovary"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_ovary_r",
+      "displayName": "Ovary (right)",
+      "meshNames": [
+        "VH_F_right_ovary"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_fundus_of_bladder_dome",
+      "displayName": "Bladder dome",
+      "meshNames": [
+        "VH_F_fundus_of_urinary_bladder_dome"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_neck_of_bladder",
+      "displayName": "Smooth muscle at bladder neck",
+      "meshNames": [
+        "VH_F_urinary_bladder_neck_smooth_muscle"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_fundus_of_bladder_base",
+      "displayName": "Bladder base",
+      "meshNames": [
+        "VH_F_fundus_of_urinary_bladder_base"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_trigone_of_bladder",
+      "displayName": "Bladder trigone",
+      "meshNames": [
+        "VH_F_trigone_of_urinary_bladder"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_ureteric_orifice_r",
+      "displayName": "Ureteral opening (right)",
+      "meshNames": [
+        "VH_F_ureteral_orifice_R"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_ureteric_orifice_l",
+      "displayName": "Ureteral opening (left)",
+      "meshNames": [
+        "VH_F_ureteral_orifice_L"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_sacrum",
+      "displayName": "Sacrum",
+      "meshNames": [
+        "VH_F_sacrum"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_coccyx",
+      "displayName": "Coccyx",
+      "meshNames": [
+        "VH_F_coccyx"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_pubis_spongy_bone_l",
+      "displayName": "Pubis, spongy bone (left)",
+      "meshNames": [
+        "VH_F_pubis_spongy_bone_L"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_pubis_spongy_bone_r",
+      "displayName": "Pubis, spongy bone (right)",
+      "meshNames": [
+        "VH_F_pubis_spongy_bone_R"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_pubis_compact_bone_r",
+      "displayName": "Pubis, compact bone (right)",
+      "meshNames": [
+        "VH_F_pubis_compact_bone_R"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_pubis_compact_bone_l",
+      "displayName": "Pubis, compact bone (left)",
+      "meshNames": [
+        "VH_F_pubis_compact_bone_L"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_ilium_compact_bone_r",
+      "displayName": "Ilium, compact bone (right)",
+      "meshNames": [
+        "VH_F_ilium_compact_bone_R"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_ilium_compact_bone_l",
+      "displayName": "Ilium, compact bone (left)",
+      "meshNames": [
+        "VH_F_ilium_compact_bone_L"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_ilium_spongy_bone_l",
+      "displayName": "Ilium, spongy bone (left)",
+      "meshNames": [
+        "VH_F_ilium_spongy_bone_L"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_ilium_spongy_bone_r",
+      "displayName": "Ilium, spongy bone (right)",
+      "meshNames": [
+        "VH_F_ilium_spongy_bone_R"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_ischium_compact_bone_r",
+      "displayName": "Ischium, compact bone (right)",
+      "meshNames": [
+        "VH_F_ischium_compact_bone_R"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_ischium_compact_bone_l",
+      "displayName": "Ischium, compact bone (left)",
+      "meshNames": [
+        "VH_F_ischium_compact_bone_L"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_ischium_spongy_bone_r",
+      "displayName": "Ischium, spongy bone (right)",
+      "meshNames": [
+        "VH_F_ischium_spongy_bone_R"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_ischium_spongy_bone_l",
+      "displayName": "Ischium, spongy bone (left)",
+      "meshNames": [
+        "VH_F_ischium_spongy_bone_L"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_ampulla_of_uterine_tube_l",
+      "displayName": "Ampulla of uterine tube (left)",
+      "meshNames": [
+        "VH_F_ampulla_of_uterine_tube_L"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_isthmus_of_uterine_tube_l",
+      "displayName": "Isthmus of uterine tube (left)",
+      "meshNames": [
+        "VH_F_isthmus_of_fallopian_tube_L"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_fimbriae_of_uterine_tube_l",
+      "displayName": "Fimbriae of uterine tube (left)",
+      "meshNames": [
+        "VH_F_fibria_of_uterine_tube_L"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_infundibulum_of_uterine_tube_l",
+      "displayName": "Infundibulum of uterine tube (left)",
+      "meshNames": [
+        "VH_F_uterine_tube_infundibulum_L"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_ampulla_of_uterine_tube_r",
+      "displayName": "Ampulla of uterine tube (right)",
+      "meshNames": [
+        "VH_F_ampulla_of_uterine_tube_R"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_isthmus_of_uterine_tube_r",
+      "displayName": "Isthmus of uterine tube (right)",
+      "meshNames": [
+        "VH_F_isthmus_of_fallopian_tube_R"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_fimbriae_of_uterine_tube_r",
+      "displayName": "Fimbriae of uterine tube (right)",
+      "meshNames": [
+        "VH_F_fibria_of_uterine_tube_R"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_infundibulum_of_uterine_tube_r",
+      "displayName": "Infundibulum of uterine tube (right)",
+      "meshNames": [
+        "VH_F_uterine_tube_infundibulum_R"
+      ],
+      "clickBeginner": "not_a_major_structure",
+      "clickAdvanced": "pass",
+      "identify": "pass",
+      "recall": "pass",
+      "function": "not_a_major_structure",
+      "missing": []
+    },
+    {
+      "id": "female_uterus",
+      "displayName": "Uterus",
+      "meshNames": [
+        "VH_F_abdominal_ostium_of_uterine_tube",
+        "VH_F_body_of_uterus",
+        "VH_F_fundus_of_uterus",
+        "VH_F_cornua",
+        "VH_F_lower_uterine_segment",
+        "VH_F_posterior_wall_of_uterus",
+        "VH_F_anterior_wall_of_uterus",
+        "VH_F_cervix",
+        "VH_F_internal_cervical_os",
+        "VH_F_external_cervical_os"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_bladder",
+      "displayName": "Urinary bladder",
+      "meshNames": [
+        "VH_F_fundus_of_urinary_bladder_dome",
+        "VH_F_urinary_bladder_neck_smooth_muscle",
+        "VH_F_fundus_of_urinary_bladder_base",
+        "VH_F_trigone_of_urinary_bladder",
+        "VH_F_ureteral_orifice_R",
+        "VH_F_ureteral_orifice_L"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_uterine_tube_left",
+      "displayName": "Uterine tube (left)",
+      "meshNames": [
+        "VH_F_ampulla_of_uterine_tube_L",
+        "VH_F_isthmus_of_fallopian_tube_L",
+        "VH_F_fibria_of_uterine_tube_L",
+        "VH_F_uterine_tube_infundibulum_L"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    },
+    {
+      "id": "female_uterine_tube_right",
+      "displayName": "Uterine tube (right)",
+      "meshNames": [
+        "VH_F_ampulla_of_uterine_tube_R",
+        "VH_F_isthmus_of_fallopian_tube_R",
+        "VH_F_fibria_of_uterine_tube_R",
+        "VH_F_uterine_tube_infundibulum_R"
+      ],
+      "clickBeginner": "pass",
+      "clickAdvanced": "pass",
+      "identify": "no_supported_viewport",
+      "recall": "pass",
+      "function": "pass",
+      "missing": []
+    }
+  ]
+}

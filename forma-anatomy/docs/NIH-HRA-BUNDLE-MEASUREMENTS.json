@@ -1,0 +1,132 @@
+{
+  "measurement": "Built artifact byte counts. Cold transfer estimates use gzip for HTML/JS/CSS plus original Draco GLB/WASM and PNG bytes; actual host Brotli/gzip, headers, APIs, HTTP caching and browser requests require a network trace.",
+  "applicationAssets": [
+    {
+      "path": "/assets/index-CEfVyKaG.js",
+      "bytes": 13019772,
+      "gzipBytes": 1935884
+    },
+    {
+      "path": "/assets/index-DUAonPnd.css",
+      "bytes": 198445,
+      "gzipBytes": 34986
+    }
+  ],
+  "firstPaint": {
+    "home": {
+      "javascriptBytes": 0,
+      "modelBytes": 0,
+      "estimatedTransferBytes": 182701
+    },
+    "maleLab": {
+      "systems": [
+        "skeletal",
+        "muscular"
+      ],
+      "modelBytes": 14910984,
+      "estimatedTransferBytes": 17086895
+    },
+    "femaleLab": {
+      "systems": [
+        "skeletal",
+        "urinary",
+        "reproductive"
+      ],
+      "modelBytes": 708732,
+      "estimatedTransferBytes": 2884643
+    }
+  },
+  "maleModels": [
+    {
+      "system": "skeletal",
+      "path": "/models/z-anatomy/male-skeletal.glb",
+      "bytes": 4704096
+    },
+    {
+      "system": "muscular",
+      "path": "/models/z-anatomy/male-muscular.glb",
+      "bytes": 10206888
+    },
+    {
+      "system": "cardiovascular",
+      "path": "/models/z-anatomy/male-cardiovascular.glb",
+      "bytes": 5698416
+    },
+    {
+      "system": "respiratory",
+      "path": "/models/z-anatomy/male-respiratory.glb",
+      "bytes": 851648
+    },
+    {
+      "system": "digestive",
+      "path": "/models/z-anatomy/male-digestive.glb",
+      "bytes": 1031756
+    },
+    {
+      "system": "nervous",
+      "path": "/models/z-anatomy/male-nervous.glb",
+      "bytes": 7091864
+    },
+    {
+      "system": "urinary",
+      "path": "/models/z-anatomy/male-urinary.glb",
+      "bytes": 72832
+    },
+    {
+      "system": "reproductive",
+      "path": "/models/z-anatomy/male-reproductive.glb",
+      "bytes": 75072
+    },
+    {
+      "system": "endocrine",
+      "path": "/models/z-anatomy/male-endocrine.glb",
+      "bytes": 75132
+    },
+    {
+      "system": "lymphatic",
+      "path": "/models/z-anatomy/male-lymphatic.glb",
+      "bytes": 599788
+    },
+    {
+      "system": "integumentary",
+      "path": "/models/z-anatomy/male-integumentary.glb",
+      "bytes": 1161292
+    }
+  ],
+  "allElevenMaleModelsBytes": 31568784,
+  "allElevenWithApplicationAndDecoderBytes": 33744695,
+  "femaleModels": [
+    {
+      "system": "reproductive",
+      "path": "/models/hra-female/female-reproductive.glb",
+      "bytes": 266304
+    },
+    {
+      "system": "urinary",
+      "path": "/models/hra-female/female-urinary.glb",
+      "bytes": 114136
+    },
+    {
+      "system": "skeletal",
+      "path": "/models/hra-female/female-skeletal.glb",
+      "bytes": 328292
+    }
+  ],
+  "allFemaleSystemBundlesBytes": 708732,
+  "additionalQuizContextBytes": {
+    "male": 1577044,
+    "female": 222664
+  },
+  "lighthouse": {
+    "performance": null,
+    "accessibility": null,
+    "bestPractices": null,
+    "seo": null,
+    "status": "Not run: supervised browser preview is unavailable. No inferred scores."
+  },
+  "mobile": {
+    "width375": "Browser verification pending",
+    "realTouchDevice": "Not available in this environment",
+    "midRangeHardware": "Not measured"
+  }
+}

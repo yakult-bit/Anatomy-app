@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+if command -v gitleaks >/dev/null 2>&1; then
+  exec gitleaks git --pre-commit --staged --redact --no-banner
+fi
+if [ -x work/bin/gitleaks ]; then
+  exec work/bin/gitleaks git --pre-commit --staged --redact --no-banner
+fi
+echo 'Install gitleaks before committing; see SECURITY.md.' >&2
+exit 1

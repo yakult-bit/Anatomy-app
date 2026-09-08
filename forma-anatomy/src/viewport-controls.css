@@ -1,0 +1,83 @@
+/* Keep exploration controls in normal flow; font/viewport changes must not
+   collide with independently positioned labels or tabs. Quiz chrome is unchanged. */
+.viewport-exploration-controls{
+ position:absolute;z-index:21;top:26px;left:24px;
+ width:min(380px,calc(100% - 48px));max-width:calc(var(--study-width,100%) - 36px);
+ display:flex;flex-direction:column;align-items:flex-start;gap:12px;
+ max-height:calc(100% - 150px);overflow-y:auto;overflow-x:hidden;
+ scrollbar-width:thin;scrollbar-color:#607267 transparent;overscroll-behavior:contain;
+}
+.viewport-exploration-controls .viewport-heading,
+.viewport-exploration-controls .atlas-toolbar,
+.viewport-exploration-controls .model-context,
+.viewport-exploration-controls .viewport-layers,
+.viewport-exploration-controls .reopen-info,
+.viewport-exploration-controls .solo-status,
+.viewport-exploration-controls .viewport-top-tools{
+ position:static;inset:auto;transform:none;max-width:100%;flex-shrink:0;
+}
+.viewport-exploration-controls .viewport-heading{width:100%}
+.viewport-exploration-controls .viewport-heading h1{margin:8px 0 0;font-size:28px;max-width:none;line-height:1.2}
+.viewport-exploration-controls .viewport-heading p{margin:7px 0 0;font-size:14px;line-height:1.5}
+.viewport-model-row{display:flex;align-items:center;flex-wrap:wrap;gap:10px;width:100%}
+.viewport-model-switch{display:flex;gap:3px;background:#1d2829;border:1px solid #607267;border-radius:7px;padding:3px}
+.viewport-model-switch button{min-height:36px;padding:6px 18px;border-radius:4px;font-size:14px;color:#d4e1d5;line-height:1.4}
+.viewport-model-switch button[aria-pressed=true]{background:#d3e5bf;color:#34472d}
+.viewport-model-switch button:disabled{cursor:not-allowed;opacity:.65}
+.viewport-exploration-controls .viewport-top-tools{margin-left:auto;gap:7px}
+.viewport-exploration-controls .viewport-top-tools button{width:36px;height:36px;padding:0;justify-content:center;color:#b4c3b6}
+.viewport-exploration-controls .viewport-top-tools button>span:not(.label-icon),
+.viewport-exploration-controls .viewport-top-tools kbd{display:none}
+.viewport-atlas-note{margin:0;color:#becbc1;font-size:12px;line-height:1.5;max-width:100%}
+.viewport-exploration-controls .model-context{font-size:12px;gap:6px;flex-wrap:wrap;margin:0;color:#b4c3b6}
+.viewport-exploration-controls .model-context>span{border:0;padding:0;background:none;color:inherit}
+.viewport-exploration-controls .atlas-toolbar{gap:8px;margin:0}
+.viewport-exploration-controls .viewport-layers{width:100%;color:#d0ddd4}
+.viewport-exploration-controls .peel-controls{margin:0;padding:10px}
+.viewport-exploration-controls .peel-controls>span{display:block;font-size:12px;margin-bottom:8px}
+.viewport-exploration-controls .peel-controls button{font-size:12px;padding:7px 9px;min-height:32px}
+.expand-sidebar{display:flex;align-items:center;gap:7px;font-size:12px}
+/* The board follows the actual controls' height, including wrapped text. */
+.view-board .board-browser-controls{top:calc(var(--exploration-bottom,220px) + 14px)}
+.view-board .canvas-wrap,.view-board.has-info .canvas-wrap{
+ top:var(--board-content-top,340px);height:max(360px,calc(100% - var(--board-content-top,340px) - 88px));
+}
+.view-board .board-pagination{top:max(calc(var(--board-content-top,340px) + 372px),calc(100% - 73px))}
+.view-board .viewport-exploration-controls{max-height:none;overflow:visible}
+@media(max-width:570px){
+ .viewport-exploration-controls{top:14px;left:14px;width:calc(100% - 28px);max-width:calc(100% - 28px);max-height:43%;gap:9px;padding-right:3px}
+ .viewport-exploration-controls .viewport-heading h1{font-size:23px;margin-top:6px}
+ .viewport-exploration-controls .viewport-heading p{display:none}
+ .viewport-exploration-controls .viewport-model-switch button{min-height:36px;padding:6px 17px}
+ .viewport-exploration-controls .atlas-toolbar{width:100%}
+ .viewport-exploration-controls .model-context{display:none}
+ .viewport-exploration-controls .peel-controls{padding:7px}
+ .viewport-exploration-controls .peel-controls>span{display:none}
+ .viewport-exploration-controls .peel-controls button{font-size:12px;padding:6px 8px}
+ .viewport:has(>.viewport-exploration-controls):not(.view-board)>.canvas-wrap{top:calc(var(--exploration-bottom,240px) + 12px)}
+ .view-board .viewport-exploration-controls{max-height:none}
+ .expand-sidebar span{display:none}
+}
+/* Reference sets describe actual coverage rather than implying two full bodies. */
+.reference-selector{display:grid;gap:8px}
+.reference-selector button{padding:10px 12px;border:1px solid #b6c5a8;border-radius:6px;text-align:left;line-height:1.4;color:#405537}
+.reference-selector button[aria-pressed=true]{background:#d3e5bf;border-color:#6f8b5b}
+.reference-selector small{display:block;font-size:11px;margin-top:3px}
+.reference-selector button:disabled{opacity:.6}
+.viewport-model-switch{width:100%;display:grid;grid-template-columns:1fr 1fr}
+.viewport-model-switch button{padding:7px 9px;font-size:12px;text-align:left}
+.female-reference-note{max-width:100%;font-size:11px;line-height:1.5;color:inherit}
+.female-reference-note p{margin:0 0 7px}
+.female-reference-note summary{cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.female-reference-note details p{margin-top:8px}
+.female-reference-note a{text-decoration:underline}
+.viewport-exploration-controls .female-reference-note{color:#becbc1;flex-shrink:0}
+.structure-provenance a{text-decoration:underline;overflow-wrap:anywhere}
+@media(max-width:570px){.viewport-exploration-controls .viewport-model-switch button{padding:6px 9px;font-size:12px}.viewport-exploration-controls .female-reference-note{font-size:10px}}
+.lab-site-links{height:54px;min-height:54px;display:flex;flex-direction:column;flex-wrap:nowrap;gap:4px;padding:5px 12px;align-items:stretch}
+.lab-site-links nav{display:flex;justify-content:center;gap:18px;white-space:nowrap}
+.lab-site-links .component-credits{justify-content:flex-start;overflow-x:auto;max-width:100%;margin:0 auto;font-size:10px;scrollbar-width:thin}
+.lab-site-links .component-credits>*{flex-shrink:0}
+.app-body{height:calc(100dvh - 130px)}
+@media(max-width:800px){.lab-site-links{height:70px;min-height:70px;justify-content:center}.lab-site-links a:last-child{flex-basis:auto}.mobile-bottom-nav{bottom:70px}.app-body{height:calc(100dvh - 188px)}.learn-panel{bottom:189px!important}}
+@media(max-width:570px){.learn-panel{bottom:185px!important}}

@@ -1,0 +1,12 @@
+/* WCAG AA repairs for the existing palette. See PRELAUNCH.md for measurements. */
+.workspace-breadcrumb,.sidebar-top>span,.range-labels,.layer-value,.layer-value>span,.device-note,.value-text,.show-hide,.expand-button,.fine-print,.part-controls>p,.anatomy-search [data-slot=command-input]::placeholder{color:#526248}
+.info-topline>span,.info-section h3,.related-section h3,.small-heading,.question-count,.question-format,.latin-name,.info-footer p,.clinical-card>span{color:#526248}
+.quiz-intro,.quiz-footnote,.available-count,.format-grid small,.quiz-settings label,.quiz-panel>.eyebrow,.score-ring small,.result-panel>p,.progress-metrics small,.mastery-note,.app-dialog [data-slot=dialog-description],.empty-state p,.help-content p,.library-row small,.recall-form label,.click-prompt>small,.click-prompt>span,.missed-list h3,.missed-list button{color:#526248}
+.text-link,.secondary-button,.skip-question,.source-links a,.shortcut-grid>div,.shortcut-grid kbd,.due-list button,.progress-metrics>div>span,.system-scores strong,.count-badge,.next-button kbd,.expand-button span{color:#405f36}
+.answer-options>button{color:#526248}.answer-options kbd{color:#526248}.answer-options>button.correct,.feedback{color:#365a2b}.answer-options>button.incorrect,.feedback.incorrect,.timer.urgent{color:#805039}.timer{color:#405f36}
+.camera-bar>button,.anatomy-side{color:#b4c3b6}.anatomy-side{opacity:1}.viewport-top-tools kbd{opacity:1}.viewport .eyebrow{color:#b4c3b6}
+.account-error{color:#923c32}.system-unavailable{color:#526248}.system-row:has(button:disabled){opacity:1}
+.study-callout p,.list-search input::placeholder,.show-hide button,.landmark-note .eyebrow,.format-grid>button,.format-grid>button.active,.layer-value>span{color:#526248}
+:is(button,a,input,select,textarea,summary,[role=tab],[role=checkbox],[role=slider],[role=combobox]):focus-visible{outline:3px solid #456541;outline-offset:3px}
+.viewport :is(button,a,[role=tab]):focus-visible{outline-color:#bce5fb}
+@media(prefers-reduced-motion:reduce){button,a{transition:none!important}.spin{animation-duration:2s!important}}

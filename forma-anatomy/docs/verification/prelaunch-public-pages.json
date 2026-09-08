@@ -1,0 +1,19 @@
+{
+  "routes": [
+    "/",
+    "/learn",
+    "/quiz",
+    "/about",
+    "/privacy",
+    "/terms",
+    "/credits"
+  ],
+  "initialHtml": true,
+  "routeStatusChecks": "200,301,404 verified through production middleware; deliberately mocked SPA fallback rejected",
+  "internalHtmlLinksChecked": 148,
+  "missing": [],
+  "relatedStructureLinksChecked": 2350,
+  "previewNoindex": true,
+  "cspImageHost": "self",
+  "browserCrawl": "not run"
+}

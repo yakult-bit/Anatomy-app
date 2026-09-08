@@ -1,0 +1,19 @@
+# Local Pages server. Copy to .dev.vars; never commit populated values.
+# These TWO values are sufficient for public pages and quiz practice:
+APP_ENV=development
+APP_ORIGIN=http://localhost:8788
+
+# For real Google sign-in and saved data, fill ALL of these with development
+# service credentials. See LOCAL_DEVELOPMENT.md. Never use production keys.
+SUPABASE_URL=
+SUPABASE_PUBLISHABLE_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+TURNSTILE_SITE_KEY=
+TURNSTILE_SECRET_KEY=
+UPSTASH_REDIS_REST_URL=
+UPSTASH_REDIS_REST_TOKEN=
+RATE_LIMIT_HMAC_KEY=
+
+# Optional locally; required in production.
+SENTRY_DSN=
+SENTRY_ENVIRONMENT=development

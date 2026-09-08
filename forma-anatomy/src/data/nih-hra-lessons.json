@@ -1,0 +1,809 @@
+{
+  "female_uterus": {
+    "modelId": "3DPX-020996",
+    "displayName": "Uterus",
+    "latinName": "Uterus",
+    "description": "The muscular organ between the bladder in front and rectum behind. Its rounded fundus lies above the tubal openings; the cervix narrows below the body.",
+    "landmarks": "The muscular organ between the bladder in front and rectum behind. Its rounded fundus lies above the tubal openings; the cervix narrows below the body.",
+    "function": "Supports implantation and fetal development. Smooth muscle in its wall contracts during menstruation and childbirth.",
+    "clinical_notes": "Connect menstrual bleeding and cramping to the uterine lining and muscle. In maternity assessment, distinguish the uterine fundus from a distended bladder.",
+    "related_ids": [
+      "female_ovary_l",
+      "female_ovary_r",
+      "female_uterine_tube_left",
+      "female_uterine_tube_right",
+      "female_bladder"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": true
+  },
+  "VH_F_body_of_uterus": {
+    "modelId": "3DPX-020996",
+    "displayName": "Body of uterus",
+    "latinName": "Corpus uteri",
+    "description": "The central uterine portion between the fundus above and the narrowed cervix below. The bladder lies anterior to it.",
+    "landmarks": "The central uterine portion between the fundus above and the narrowed cervix below. The bladder lies anterior to it.",
+    "function": "Encloses most of the uterine cavity and expands during pregnancy.",
+    "clinical_notes": "Relate uterine enlargement to pressure on the nearby bladder when asking about urinary frequency.",
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": true
+  },
+  "VH_F_fundus_of_uterus": {
+    "modelId": "3DPX-020996",
+    "displayName": "Fundus of uterus",
+    "latinName": "Fundus uteri",
+    "description": "The rounded upper dome above the points where the uterine tubes enter. It is continuous with the uterine body below.",
+    "landmarks": "The rounded upper dome above the points where the uterine tubes enter. It is continuous with the uterine body below.",
+    "function": "Forms the upper part of the muscular uterine wall, which expands and contracts with the rest of the uterus.",
+    "clinical_notes": "This is the uterine landmark named in a fundal assessment. Distinguish it from the bladder dome, which is anterior and lower in the nonpregnant pelvis.",
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": true
+  },
+  "VH_F_cervix": {
+    "modelId": "3DPX-020996",
+    "displayName": "Cervix",
+    "latinName": "Cervix uteri",
+    "description": "The narrow lower end of the uterus, below its body, projecting into the upper vagina. The cervical canal joins the uterine cavity to the vagina.",
+    "landmarks": "The narrow lower end of the uterus, below its body, projecting into the upper vagina. The cervical canal joins the uterine cavity to the vagina.",
+    "function": "Produces cervical mucus and provides a passage between uterus and vagina. It dilates during childbirth.",
+    "clinical_notes": "Distinguish the cervix from the vaginal wall during reproductive-system study. Cervical mucus changes with ovarian hormones; the cervix is also a key landmark in labour assessment.",
+    "related_ids": [
+      "female_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": true
+  },
+  "VH_F_internal_cervical_os": {
+    "modelId": "3DPX-020996",
+    "displayName": "Internal cervical opening",
+    "latinName": "Ostium internum uteri",
+    "description": "The upper opening of the cervical canal, at the transition from cervix to uterine cavity.",
+    "landmarks": "The upper opening of the cervical canal, at the transition from cervix to uterine cavity.",
+    "function": "Connects the cervical canal with the cavity of the uterus.",
+    "clinical_notes": "When learning cervical assessment terminology, distinguish this uterine end from the external opening into the vagina.",
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "VH_F_external_cervical_os": {
+    "modelId": "3DPX-020996",
+    "displayName": "External cervical opening",
+    "latinName": "Ostium externum uteri",
+    "description": "The lower opening of the cervical canal on the surface of the cervix that projects into the vagina.",
+    "landmarks": "The lower opening of the cervical canal on the surface of the cervix that projects into the vagina.",
+    "function": "Provides the cervical canal opening into the vagina, allowing menstrual fluid to pass outward.",
+    "clinical_notes": "This opening faces the vaginal canal. Distinguish it from the internal opening higher within the uterus.",
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "VH_F_lower_uterine_segment": {
+    "modelId": "3DPX-020996",
+    "displayName": "Lower uterine segment",
+    "latinName": "Isthmus uteri",
+    "description": "The narrowed transition between the main uterine body and cervix, below the broader uterine cavity.",
+    "landmarks": "The narrowed transition between the main uterine body and cervix, below the broader uterine cavity.",
+    "function": "Connects the body of the uterus with its cervical portion.",
+    "clinical_notes": "Use the body\u2013cervix transition to orient reproductive assessment terminology; the cervical canal continues inferiorly from it.",
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "VH_F_anterior_wall_of_uterus": {
+    "modelId": "3DPX-020996",
+    "displayName": "Anterior uterine wall",
+    "latinName": "Paries anterior uteri",
+    "description": "The forward-facing uterine wall adjacent to the bladder, opposite the posterior wall facing the rectum.",
+    "landmarks": "The forward-facing uterine wall adjacent to the bladder, opposite the posterior wall facing the rectum.",
+    "function": "Contains muscle that contributes to uterine expansion and contraction.",
+    "clinical_notes": "Its proximity to the bladder helps explain why uterine enlargement can increase urinary frequency.",
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "VH_F_posterior_wall_of_uterus": {
+    "modelId": "3DPX-020996",
+    "displayName": "Posterior uterine wall",
+    "latinName": "Paries posterior uteri",
+    "description": "The backward-facing wall of the uterus, toward the rectum and opposite the bladder-facing anterior wall.",
+    "landmarks": "The backward-facing wall of the uterus, toward the rectum and opposite the bladder-facing anterior wall.",
+    "function": "Contains muscle that contributes to uterine expansion and contraction.",
+    "clinical_notes": "Use the rectum behind the uterus and bladder in front to distinguish posterior from anterior pelvic findings.",
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "VH_F_cornua": {
+    "modelId": "3DPX-020996",
+    "displayName": "Uterine horns",
+    "latinName": "Cornua uteri",
+    "description": "The paired upper lateral corners of the uterus where the uterine tubes approach the uterine cavity.",
+    "landmarks": "The paired upper lateral corners of the uterus where the uterine tubes approach the uterine cavity.",
+    "function": "Form the junction regions between the uterine body and the paired uterine tubes.",
+    "clinical_notes": "Trace the route from each uterine tube to the uterine cavity when studying fertilisation and implantation.",
+    "related_ids": [
+      "female_uterus",
+      "female_cervix_of_uterus",
+      "female_bladder",
+      "female_uterine_tube_left"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "VH_F_abdominal_ostium_of_uterine_tube": {
+    "modelId": "3DPX-020996",
+    "major": false,
+    "displayName": "Tubal opening patches (NIH source annotation under review)",
+    "sources": [],
+    "related_ids": [
+      "female_uterus"
+    ],
+    "annotationIssue": "Source labels these abdominal ostia, but the supplied coordinates are at the uterine horns. Excluded from quizzes pending anatomical review."
+  },
+  "VH_F_left_ovary": {
+    "modelId": "3DPX-020979",
+    "displayName": "Ovary (left)",
+    "latinName": "Ovarium sinistrum",
+    "description": "An oval organ on the left side of the uterus, near the fimbrial end of the uterine tube. The ovarian ligament connects it to the uterus.",
+    "landmarks": "An oval organ on the left side of the uterus, near the fimbrial end of the uterine tube. The ovarian ligament connects it to the uterus.",
+    "function": "Produces oocytes and secretes ovarian hormones, including estrogens and progesterone during the reproductive years.",
+    "clinical_notes": "Relate ovarian hormone changes to menstrual history and menopausal symptoms. Ovaries are internal pelvic organs, distinct from the more superficial abdominal wall.",
+    "related_ids": [
+      "female_uterine_tube_left",
+      "female_uterus",
+      "female_ovary_r"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": true
+  },
+  "female_uterine_tube_left": {
+    "modelId": "3DPX-020964",
+    "displayName": "Uterine tube (left)",
+    "latinName": "Tuba uterina sinistra",
+    "description": "Extends from the left upper corner of the uterus toward the ovary. Its flared end lies near the ovary but does not attach directly to it.",
+    "landmarks": "Extends from the left upper corner of the uterus toward the ovary. Its flared end lies near the ovary but does not attach directly to it.",
+    "function": "Cilia and muscular contractions transport an oocyte toward the uterus. Fertilisation most often occurs in the ampulla.",
+    "clinical_notes": "Infection can spread from the uterus along an open tube into the pelvic cavity. Pelvic inflammatory disease can leave scarring that impairs fertility.",
+    "related_ids": [
+      "female_ovary_l",
+      "female_uterus",
+      "female_uterine_tube_right",
+      "female_cervix_of_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": true
+  },
+  "VH_F_ampulla_of_uterine_tube_L": {
+    "modelId": "3DPX-020964",
+    "displayName": "Ampulla of uterine tube (left)",
+    "latinName": "Ampulla tubae uterinae",
+    "description": "The wider middle section of the tube, between the infundibulum near the ovary and the narrow isthmus near the uterus.",
+    "landmarks": "The wider middle section of the tube, between the infundibulum near the ovary and the narrow isthmus near the uterus.",
+    "function": "Is the usual site where sperm meet the oocyte for fertilisation.",
+    "clinical_notes": "Distinguish fertilisation in the tube from implantation in the uterus when teaching the reproductive sequence.",
+    "related_ids": [
+      "female_uterine_tube_left",
+      "female_ovary_l",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "VH_F_isthmus_of_fallopian_tube_L": {
+    "modelId": "3DPX-020964",
+    "displayName": "Isthmus of uterine tube (left)",
+    "latinName": "Isthmus tubae uterinae",
+    "description": "The narrow medial tubal segment beside the uterus, between the ampulla and the uterine wall.",
+    "landmarks": "The narrow medial tubal segment beside the uterus, between the ampulla and the uterine wall.",
+    "function": "Carries the oocyte or early embryo from the ampulla toward the uterine cavity.",
+    "clinical_notes": "Tubal scarring after pelvic inflammatory disease can disrupt transport; the narrow isthmus is a useful orientation landmark.",
+    "related_ids": [
+      "female_uterine_tube_left",
+      "female_ovary_l",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "VH_F_fibria_of_uterine_tube_L": {
+    "modelId": "3DPX-020964",
+    "displayName": "Fimbriae of uterine tube (left)",
+    "latinName": "Fimbriae tubae uterinae",
+    "description": "The finger-like fringe of the infundibulum at the ovarian end of the tube. It lies close to the ovary without forming a sealed attachment.",
+    "landmarks": "The finger-like fringe of the infundibulum at the ovarian end of the tube. It lies close to the ovary without forming a sealed attachment.",
+    "function": "Helps guide the released oocyte toward the tubal opening with local ciliary movement.",
+    "clinical_notes": "The open ovarian end helps explain the route by which a reproductive tract infection can reach the pelvic cavity.",
+    "related_ids": [
+      "female_uterine_tube_left",
+      "female_ovary_l",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "VH_F_uterine_tube_infundibulum_L": {
+    "modelId": "3DPX-020964",
+    "displayName": "Infundibulum of uterine tube (left)",
+    "latinName": "Infundibulum tubae uterinae",
+    "description": "The funnel-shaped end of the uterine tube near the ovary, surrounded by fimbriae and continuous with the ampulla.",
+    "landmarks": "The funnel-shaped end of the uterine tube near the ovary, surrounded by fimbriae and continuous with the ampulla.",
+    "function": "Receives the released oocyte into the uterine tube.",
+    "clinical_notes": "Recognise the open tubal end when tracing potential ascending infection from the cervix through the uterus and tubes.",
+    "related_ids": [
+      "female_uterine_tube_left",
+      "female_ovary_l",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "VH_F_right_ovary": {
+    "modelId": "3DPX-020980",
+    "displayName": "Ovary (right)",
+    "latinName": "Ovarium dextrum",
+    "description": "An oval organ on the right side of the uterus, near the fimbrial end of the uterine tube. The ovarian ligament connects it to the uterus.",
+    "landmarks": "An oval organ on the right side of the uterus, near the fimbrial end of the uterine tube. The ovarian ligament connects it to the uterus.",
+    "function": "Produces oocytes and secretes ovarian hormones, including estrogens and progesterone during the reproductive years.",
+    "clinical_notes": "Relate ovarian hormone changes to menstrual history and menopausal symptoms. Ovaries are internal pelvic organs, distinct from the more superficial abdominal wall.",
+    "related_ids": [
+      "female_uterine_tube_right",
+      "female_uterus",
+      "female_ovary_l"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": true
+  },
+  "female_uterine_tube_right": {
+    "modelId": "3DPX-020965",
+    "displayName": "Uterine tube (right)",
+    "latinName": "Tuba uterina dextra",
+    "description": "Extends from the right upper corner of the uterus toward the ovary. Its flared end lies near the ovary but does not attach directly to it.",
+    "landmarks": "Extends from the right upper corner of the uterus toward the ovary. Its flared end lies near the ovary but does not attach directly to it.",
+    "function": "Cilia and muscular contractions transport an oocyte toward the uterus. Fertilisation most often occurs in the ampulla.",
+    "clinical_notes": "Infection can spread from the uterus along an open tube into the pelvic cavity. Pelvic inflammatory disease can leave scarring that impairs fertility.",
+    "related_ids": [
+      "female_ovary_r",
+      "female_uterus",
+      "female_uterine_tube_left",
+      "female_cervix_of_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": true
+  },
+  "VH_F_ampulla_of_uterine_tube_R": {
+    "modelId": "3DPX-020965",
+    "displayName": "Ampulla of uterine tube (right)",
+    "latinName": "Ampulla tubae uterinae",
+    "description": "The wider middle section of the tube, between the infundibulum near the ovary and the narrow isthmus near the uterus.",
+    "landmarks": "The wider middle section of the tube, between the infundibulum near the ovary and the narrow isthmus near the uterus.",
+    "function": "Is the usual site where sperm meet the oocyte for fertilisation.",
+    "clinical_notes": "Distinguish fertilisation in the tube from implantation in the uterus when teaching the reproductive sequence.",
+    "related_ids": [
+      "female_uterine_tube_right",
+      "female_ovary_r",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "VH_F_isthmus_of_fallopian_tube_R": {
+    "modelId": "3DPX-020965",
+    "displayName": "Isthmus of uterine tube (right)",
+    "latinName": "Isthmus tubae uterinae",
+    "description": "The narrow medial tubal segment beside the uterus, between the ampulla and the uterine wall.",
+    "landmarks": "The narrow medial tubal segment beside the uterus, between the ampulla and the uterine wall.",
+    "function": "Carries the oocyte or early embryo from the ampulla toward the uterine cavity.",
+    "clinical_notes": "Tubal scarring after pelvic inflammatory disease can disrupt transport; the narrow isthmus is a useful orientation landmark.",
+    "related_ids": [
+      "female_uterine_tube_right",
+      "female_ovary_r",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "VH_F_fibria_of_uterine_tube_R": {
+    "modelId": "3DPX-020965",
+    "displayName": "Fimbriae of uterine tube (right)",
+    "latinName": "Fimbriae tubae uterinae",
+    "description": "The finger-like fringe of the infundibulum at the ovarian end of the tube. It lies close to the ovary without forming a sealed attachment.",
+    "landmarks": "The finger-like fringe of the infundibulum at the ovarian end of the tube. It lies close to the ovary without forming a sealed attachment.",
+    "function": "Helps guide the released oocyte toward the tubal opening with local ciliary movement.",
+    "clinical_notes": "The open ovarian end helps explain the route by which a reproductive tract infection can reach the pelvic cavity.",
+    "related_ids": [
+      "female_uterine_tube_right",
+      "female_ovary_r",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "VH_F_uterine_tube_infundibulum_R": {
+    "modelId": "3DPX-020965",
+    "displayName": "Infundibulum of uterine tube (right)",
+    "latinName": "Infundibulum tubae uterinae",
+    "description": "The funnel-shaped end of the uterine tube near the ovary, surrounded by fimbriae and continuous with the ampulla.",
+    "landmarks": "The funnel-shaped end of the uterine tube near the ovary, surrounded by fimbriae and continuous with the ampulla.",
+    "function": "Receives the released oocyte into the uterine tube.",
+    "clinical_notes": "Recognise the open tubal end when tracing potential ascending infection from the cervix through the uterus and tubes.",
+    "related_ids": [
+      "female_uterine_tube_right",
+      "female_ovary_r",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/27-2-anatomy-and-physiology-of-the-ovarian-reproductive-system"
+    ],
+    "major": false
+  },
+  "female_bladder": {
+    "modelId": "3DPX-020995",
+    "displayName": "Urinary bladder",
+    "latinName": "Vesica urinaria",
+    "description": "Sits behind the pubic bones and in front of the uterus. Its dome expands upward as urine accumulates; the neck leads into the urethra below.",
+    "landmarks": "Sits behind the pubic bones and in front of the uterus. Its dome expands upward as urine accumulates; the neck leads into the urethra below.",
+    "function": "Stores urine until voiding. Detrusor smooth muscle contracts to empty the bladder through the urethra.",
+    "clinical_notes": "Connect suprapubic fullness and changes in voiding to bladder filling. The uterus can compress the bladder during pregnancy, increasing urinary frequency.",
+    "related_ids": [
+      "female_uterus",
+      "female_trigone_of_bladder",
+      "female_neck_of_bladder"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "major": true
+  },
+  "VH_F_fundus_of_urinary_bladder_dome": {
+    "modelId": "3DPX-020995",
+    "displayName": "Bladder dome",
+    "latinName": "Apex vesicae",
+    "description": "The upper expandable part of the bladder, behind the pubic bones and below the uterus.",
+    "landmarks": "The upper expandable part of the bladder, behind the pubic bones and below the uterus.",
+    "function": "Expands superiorly as the bladder fills.",
+    "clinical_notes": "A filling bladder rises upward; relate this to suprapubic fullness when studying urinary assessment.",
+    "related_ids": [
+      "female_bladder",
+      "female_uterus",
+      "female_trigone_of_bladder"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "major": true
+  },
+  "VH_F_fundus_of_urinary_bladder_base": {
+    "modelId": "3DPX-020995",
+    "displayName": "Bladder base",
+    "latinName": "Fundus vesicae",
+    "description": "The lower posterior part of the bladder, below its dome and near the ureteral entries and bladder outlet.",
+    "landmarks": "The lower posterior part of the bladder, below its dome and near the ureteral entries and bladder outlet.",
+    "function": "Forms part of the muscular reservoir that collects urine before voiding.",
+    "clinical_notes": "Use the base and neck to orient the pathway from ureteral entry to urethral exit; these are different openings.",
+    "related_ids": [
+      "female_bladder",
+      "female_uterus",
+      "female_trigone_of_bladder"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "major": false
+  },
+  "VH_F_urinary_bladder_neck_smooth_muscle": {
+    "modelId": "3DPX-020995",
+    "displayName": "Smooth muscle at bladder neck",
+    "latinName": "Musculatura cervicis vesicae",
+    "description": "Surrounds the bladder outlet below the trigone, where the urinary passage continues into the urethra.",
+    "landmarks": "Surrounds the bladder outlet below the trigone, where the urinary passage continues into the urethra.",
+    "function": "Contributes to involuntary control of the bladder outlet during urine storage and voiding.",
+    "clinical_notes": "Distinguish outlet tissue from the separate voluntary external sphincter lower in the urinary passage.",
+    "related_ids": [
+      "female_bladder",
+      "female_uterus",
+      "female_trigone_of_bladder"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "major": false
+  },
+  "VH_F_trigone_of_urinary_bladder": {
+    "modelId": "3DPX-020995",
+    "displayName": "Bladder trigone",
+    "latinName": "Trigonum vesicae",
+    "description": "A triangular region inside the bladder between the two ureteral openings above and the urethral outlet below.",
+    "landmarks": "A triangular region inside the bladder between the two ureteral openings above and the urethral outlet below.",
+    "function": "Organises the internal junction between urine entering from ureters and leaving through the urethra.",
+    "clinical_notes": "Identify its three openings when learning urinary anatomy. Ureteral entry and urethral exit must not be confused during catheter-care study.",
+    "related_ids": [
+      "female_bladder",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "major": true
+  },
+  "VH_F_ureteral_orifice_L": {
+    "modelId": "3DPX-020995",
+    "displayName": "Ureteral opening (left)",
+    "latinName": "Ostium ureteris",
+    "description": "The left ureter enters the bladder at the corresponding upper corner of the trigone, above the urethral outlet.",
+    "landmarks": "The left ureter enters the bladder at the corresponding upper corner of the trigone, above the urethral outlet.",
+    "function": "Allows urine carried by that ureter to enter the bladder. The oblique course through the wall helps limit backward flow.",
+    "clinical_notes": "Distinguish an inlet from the urethral outlet. Reflux through an ineffective ureter\u2013bladder junction increases the risk of urinary infection.",
+    "related_ids": [
+      "female_bladder",
+      "female_trigone_of_bladder",
+      "female_ureteric_orifice_r"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "major": false
+  },
+  "VH_F_ureteral_orifice_R": {
+    "modelId": "3DPX-020995",
+    "displayName": "Ureteral opening (right)",
+    "latinName": "Ostium ureteris",
+    "description": "The right ureter enters the bladder at the corresponding upper corner of the trigone, above the urethral outlet.",
+    "landmarks": "The right ureter enters the bladder at the corresponding upper corner of the trigone, above the urethral outlet.",
+    "function": "Allows urine carried by that ureter to enter the bladder. The oblique course through the wall helps limit backward flow.",
+    "clinical_notes": "Distinguish an inlet from the urethral outlet. Reflux through an ineffective ureter\u2013bladder junction increases the risk of urinary infection.",
+    "related_ids": [
+      "female_bladder",
+      "female_trigone_of_bladder",
+      "female_ureteric_orifice_l"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-2-gross-anatomy-of-urine-transport"
+    ],
+    "major": false
+  },
+  "VH_F_sacrum": {
+    "modelId": "3DPX-020984",
+    "displayName": "Sacrum",
+    "latinName": "Os sacrum",
+    "description": "The triangular fused bone at the back of the pelvis, between the two hip bones and above the coccyx.",
+    "landmarks": "The triangular fused bone at the back of the pelvis, between the two hip bones and above the coccyx.",
+    "function": "Transfers weight from the spine to the pelvic girdle and forms the posterior pelvic wall.",
+    "clinical_notes": "Its posterior surface is a bony landmark during positioning and pressure-area assessment.",
+    "related_ids": [
+      "female_coccyx",
+      "female_uterus",
+      "female_bladder"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": true
+  },
+  "VH_F_coccyx": {
+    "modelId": "3DPX-020984",
+    "displayName": "Coccyx",
+    "latinName": "Os coccygis",
+    "description": "The small terminal bone below the sacrum at the back of the pelvic outlet.",
+    "landmarks": "The small terminal bone below the sacrum at the back of the pelvic outlet.",
+    "function": "Forms the inferior end of the vertebral column and provides pelvic soft-tissue attachments.",
+    "clinical_notes": "Locate the tailbone relative to the sacrum when asking about pain with sitting or assessing pressure over bony prominences.",
+    "related_ids": [
+      "female_sacrum",
+      "female_uterus",
+      "female_bladder"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": true
+  },
+  "VH_F_ilium_compact_bone_L": {
+    "modelId": "3DPX-020984",
+    "displayName": "Ilium, compact bone (left)",
+    "latinName": "Ilium",
+    "description": "On the left, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. The compact cortex forms the outer shell.",
+    "landmarks": "On the left, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. The compact cortex forms the outer shell.",
+    "function": "Transfers load through the sacroiliac joint and provides broad muscle attachments.",
+    "clinical_notes": "The iliac crest and anterior superior iliac spine are palpable landmarks used to orient hip assessment.",
+    "related_ids": [
+      "female_ilium_spongy_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": true
+  },
+  "VH_F_ilium_spongy_bone_L": {
+    "modelId": "3DPX-020984",
+    "displayName": "Ilium, spongy bone (left)",
+    "latinName": "Ilium",
+    "description": "On the left, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. This internal trabecular tissue lies inside the compact outer cortex.",
+    "landmarks": "On the left, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. This internal trabecular tissue lies inside the compact outer cortex.",
+    "function": "Transfers load through the sacroiliac joint and provides broad muscle attachments.",
+    "clinical_notes": "The iliac crest and anterior superior iliac spine are palpable landmarks used to orient hip assessment.",
+    "related_ids": [
+      "female_ilium_compact_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": false
+  },
+  "VH_F_ischium_compact_bone_L": {
+    "modelId": "3DPX-020984",
+    "displayName": "Ischium, compact bone (left)",
+    "latinName": "Ischium",
+    "description": "On the left, the lower back portion of the hip bone, below the ilium and behind the pubis. The compact cortex forms the outer shell.",
+    "landmarks": "On the left, the lower back portion of the hip bone, below the ilium and behind the pubis. The compact cortex forms the outer shell.",
+    "function": "Bears weight through the ischial tuberosity when sitting.",
+    "clinical_notes": "The ischial tuberosity is a pressure-bearing prominence; relate it to seating and pressure-area assessment.",
+    "related_ids": [
+      "female_ischium_spongy_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": true
+  },
+  "VH_F_ischium_spongy_bone_L": {
+    "modelId": "3DPX-020984",
+    "displayName": "Ischium, spongy bone (left)",
+    "latinName": "Ischium",
+    "description": "On the left, the lower back portion of the hip bone, below the ilium and behind the pubis. This internal trabecular tissue lies inside the compact outer cortex.",
+    "landmarks": "On the left, the lower back portion of the hip bone, below the ilium and behind the pubis. This internal trabecular tissue lies inside the compact outer cortex.",
+    "function": "Bears weight through the ischial tuberosity when sitting.",
+    "clinical_notes": "The ischial tuberosity is a pressure-bearing prominence; relate it to seating and pressure-area assessment.",
+    "related_ids": [
+      "female_ischium_compact_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": false
+  },
+  "VH_F_pubis_compact_bone_L": {
+    "modelId": "3DPX-020984",
+    "displayName": "Pubis, compact bone (left)",
+    "latinName": "Os pubis",
+    "description": "On the left, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. The compact cortex forms the outer shell.",
+    "landmarks": "On the left, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. The compact cortex forms the outer shell.",
+    "function": "Forms the anterior pelvic arch and helps protect the pelvic organs.",
+    "clinical_notes": "Use the pubic symphysis to orient the suprapubic region during urinary assessment.",
+    "related_ids": [
+      "female_pubis_spongy_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": true
+  },
+  "VH_F_pubis_spongy_bone_L": {
+    "modelId": "3DPX-020984",
+    "displayName": "Pubis, spongy bone (left)",
+    "latinName": "Os pubis",
+    "description": "On the left, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. This internal trabecular tissue lies inside the compact outer cortex.",
+    "landmarks": "On the left, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. This internal trabecular tissue lies inside the compact outer cortex.",
+    "function": "Forms the anterior pelvic arch and helps protect the pelvic organs.",
+    "clinical_notes": "Use the pubic symphysis to orient the suprapubic region during urinary assessment.",
+    "related_ids": [
+      "female_pubis_compact_bone_l",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": false
+  },
+  "VH_F_ilium_compact_bone_R": {
+    "modelId": "3DPX-020984",
+    "displayName": "Ilium, compact bone (right)",
+    "latinName": "Ilium",
+    "description": "On the right, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. The compact cortex forms the outer shell.",
+    "landmarks": "On the right, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. The compact cortex forms the outer shell.",
+    "function": "Transfers load through the sacroiliac joint and provides broad muscle attachments.",
+    "clinical_notes": "The iliac crest and anterior superior iliac spine are palpable landmarks used to orient hip assessment.",
+    "related_ids": [
+      "female_ilium_spongy_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": true
+  },
+  "VH_F_ilium_spongy_bone_R": {
+    "modelId": "3DPX-020984",
+    "displayName": "Ilium, spongy bone (right)",
+    "latinName": "Ilium",
+    "description": "On the right, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. This internal trabecular tissue lies inside the compact outer cortex.",
+    "landmarks": "On the right, the broad upper fan of the hip bone, beside the sacrum; its superior rim is the iliac crest. This internal trabecular tissue lies inside the compact outer cortex.",
+    "function": "Transfers load through the sacroiliac joint and provides broad muscle attachments.",
+    "clinical_notes": "The iliac crest and anterior superior iliac spine are palpable landmarks used to orient hip assessment.",
+    "related_ids": [
+      "female_ilium_compact_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": false
+  },
+  "VH_F_ischium_compact_bone_R": {
+    "modelId": "3DPX-020984",
+    "displayName": "Ischium, compact bone (right)",
+    "latinName": "Ischium",
+    "description": "On the right, the lower back portion of the hip bone, below the ilium and behind the pubis. The compact cortex forms the outer shell.",
+    "landmarks": "On the right, the lower back portion of the hip bone, below the ilium and behind the pubis. The compact cortex forms the outer shell.",
+    "function": "Bears weight through the ischial tuberosity when sitting.",
+    "clinical_notes": "The ischial tuberosity is a pressure-bearing prominence; relate it to seating and pressure-area assessment.",
+    "related_ids": [
+      "female_ischium_spongy_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": true
+  },
+  "VH_F_ischium_spongy_bone_R": {
+    "modelId": "3DPX-020984",
+    "displayName": "Ischium, spongy bone (right)",
+    "latinName": "Ischium",
+    "description": "On the right, the lower back portion of the hip bone, below the ilium and behind the pubis. This internal trabecular tissue lies inside the compact outer cortex.",
+    "landmarks": "On the right, the lower back portion of the hip bone, below the ilium and behind the pubis. This internal trabecular tissue lies inside the compact outer cortex.",
+    "function": "Bears weight through the ischial tuberosity when sitting.",
+    "clinical_notes": "The ischial tuberosity is a pressure-bearing prominence; relate it to seating and pressure-area assessment.",
+    "related_ids": [
+      "female_ischium_compact_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": false
+  },
+  "VH_F_pubis_compact_bone_R": {
+    "modelId": "3DPX-020984",
+    "displayName": "Pubis, compact bone (right)",
+    "latinName": "Os pubis",
+    "description": "On the right, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. The compact cortex forms the outer shell.",
+    "landmarks": "On the right, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. The compact cortex forms the outer shell.",
+    "function": "Forms the anterior pelvic arch and helps protect the pelvic organs.",
+    "clinical_notes": "Use the pubic symphysis to orient the suprapubic region during urinary assessment.",
+    "related_ids": [
+      "female_pubis_spongy_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": true
+  },
+  "VH_F_pubis_spongy_bone_R": {
+    "modelId": "3DPX-020984",
+    "displayName": "Pubis, spongy bone (right)",
+    "latinName": "Os pubis",
+    "description": "On the right, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. This internal trabecular tissue lies inside the compact outer cortex.",
+    "landmarks": "On the right, the front lower portion of the hip bone, meeting its partner at the pubic symphysis in front of the bladder. This internal trabecular tissue lies inside the compact outer cortex.",
+    "function": "Forms the anterior pelvic arch and helps protect the pelvic organs.",
+    "clinical_notes": "Use the pubic symphysis to orient the suprapubic region during urinary assessment.",
+    "related_ids": [
+      "female_pubis_compact_bone_r",
+      "female_sacrum",
+      "female_bladder",
+      "female_uterus"
+    ],
+    "sources": [
+      "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-3-the-pelvic-girdle-and-pelvis"
+    ],
+    "major": false
+  }
+}

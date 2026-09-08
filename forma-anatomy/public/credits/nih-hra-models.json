@@ -1,0 +1,363 @@
+[
+  {
+    "id": "3DPX-020996",
+    "title": "Uterus, Female",
+    "version": 1.02,
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020996",
+    "collection": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "creator": "HRA",
+    "licenseLabel": "CC-BY",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Uterus v1.1. https://doi.org/10.48539/HBM228.JBNJ.299. Accessed on May 6, 2022.",
+    "attributionHtml": "<p>Kristen Browne; Heidi Schlehlein. 2022. <em>3D Reference Organ for Uterus v1.1. </em><a href=\"https://doi.org/10.48539/HBM228.JBNJ.299\">https://doi.org/10.48539/HBM228.JBNJ.299</a>. Accessed on May 6, 2022.</p>",
+    "description": "Description:This reference organ, Uterus-female (https://humanatlas.io/3d-reference-library) was created using data from the Visible Human Dataset, provided by the National Library of Medicine (Spitzer and Whitlock 2002).Bibliography:Spitzer, Victor M., and David G. Whitlock. 2002. “The Visible Human Dataset: The Anatomical Platform for Human Simulation.” The Anatomical Record 253 (2): 49–57. https://doi.org/10.1002/(SICI)1097-0185(199804)253:2<49::AID-AR8>3.0.CO;2-9.",
+    "recordCheckedAt": "2026-09-07",
+    "pageSha256": "d3893506ea6edb516330e2d04f5d72c3b903c95939f3e3e5e19c48f8488a609d",
+    "file": {
+      "name": "VH_F_Uterus.glb",
+      "url": "https://3d.nih.gov/api/download?submissionId=29087&fileIds=741608",
+      "originalFileUrl": "https://persist-3d-media.s3.amazonaws.com/741608/VH_F_Uterus.glb",
+      "bytes": 909772,
+      "sha256": "a484956788ecc2ab05ca7720d9b33d265677e238f144cc28481aad2f7a0c9a95"
+    },
+    "ontologies": [
+      {
+        "name": "internal cervical os",
+        "id": "UBERON_0013759"
+      },
+      {
+        "name": "body of uterus",
+        "id": "UBERON_0009853"
+      },
+      {
+        "name": "external cervical os",
+        "id": "UBERON_0013760"
+      },
+      {
+        "name": "uterine cervix",
+        "id": "UBERON_0000002"
+      },
+      {
+        "name": "uterus",
+        "id": "UBERON_0000995"
+      },
+      {
+        "name": "Lower uterine segment",
+        "id": "fma17752"
+      },
+      {
+        "name": "Posterior wall of uterus",
+        "id": "fma224878"
+      },
+      {
+        "name": "Anterior wall of uterus",
+        "id": "fma224876"
+      },
+      {
+        "name": "Abdominal ostium of uterine tube",
+        "id": "fma77049"
+      },
+      {
+        "name": "Fundus of uterus",
+        "id": "fma17561"
+      }
+    ],
+    "adapted": {
+      "path": "/models/nih-hra/3DPX-020996.glb",
+      "bytes": 129224,
+      "sha256": "e9d59cf1488cd264ee5d245e54a13079ea7805d945807bea844d89c691f6ab05"
+    },
+    "modifications": "Original female coordinates retained; one uniform 10× scene-unit conversion and translation shared by all files; transforms baked; display material; Draco compression. No deformation, hole filling or male geometry."
+  },
+  {
+    "id": "3DPX-020979",
+    "title": "Ovary, Female, Left",
+    "version": 1.01,
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020979",
+    "collection": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "creator": "HRA",
+    "licenseLabel": "CC-BY",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Ovary, Female, Left v1.1. https://doi.org/10.48539/HBM499.JLMB.357. Accessed on May 6, 2022.",
+    "attributionHtml": "<p>Kristen Browne; Heidi Schlehlein. 2022. <em>3D Reference Organ for Ovary, Female, Left v1.1. </em><a href=\"https://doi.org/10.48539/HBM499.JLMB.357\">https://doi.org/10.48539/HBM499.JLMB.357</a>. Accessed on May 6, 2022.</p>",
+    "description": "Description:This reference organ, Left-ovary-female (https://humanatlas.io/3d-reference-library) was created using data from the Visible Human Dataset, provided by the National Library of Medicine (Spitzer and Whitlock 2002).Bibliography:Spitzer, Victor M., and David G. Whitlock. 2002. “The Visible Human Dataset: The Anatomical Platform for Human Simulation.” The Anatomical Record 253 (2): 49–57. https://doi.org/10.1002/(SICI)1097-0185(199804)253:2<49::AID-AR8>3.0.CO;2-9.",
+    "recordCheckedAt": "2026-09-07",
+    "pageSha256": "e5ef089762c9d7f6c6049e8ab9f87f417e39233458726dbdfd9efeebd09904da",
+    "file": {
+      "name": "VH_F_Ovary_L.glb",
+      "url": "https://3d.nih.gov/api/download?submissionId=29132&fileIds=742040",
+      "originalFileUrl": "https://persist-3d-media.s3.amazonaws.com/742040/VH_F_Ovary_L.glb",
+      "bytes": 8984,
+      "sha256": "ed91414a667dec5e4e14aeaa2f8641731f06725dbc914bc0da3dd8b5d77f5062"
+    },
+    "ontologies": [
+      {
+        "name": "Left ovary",
+        "id": "fma7214"
+      }
+    ],
+    "adapted": {
+      "path": "/models/nih-hra/3DPX-020979.glb",
+      "bytes": 3536,
+      "sha256": "0d2434ff7da2c991f5942c69156992ec700476f77482760733e4e2ac425d64e7"
+    },
+    "modifications": "Original female coordinates retained; one uniform 10× scene-unit conversion and translation shared by all files; transforms baked; display material; Draco compression. No deformation, hole filling or male geometry."
+  },
+  {
+    "id": "3DPX-020980",
+    "title": "Ovary, Female, Right",
+    "version": 1.01,
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020980",
+    "collection": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "creator": "HRA",
+    "licenseLabel": "CC-BY",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Ovary, Female, Right v1.1. https://doi.org/10.48539/HBM453.QTZX.449. Accessed on May 6, 2022.",
+    "attributionHtml": "<p>Kristen Browne; Heidi Schlehlein. 2022. <em>3D Reference Organ for Ovary, Female, Right v1.1. </em><a href=\"https://doi.org/10.48539/HBM453.QTZX.449\">https://doi.org/10.48539/HBM453.QTZX.449</a>. Accessed on May 6, 2022.</p>",
+    "description": "Description:This reference organ, Right-ovary-female (https://humanatlas.io/3d-reference-library) was created using data from the Visible Human Dataset, provided by the National Library of Medicine (Spitzer and Whitlock 2002).Bibliography:Spitzer, Victor M., and David G. Whitlock. 2002. “The Visible Human Dataset: The Anatomical Platform for Human Simulation.” The Anatomical Record 253 (2): 49–57. https://doi.org/10.1002/(SICI)1097-0185(199804)253:2<49::AID-AR8>3.0.CO;2-9.",
+    "recordCheckedAt": "2026-09-07",
+    "pageSha256": "2c29514f0fec3694445becbb09724cb7dd2ed217badbb6e2f91777b34b7383f7",
+    "file": {
+      "name": "VH_F_Ovary_R.glb",
+      "url": "https://3d.nih.gov/api/download?submissionId=29131&fileIds=742034",
+      "originalFileUrl": "https://persist-3d-media.s3.amazonaws.com/742034/VH_F_Ovary_R.glb",
+      "bytes": 8744,
+      "sha256": "99cc2b91602feacaee08ec1771b993fc0f8b0e32a08bdd7fd6b990a6736aa53b"
+    },
+    "ontologies": [
+      {
+        "name": "Right ovary",
+        "id": "fma7213"
+      }
+    ],
+    "adapted": {
+      "path": "/models/nih-hra/3DPX-020980.glb",
+      "bytes": 3472,
+      "sha256": "163a28609aaedc1c4f600ca407c5579126c5b48ef9bb0dbbba022043f4cca9bb"
+    },
+    "modifications": "Original female coordinates retained; one uniform 10× scene-unit conversion and translation shared by all files; transforms baked; display material; Draco compression. No deformation, hole filling or male geometry."
+  },
+  {
+    "id": "3DPX-020995",
+    "title": "Urinary Bladder, Female",
+    "version": 1.01,
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020995",
+    "collection": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "creator": "HRA",
+    "licenseLabel": "CC-BY",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Urinary Bladder, Female v1.1. https://doi.org/10.48539/HBM235.KQNP.897. Accessed on May 6, 2022.",
+    "attributionHtml": "<p>Kristen Browne; Heidi Schlehlein. 2022. <em>3D Reference Organ for Urinary Bladder, Female v1.1. </em><a href=\"https://doi.org/10.48539/HBM235.KQNP.897\">https://doi.org/10.48539/HBM235.KQNP.897</a>. Accessed on May 6, 2022.</p>",
+    "description": "Description:This reference organ, Urinary-bladder-female (https://humanatlas.io/3d-reference-library) was created using data from the Visible Human Dataset, provided by the National Library of Medicine (Spitzer and Whitlock 2002).Bibliography:Spitzer, Victor M., and David G. Whitlock. 2002. “The Visible Human Dataset: The Anatomical Platform for Human Simulation.” The Anatomical Record 253 (2): 49–57. https://doi.org/10.1002/(SICI)1097-0185(199804)253:2<49::AID-AR8>3.0.CO;2-9.",
+    "recordCheckedAt": "2026-09-07",
+    "pageSha256": "4692ae2825f95f206228bb9467e75731c9a2e3925bf0912d206834eeaad4c2f2",
+    "file": {
+      "name": "VH_F_Urinary_Bladder.glb",
+      "url": "https://3d.nih.gov/api/download?submissionId=29118&fileIds=741956",
+      "originalFileUrl": "https://persist-3d-media.s3.amazonaws.com/741956/VH_F_Urinary_Bladder.glb",
+      "bytes": 765100,
+      "sha256": "9c5732fc9628cd192bb8c8f2b4bbf22b9822a0dff5378a0d366d2f3cb2205b6a"
+    },
+    "ontologies": [
+      {
+        "name": "urinary bladder neck smooth muscle",
+        "id": "UBERON_0004230"
+      },
+      {
+        "name": "trigone of urinary bladder",
+        "id": "UBERON_0001257"
+      },
+      {
+        "name": "urinary bladder",
+        "id": "UBERON_0001255"
+      },
+      {
+        "name": "fundus of urinary bladder",
+        "id": "UBERON_0006082"
+      },
+      {
+        "name": "Left ureteral orifice",
+        "id": "fma15940"
+      },
+      {
+        "name": "Right ureteral orifice",
+        "id": "fma15939"
+      }
+    ],
+    "adapted": {
+      "path": "/models/nih-hra/3DPX-020995.glb",
+      "bytes": 114284,
+      "sha256": "e552c0fd18b98556223775fadcad8cfa4061f24f11eca9eaa564958a5c937264"
+    },
+    "modifications": "Original female coordinates retained; one uniform 10× scene-unit conversion and translation shared by all files; transforms baked; display material; Draco compression. No deformation, hole filling or male geometry."
+  },
+  {
+    "id": "3DPX-020984",
+    "title": "Pelvis, Female",
+    "version": 1.01,
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020984",
+    "collection": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "creator": "HRA",
+    "licenseLabel": "CC-BY",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Pelvis, Female v1.2. https://doi.org/10.48539/HBM427.CCRP.887. Accessed on May 6, 2022.",
+    "attributionHtml": "<p>Kristen Browne; Heidi Schlehlein. 2022. <em>3D Reference Organ for Pelvis, Female v1.2. </em><a href=\"https://doi.org/10.48539/HBM427.CCRP.887\">https://doi.org/10.48539/HBM427.CCRP.887</a>. Accessed on May 6, 2022.</p>",
+    "description": "Description:This reference organ, Pelvis-female (https://humanatlas.io/3d-reference-library) was created using data from the Visible Human Dataset, provided by the National Library of Medicine (Spitzer and Whitlock 2002).Bibliography:Spitzer, Victor M., and David G. Whitlock. 2002. “The Visible Human Dataset: The Anatomical Platform for Human Simulation.” The Anatomical Record 253 (2): 49–57. https://doi.org/10.1002/(SICI)1097-0185(199804)253:2<49::AID-AR8>3.0.CO;2-9.",
+    "recordCheckedAt": "2026-09-07",
+    "pageSha256": "8eeb30681ab0ca2695b84a21b7625ab4b2743f1f2522b527b552a7755bb8c97b",
+    "file": {
+      "name": "VH_F_Pelvis.glb",
+      "url": "https://3d.nih.gov/api/download?submissionId=29129&fileIds=742022",
+      "originalFileUrl": "https://persist-3d-media.s3.amazonaws.com/742022/VH_F_Pelvis.glb",
+      "bytes": 1593336,
+      "sha256": "155603d0c44a8ed1e0ca307f1ec3037941304f29f4187631135a9a150fab048d"
+    },
+    "ontologies": [
+      {
+        "name": "ilium",
+        "id": "UBERON_0001273"
+      },
+      {
+        "name": "coccyx",
+        "id": "UBERON_0001350"
+      },
+      {
+        "name": "bony pelvis",
+        "id": "UBERON_0001270"
+      },
+      {
+        "name": "fused sacrum",
+        "id": "UBERON_0003690"
+      },
+      {
+        "name": "ischium",
+        "id": "UBERON_0001274"
+      },
+      {
+        "name": "compact bone tissue",
+        "id": "UBERON_0001439"
+      },
+      {
+        "name": "pubis",
+        "id": "UBERON_0001275"
+      },
+      {
+        "name": "trabecular bone tissue",
+        "id": "UBERON_0002483"
+      }
+    ],
+    "adapted": {
+      "path": "/models/nih-hra/3DPX-020984.glb",
+      "bytes": 328416,
+      "sha256": "3fe4ea78503547248679ba736a5c935a7c67ba81538472cb8d898db3881a5ab7"
+    },
+    "modifications": "Original female coordinates retained; one uniform 10× scene-unit conversion and translation shared by all files; transforms baked; display material; Draco compression. No deformation, hole filling or male geometry."
+  },
+  {
+    "id": "3DPX-020964",
+    "title": "Fallopian Tube, Female, Left",
+    "version": 1.01,
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020964",
+    "collection": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "creator": "HRA",
+    "licenseLabel": "CC-BY",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Fallopian Tube, Female, Left v1.1. https://doi.org/10.48539/HBM887.HZKB.637. Accessed on May 6, 2022.",
+    "attributionHtml": "<p>Kristen Browne; Heidi Schlehlein. 2022. <em>3D Reference Organ for Fallopian Tube, Female, Left v1.1. </em><a href=\"https://doi.org/10.48539/HBM887.HZKB.637\">https://doi.org/10.48539/HBM887.HZKB.637</a>. Accessed on May 6, 2022.</p>",
+    "description": "Description:This reference organ, Left-fallopian-tube-female (https://humanatlas.io/3d-reference-library) was created using data from the Visible Human Dataset, provided by the National Library of Medicine (Spitzer and Whitlock 2002).Bibliography:Spitzer, Victor M., and David G. Whitlock. 2002. “The Visible Human Dataset: The Anatomical Platform for Human Simulation.” The Anatomical Record 253 (2): 49–57. https://doi.org/10.1002/(SICI)1097-0185(199804)253:2<49::AID-AR8>3.0.CO;2-9.",
+    "recordCheckedAt": "2026-09-07",
+    "pageSha256": "b9cec60c267ae01228b4683a306a2b8da506f3956aad84e1ac2d5a74a16fb941",
+    "file": {
+      "name": "VH_F_Fallopian_Tube_L.glb",
+      "url": "https://3d.nih.gov/api/download?submissionId=29146&fileIds=742124",
+      "originalFileUrl": "https://persist-3d-media.s3.amazonaws.com/742124/VH_F_Fallopian_Tube_L.glb",
+      "bytes": 336676,
+      "sha256": "5025453048a83c26393b866bc69859a255b4c38816f34ed3a196bfe7d4f33dd1"
+    },
+    "ontologies": [
+      {
+        "name": "left uterine tube",
+        "id": "UBERON_0001303"
+      },
+      {
+        "name": "Fimbria of left uterine tube",
+        "id": "fma18498"
+      },
+      {
+        "name": "Infundibulum of left uterine tube",
+        "id": "fma18490"
+      },
+      {
+        "name": "Isthmus of left uterine tube",
+        "id": "fma18494"
+      },
+      {
+        "name": "Ampulla of left uterine tube",
+        "id": "fma18492"
+      }
+    ],
+    "adapted": {
+      "path": "/models/nih-hra/3DPX-020964.glb",
+      "bytes": 67696,
+      "sha256": "4e04c3161f38ca49803285b5f933bc0427d501c50e83026d4c3fbeeb01574a38"
+    },
+    "modifications": "Original female coordinates retained; one uniform 10× scene-unit conversion and translation shared by all files; transforms baked; display material; Draco compression. No deformation, hole filling or male geometry."
+  },
+  {
+    "id": "3DPX-020965",
+    "title": "Fallopian Tube, Female, Right",
+    "version": 1.01,
+    "sourceUrl": "https://3d.nih.gov/entries/3DPX-020965",
+    "collection": "NIH 3D Human Reference Atlas — Visible Human Female",
+    "creator": "HRA",
+    "licenseLabel": "CC-BY",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Kristen Browne; Heidi Schlehlein. 2022. 3D Reference Organ for Fallopian Tube, Female, Right v1.1. https://doi.org/10.48539/HBM875.FCDP.878. Accessed on May 6, 2022.",
+    "attributionHtml": "<p>Kristen Browne; Heidi Schlehlein. 2022. <em>3D Reference Organ for Fallopian Tube, Female, Right v1.1. </em><a href=\"https://doi.org/10.48539/HBM875.FCDP.878\">https://doi.org/10.48539/HBM875.FCDP.878</a>. Accessed on May 6, 2022.</p>",
+    "description": "Description:This reference organ, Right-fallopian-tube-female (https://humanatlas.io/3d-reference-library) was created using data from the Visible Human Dataset, provided by the National Library of Medicine (Spitzer and Whitlock 2002).Bibliography:Spitzer, Victor M., and David G. Whitlock. 2002. “The Visible Human Dataset: The Anatomical Platform for Human Simulation.” The Anatomical Record 253 (2): 49–57. https://doi.org/10.1002/(SICI)1097-0185(199804)253:2<49::AID-AR8>3.0.CO;2-9.",
+    "recordCheckedAt": "2026-09-07",
+    "pageSha256": "b61d0f7996174af53487199dfab28184f6abb4de069c30a807ccfe0589ca9620",
+    "file": {
+      "name": "VH_F_Fallopian_Tube_R.glb",
+      "url": "https://3d.nih.gov/api/download?submissionId=29145&fileIds=742118",
+      "originalFileUrl": "https://persist-3d-media.s3.amazonaws.com/742118/VH_F_Fallopian_Tube_R.glb",
+      "bytes": 327448,
+      "sha256": "17aef41a430e068705dc21ac8ccf746a74f14f47ffc1a31908198b0b026849df"
+    },
+    "ontologies": [
+      {
+        "name": "right uterine tube",
+        "id": "UBERON_0001302"
+      },
+      {
+        "name": "Ampulla of right uterine tube",
+        "id": "fma18491"
+      },
+      {
+        "name": "Infundibulum of right uterine tube",
+        "id": "fma18489"
+      },
+      {
+        "name": "Fimbria of right uterine tube",
+        "id": "fma18497"
+      },
+      {
+        "name": "Isthmus of right uterine tube",
+        "id": "fma18493"
+      }
+    ],
+    "adapted": {
+      "path": "/models/nih-hra/3DPX-020965.glb",
+      "bytes": 65004,
+      "sha256": "e202a4f8d8c3459533f8bf927c52c8813fa320eedd3d649259c34b7e51e00891"
+    },
+    "modifications": "Original female coordinates retained; one uniform 10× scene-unit conversion and translation shared by all files; transforms baked; display material; Draco compression. No deformation, hole filling or male geometry."
+  }
+]

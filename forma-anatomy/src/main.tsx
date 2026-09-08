@@ -1,0 +1,12 @@
+import {useStore} from './store';
+import {useAccount} from './account-state';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './style.css';
+import './a11y.css';
+import './viewport-controls.css';
+window.__webpack_nonce__=document.querySelector<HTMLMetaElement>('meta[name="csp-nonce"]')?.content;
+useStore.getState().set({mode:window.location.pathname.replace(/\/$/,'')==='/quiz'?'quiz':'learn'});
+if(new URLSearchParams(location.search).get('account')==='1')useAccount.getState().set({open:true});
+ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);

@@ -1,0 +1,111 @@
+{
+  "sourceHash": "bc4996cb3c9f68ce9f986548738a2e2822a29e9973e7936fc786654ace6bcc2c",
+  "skipped": [
+    {
+      "meshName": "female_abdominal_ostium_of_uterine_tube",
+      "frames": [
+        {
+          "minAspect": 2.4,
+          "maxAspect": 3.2,
+          "reason": "context_target_too_small",
+          "minSpan": 0.13471522,
+          "maxSpan": 0.17962029
+        },
+        {
+          "minAspect": 3.2,
+          "maxAspect": 4,
+          "reason": "context_target_too_small",
+          "minSpan": 0.10777217,
+          "maxSpan": 0.13471522
+        },
+        {
+          "minAspect": 4,
+          "maxAspect": 6,
+          "reason": "context_target_too_small",
+          "minSpan": 0.07184812,
+          "maxSpan": 0.10777217
+        },
+        {
+          "minAspect": 6,
+          "maxAspect": 10,
+          "reason": "context_target_too_small",
+          "minSpan": 0.04310887,
+          "maxSpan": 0.07184812
+        }
+      ]
+    },
+    {
+      "meshName": "female_cornua",
+      "frames": [
+        {
+          "minAspect": 2.4,
+          "maxAspect": 3.2,
+          "reason": "context_target_too_small",
+          "minSpan": 0.13403934,
+          "maxSpan": 0.17871912
+        },
+        {
+          "minAspect": 3.2,
+          "maxAspect": 4,
+          "reason": "context_target_too_small",
+          "minSpan": 0.10723147,
+          "maxSpan": 0.13403934
+        },
+        {
+          "minAspect": 4,
+          "maxAspect": 6,
+          "reason": "context_target_too_small",
+          "minSpan": 0.08069915,
+          "maxSpan": 0.10723147
+        },
+        {
+          "minAspect": 6,
+          "maxAspect": 10,
+          "reason": "context_target_too_small",
+          "minSpan": 0.08069915,
+          "maxSpan": 0.08069915
+        }
+      ]
+    },
+    {
+      "meshName": "female_fundus_of_bladder_dome",
+      "frames": [
+        {
+          "minAspect": 2,
+          "maxAspect": 2.4,
+          "reason": "context_target_too_small",
+          "minSpan": 0.13059235,
+          "maxSpan": 0.15671082
+        },
+        {
+          "minAspect": 2.4,
+          "maxAspect": 3.2,
+          "reason": "context_target_too_small",
+          "minSpan": 0.11603918,
+          "maxSpan": 0.13059235
+        },
+        {
+          "minAspect": 3.2,
+          "maxAspect": 4,
+          "reason": "context_target_too_small",
+          "minSpan": 0.11603918,
+          "maxSpan": 0.11603918
+        },
+        {
+          "minAspect": 4,
+          "maxAspect": 6,
+          "reason": "context_target_too_small",
+          "minSpan": 0.11603918,
+          "maxSpan": 0.11603918
+        },
+        {
+          "minAspect": 6,
+          "maxAspect": 10,
+          "reason": "context_target_too_small",
+          "minSpan": 0.11603918,
+          "maxSpan": 0.11603918
+        }
+      ]
+    }
+  ]
+}
