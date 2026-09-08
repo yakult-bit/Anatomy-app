@@ -9,7 +9,7 @@ const schema=z.object({
 }).superRefine((e,c)=>{
  let u:URL;try{u=new URL(e.APP_ORIGIN)}catch{c.addIssue({code:'custom',path:['APP_ORIGIN'],message:'Valid origin required'});return}
  if(u.origin!==e.APP_ORIGIN||u.username||u.password||u.search||u.hash)c.addIssue({code:'custom',path:['APP_ORIGIN'],message:'APP_ORIGIN must be an exact origin'});
- if(e.APP_ENV==='production'&&(u.protocol!=='https:'||u.hostname.endsWith('.pages.dev')||u.hostname.endsWith('.chatgpt.site')||u.hostname==='localhost'))c.addIssue({code:'custom',path:['APP_ORIGIN'],message:'Production requires a custom HTTPS domain'});
+ if(e.APP_ENV==='production'&&(u.protocol!=='https:'||(u.hostname.endsWith('.pages.dev') && u.origin !== 'https://anatomy-app.pages.dev')||u.hostname.endsWith('.chatgpt.site')||u.hostname==='localhost'))c.addIssue({code:'custom',path:['APP_ORIGIN'],message:'Production requires a custom HTTPS domain'});
  if(e.APP_ENV==='development'&&!['localhost','127.0.0.1'].includes(u.hostname))c.addIssue({code:'custom',path:['APP_ORIGIN'],message:'Development must use loopback'});
  if(e.APP_ENV==='production'&&!e.SENTRY_DSN)c.addIssue({code:'custom',path:['SENTRY_DSN'],message:'Production monitoring is required'});
  if(e.SUPABASE_PUBLISHABLE_KEY.startsWith('sb_secret_')||e.SUPABASE_PUBLISHABLE_KEY===e.SUPABASE_SERVICE_ROLE_KEY)c.addIssue({code:'custom',path:['SUPABASE_PUBLISHABLE_KEY'],message:'Privileged key in public key slot'});
@@ -20,7 +20,7 @@ export function config(raw:unknown):Env{return schema.parse(raw)}
 export function originConfig(raw:Record<string,unknown>){
  const origin=z.string().url().parse(raw.APP_ORIGIN);const u=new URL(origin);
  if(origin!==u.origin||u.username||u.password||u.search||u.hash)throw Error('Invalid origin');
- if(raw.APP_ENV==='production'&&(u.protocol!=='https:'||/\.(pages\.dev|chatgpt\.site)$/.test(u.hostname)))throw Error('Custom HTTPS domain required');
+ if(raw.APP_ENV==='production'&&(u.protocol!=='https:'||(/\.(pages\.dev|chatgpt\.site)$/.test(u.hostname) && u.origin !== 'https://anatomy-app.pages.dev')))throw Error('Custom HTTPS domain required');
  if(raw.APP_ENV!=='production'&&!(raw.APP_ENV==='development'&&['localhost','127.0.0.1'].includes(u.hostname)))throw Error('Invalid environment');
  return origin;
 }

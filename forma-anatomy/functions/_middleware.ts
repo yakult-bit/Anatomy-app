@@ -12,7 +12,7 @@ export const secure:PagesFunction<Env>=async context=>{
  // Source manifests, server code and environment files must never be public.
  if(/(?:^|\/)\.(?!well-known(?:\/|$))/.test(url.pathname)||/^\/(?:server|functions|supabase|node_modules|work)(?:\/|$)/.test(url.pathname))return new Response('Not found',{status:404,headers});
  if(context.request.headers.has('Origin')&&context.request.headers.get('Origin')!==origin)return new Response('Forbidden',{status:403,headers});
- const indexable=context.env.APP_ENV==='production',route=routePath(url.pathname);
+ const indexable=context.env.APP_ENV==='production'&&!url.hostname.endsWith('.pages.dev'),route=routePath(url.pathname);
  if(!indexable)headers.set('X-Robots-Tag','noindex, nofollow');
  const alias=route==='/index.html'?'/':route.endsWith('.html')?route.slice(0,-5):route;
  if(isPage(alias)&&url.pathname!==alias){headers.set('Location',origin+alias+url.search);return new Response(null,{status:301,headers})}
