@@ -4,7 +4,7 @@ APP_ENV=development
 APP_ORIGIN=http://localhost:8788
 
 # For real Google sign-in and saved data, fill ALL of these with development
-# service credentials. See LOCAL_DEVELOPMENT.md. Never use production keys.
+# service credentials. See docs/local-development.md. Never use production keys.
 SUPABASE_URL=
 SUPABASE_PUBLISHABLE_KEY=
 SUPABASE_SERVICE_ROLE_KEY=
