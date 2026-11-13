@@ -43,6 +43,6 @@ export function configurationFailure(request:Request,raw:unknown,scope:'origin'|
  console.error(JSON.stringify({event:'service_configuration_invalid',...issues}));
  const local=values.APP_ENV!=='production'&&['localhost','127.0.0.1','[::1]'].includes(new URL(request.url).hostname);
  const details=[issues.missing.length?`Missing: ${issues.missing.join(', ')}.`:'',issues.invalid.length?`Invalid: ${issues.invalid.join(', ')}.`:''].filter(Boolean).join(' ');
- const error=local?`Local configuration is incomplete. ${details} Set these in .dev.vars beside wrangler.jsonc, then restart npm run dev:full. See LOCAL_DEVELOPMENT.md.`:'Service configuration is incomplete.';
+ const error=local?`Local configuration is incomplete. ${details} Set these in .dev.vars beside wrangler.jsonc, then restart npm run dev:full. See docs/local-development.md.`:'Service configuration is incomplete.';
  return Response.json({error,...(local?issues:{})},{status:503,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 }

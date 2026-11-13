@@ -1,4 +1,4 @@
-/* WCAG AA repairs for the existing palette. See PRELAUNCH.md for measurements. */
+/* WCAG AA color contrast fixes. Measurements: docs/verification/prelaunch-contrast.json */
 .workspace-breadcrumb,.sidebar-top>span,.range-labels,.layer-value,.layer-value>span,.device-note,.value-text,.show-hide,.expand-button,.fine-print,.part-controls>p,.anatomy-search [data-slot=command-input]::placeholder{color:#526248}
 .info-topline>span,.info-section h3,.related-section h3,.small-heading,.question-count,.question-format,.latin-name,.info-footer p,.clinical-card>span{color:#526248}
 .quiz-intro,.quiz-footnote,.available-count,.format-grid small,.quiz-settings label,.quiz-panel>.eyebrow,.score-ring small,.result-panel>p,.progress-metrics small,.mastery-note,.app-dialog [data-slot=dialog-description],.empty-state p,.help-content p,.library-row small,.recall-form label,.click-prompt>small,.click-prompt>span,.missed-list h3,.missed-list button{color:#526248}

@@ -66,7 +66,7 @@ Supabase's provider settings. Add `http://localhost:8788/api/auth/callback` to
 that project's app redirect allowlist. In Google, use the Supabase provider
 callback URL shown by the dashboard (normally
 `https://<dev-project-ref>.supabase.co/auth/v1/callback`); it is distinct from
-the app callback. See `SECURITY.md` for the full OAuth/domain checklist.
+the app callback. See [`SECURITY.md`](../SECURITY.md) for the full OAuth/domain checklist.
 
 No paid plan is required for these code changes or local tests. Real services
 need your own development credentials; an existing domain may have renewal costs.

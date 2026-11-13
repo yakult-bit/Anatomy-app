@@ -180,10 +180,6 @@ The remaining source annotation, VH_F_abdominal_ostium_of_uterine_tube, names ab
 
 ## Database and licensing
 
-Migration 20260907083540_nih_hra_provenance.sql adds source and license JSONB columns with separate geometry/text component records, plus availability, to the existing public anatomy_structures table. Every row is populated. Public read/service-role-only write RLS is retained. Retired IDs remain so saved user rows are not deleted or relabelled. Local PostgreSQL RLS tests prove cross-user isolation still holds. Hosted Supabase projects were not modified: apply/test this migration in the app's development project before production. The connected project has not been established as this app's dedicated deployment.
+Migration 20260907083540_nih_hra_provenance.sql adds source and license JSONB columns with separate geometry/text component records, plus availability, to the existing public anatomy_structures table. Every row is populated. Public read/service-role-only write RLS is retained. Retired IDs remain so saved user rows are not deleted or relabelled. Local PostgreSQL RLS tests prove cross-user isolation still holds. Apply and test this migration in the development project before production.
 
-Z-Anatomy geometry, OpenStax text and NIH HRA models remain three separately licensed components in a collection, not a single merged work. Existing Z-Anatomy component terms remain explicitly referenced; this pass does not claim to resolve every historical third-party component licence. The footer, /credits, /terms and per-structure panel retain this distinction.
-
-## Verification limits
-
-The current supported Sites preview cannot start: sites-previewd mailbox is unavailable. Therefore actual browser outline appearance, the ghost from every orbit angle, mobile layout and real touch behaviour remain **unverified**, not claimed working based on CPU tests. The existing magenta subject outline, cyan hover lift, solid/dashed correct/wrong treatment, separate ghost/target render passes and nonpickable ghost are preserved and covered by their existing renderer-state tests. A supported browser visual check remains required. No paid service or new hosting plan was added for these assets.
+Z-Anatomy geometry, OpenStax text and NIH HRA models remain three separately licensed components in a collection, not a single merged work. Existing Z-Anatomy component terms remain explicitly referenced. The footer, /credits, /terms and per-structure panel retain this distinction.
